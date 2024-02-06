@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#### Variables for all shells 
+
+# ~/.shell_variables: source by default shell
+# source do not run 
+
+
+export XZ_OPT="-9"
+export ZEITGEIST_DATABASE_PATH="$HOME/.config/zeitgeist/$(hostname)/"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export VISUAL=vim
+export EDITOR=vim
+# export METEOBLUE_API="88295037d574"
+export METEOBLUE_API="R6m9gVqJDQbMtcfu"
+
+## overide locale numeric
+export LC_NUMERIC="C" 
+
+mkdir -p "$ZEITGEIST_DATABASE_PATH"
+
+
+
+## PROGRAMS CONFIGURATION 
+
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_DATA_HOME="$HOME/.local/share"
+
+export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
+export ICEAUTHORITY="$XDG_CACHE_HOME"/ICEauthority
+export LESSHISTFILE="$XDG_STATE_HOME"/less/history
+export MPLAYER_HOME="$XDG_CONFIG_HOME"/mplayer
+export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
+export PYLINTHOME="$XDG_CACHE_HOME"/pylint
+
+RENV_PATHS_CACHE="$(Rscript -e 'cat(path.expand(paste0("~/.R/", R.version$platform, "-library/", R.version$major, ".", R.version$minor)))')"
+export RENV_PATHS_CACHE=$RENV_PATHS_CACHE
+

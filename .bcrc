@@ -1,0 +1,46 @@
+
+
+## Factorial of a number ( 6! = 1 * 2 * 3* 4 * 5 * 6  )
+
+define factorial(x) {
+    if (x <= 1) return (1);
+    return (factorial(x-1) * x);
+}
+
+
+
+# A function to return the integer part of a number
+define int(number) {
+   auto oldscale
+   oldscale = scale
+   scale = 0
+   number /= 1 /* round number down */
+   scale = oldscale
+   return number
+}
+
+
+# Use the fact that number^exponent == e^(exponent*log(number))
+define power(number,exponent) {
+   if (exponent == int(exponent)) {
+      return number ^ int(exponent)
+   } else {
+      return e( exponent * l(number) )
+   }
+}
+
+# Cosine in degrees
+define cosd (deg) {
+    return  (c(deg*a(1)/45))
+}
+
+# Sine in degrees
+define sind (deg) {
+    return  (s(deg*a(1)/45))
+}
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+\.git
+misc
+Readme.md
+.autogit.err
+.autogit.log
+^/.*\.org
