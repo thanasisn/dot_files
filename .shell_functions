@@ -1,0 +1,32 @@
+
+## diff folders
+function dirdiff()
+{
+    # Shell-escape each path:
+    DIR1=$(printf '%q' "$1"); shift
+    DIR2=$(printf '%q' "$1"); shift
+    vim $@ -c "DirDiff $DIR1 $DIR2"
+}
+
+## fd - cd to selected directory
+fd() {
+    local dir
+    dir=$(find ${1:-.} -path '*/\.*' -prune \
+          -o -type d -print 2> /dev/null | fzf +m) &&
+    cd "$dir"
+}
+
+## run R script with echo 
+rsc() {
+    Rscript -e 'source(file("stdin"), echo=TRUE, spaced=TRUE)'< ${1}
+}
+
+## remove lines from second file that exist in the first file
+remove-lines() (
+  remove_lines="$1"
+  all_lines="$2"
+  grep -Fvxf "$remove_lines" "$all_lines"
+)
+
+
+
