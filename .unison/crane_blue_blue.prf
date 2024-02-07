@@ -1,0 +1,7 @@
+#
+# Sync main with blue throught auto config address
+#
+root = /home/athan
+root = ssh://athan@blue//home/athan
+
+include crane_blue_common.cnf

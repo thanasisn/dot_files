@@ -1,0 +1,10 @@
+#
+# Sync yperos with essential files
+#
+root = /home/athan
+root = ssh://athan@155.207.10.70:22//home/athan
+
+sshargs = -C -i /home/athan/.ssh/atmosathan
+
+include yperos_common.cnf
+

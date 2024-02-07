@@ -1,0 +1,10 @@
+#
+# Sync secondary crane with main tyler trought vpn
+#
+root = /home/athan
+root = ssh://athan@10.12.12.1:22//home/athan
+
+sshargs = -C -i /home/athan/.ssh/crane
+
+include sagan_common.cnf
+

@@ -1,0 +1,77 @@
+[prefixes]
+
+refjournal=RFJOURNAL
+refpages=RFPAGES
+reftitle=RFTTITLE
+refvolume=RFVOLUME
+refauthor=RFAUTHOR
+refyear=RFYYEAR
+refisbn=RFISBN
+refissn=RFISSN
+refdoi=RFDOI
+refeditor=RFEDITOR
+refpublisher=RFPUBLISHER
+refaddress=RFADDRESS
+reflocation=RFLOCATION
+refbooktitle=RFBOOKTITLE
+refurl=RFURL
+reftype=RFTYPE
+refkey=RFKEY
+refabstract=RFABSTRACT
+refkeywords=RFKEYWORDS
+refcomment=RFCOMMENT
+refedition=RFEDITION
+reflanguage=RFLANGUAGE
+
+[stored]
+
+refjournal=
+refpages=
+reftitle=
+refvolume=
+refauthor=
+refyear=
+refisbn=
+refissn=
+refdoi=
+refeditor=
+refpublisher=
+refaddress=
+reflocation=
+refbooktitle=
+refurl=
+reftype=
+refkey=
+refabstract=
+refkeywords=
+refcomment=
+refedition=
+reflanguage=
+refid=
+
+[aliases]
+
+refjournal = bibtex:journal bibtex:journaltitle
+refpages = bibtex:pages
+reftitle = bibtex:title
+refvolume = bibtex:volume
+refauthor = bibtex:author
+refyear = bibtex:year bibtex:date
+refid = dc:identifier bibtex:isbn bibtex:issn
+refisbn = bibtex:isbn
+refissn = bibtex:issn
+refdoi = bibtex:doi
+refeditor = bibtex:editor
+refpublisher = bibtex:publisher
+refaddress = bibtex:address
+reflocation = bibtex:location
+refbooktitle = bibtex:booktitle
+refurl = bibtex:url
+reftype = bibtex:entrytype bibtex:type
+refkey = bibtex:bibtexkey
+refabstract = bibtex:abstract dc:Description PDF:Subject
+refkeywords = bibtex:keywords
+refcomment = bibtex:comment
+refedition = bibtex:edition
+reflanguage = bibtex:language
+author = xesam:author
