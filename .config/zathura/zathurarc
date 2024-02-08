@@ -1,0 +1,45 @@
+
+set selection-clipboard clipboard
+
+set incremental-search  true
+
+set first-page-column   1
+
+
+
+
+## change page
+map ]        navigate next
+map <S-Down> navigate next
+
+map [        navigate previous
+map <S-Up>   navigate previous
+
+## go to next/previous file
+map <C-Left>  exec "/home/athan/BASH/TOOLS/zathura_multi.sh p   '$FILE'"
+map <C-Right> exec "/home/athan/BASH/TOOLS/zathura_multi.sh n   '$FILE'"
+map <C-h>     exec "/home/athan/BASH/TOOLS/zathura_multi.sh p   '$FILE'"
+map <C-l>     exec "/home/athan/BASH/TOOLS/zathura_multi.sh n   '$FILE'"
+map <C-η>     exec "/home/athan/BASH/TOOLS/zathura_multi.sh p   '$FILE'"
+map <C-λ>     exec "/home/athan/BASH/TOOLS/zathura_multi.sh n   '$FILE'"
+
+
+## delete file
+map <C-d>     exec "/home/athan/BASH/TOOLS/zathura_multi.sh del '$FILE'"
+map <C-δ>     exec "/home/athan/BASH/TOOLS/zathura_multi.sh del '$FILE'"
+
+
+## open with okular
+map p         exec "/home/athan/BASH/TOOLS/zathura_multi.sh o   '$FILE'"
+map π         exec "/home/athan/BASH/TOOLS/zathura_multi.sh o   '$FILE'"
+
+
+
+## Bind defaults with greek
+map  ;        quit
+
+
+
+
+
+
