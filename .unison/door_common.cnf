@@ -34,7 +34,6 @@ source include_system.list
 # path = .config/Code/User
 # path = .config/JOSM
 # path = .config/JOSM_hgt2dsl_gr
-# path = .config/Mendeley Ltd.
 # path = .config/QLandkarte/QMapShack.conf
 # path = .config/QLandkarte/QMapTool.conf
 # path = .config/Recoll.org
