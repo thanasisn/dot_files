@@ -50,6 +50,7 @@ path = .config/awesome
 path = .config/calibre
 path = .config/cmus
 path = .config/codeblocks
+path = .config/crow-translate
 path = .config/evolution/addressbook
 path = .config/evolution/calendar
 path = .config/evolution/mail/filters.xml
