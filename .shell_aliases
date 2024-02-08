@@ -5,6 +5,7 @@
 alias black='xset dpms force off;xset dpms force off;xset dpms force off'  # Black screeen
 alias ccat='pygmentize -g'
 alias ccatl='pygmentize -g -O style=colorful,linenos=1'
+alias l=' ls -CF'
 alias ls='ls --time-style=long-iso '                     # show hidden files
 alias la='ls --time-style=long-iso -Al'                  # show hidden files
 alias lc='ls --time-style=long-iso -ltcr'                # sort by and show change time, most recent last
@@ -22,8 +23,6 @@ alias rm='trash'
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 
-alias notes='cd $HOME/PANDOC/Notes'
-alias journal='cd $HOME/PANDOC/Journal'
 
 ## hide terminal when gui
 alias gthumb='devour.sh gthumb'
@@ -51,7 +50,6 @@ alias rsynci='rsync --info=progress2,name0 '
 alias svim='vim -u ~/.SpaceVim/vimrc'
 alias tasks='gtasks tasks -l Pending '
 alias xargsln='tr '\n' '\0' | xargs -0 '
-alias td='todo.txt'
 alias stow='stow -v '
 # alias vim='nvim'
 

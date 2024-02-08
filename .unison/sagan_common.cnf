@@ -34,6 +34,7 @@ log            = true
 source include_system.list
 
 
+# path = .local/share/evolution
 path = .R
 path = .R/x86_64-pc-linux-gnu-library
 path = .Skype
@@ -49,7 +50,6 @@ path = .config/VSCodium
 path = .config/awesome
 path = .config/calibre
 path = .config/cmus
-path = .config/codeblocks
 path = .config/crow-translate
 path = .config/evolution/addressbook
 path = .config/evolution/calendar
@@ -90,6 +90,7 @@ path = .config/texstudio
 path = .config/texstudio/texstudioel_GR.ign
 path = .config/texstudio/texstudioen_US.ign
 path = .config/volumeicon
+path = .dot_files_private
 path = .git-credentials
 path = .global_hist
 path = .gnupg
@@ -108,7 +109,6 @@ path = .kde/share/apps/kile
 path = .kde/share/apps/konqueror
 path = .kde/share/apps/ktouch
 path = .local/share/akregator
-# path = .local/share/evolution
 path = .local/share/keyrings
 path = .local/share/kontact/default-akregator.rc
 path = .local/share/kxmlgui5/akregator
