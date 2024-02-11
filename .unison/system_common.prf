@@ -26,6 +26,8 @@ log            = true
 source include_system.list
 
 
+path = .dot_files_private/
+
 
 path = .global_hist
 path = CODE/session
