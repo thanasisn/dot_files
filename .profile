@@ -34,3 +34,10 @@ fi
 export XDG_DATA_DIRS=$HOME/.nix-profile/share/aplications:"${XDG_DATA_DIRS:-/usr/local/share/:/usr/share/}"
 
 if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+
+## add python pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"  
+

@@ -269,3 +269,6 @@ zstyle ':completion:*' hosts off
 
 if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
+
+# Created by `pipx` on 2024-02-13 18:39:21
+export PATH="$PATH:/home/athan/.local/bin"

@@ -151,3 +151,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+## enable python env
+eval "$(pyenv virtualenv-init -)"
+
+
+
