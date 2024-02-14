@@ -214,6 +214,7 @@ ignore = Path {.config/nvim}
 ignore = Path {CODE/LEARNING}
 ignore = Path {CODE/R_POLAr}
 ignore = Path {.dmrc}
+ignore = Path {.vim/bundle/vim-grammarous}
 
 
 
