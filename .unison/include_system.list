@@ -76,6 +76,7 @@ path = .unison
 path = .vim
 path = .viminfo
 path = .vimrc
+path = .vnc/passwd
 path = .xmonad
 path = .xsession
 path = .zshrc
