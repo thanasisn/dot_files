@@ -73,7 +73,7 @@ source include_system.list
 # path = .config/lxsession/LXDE
 # path = .config/morc_menu
 # path = .config/mpv
-path = .config/obsidian
+# path = .config/obsidian
 # path = .config/polybar
 # path = .config/qalculate
 # path = .config/qt5ct
@@ -149,6 +149,7 @@ path = .histfile
 # path = .zotero
 # path = Aerosols
 path = BASH
+path = Documents/KeePass2a.kdbx
 # path = CHP_1_DIR
 # path = CM_21_GLB
 path = CODE
@@ -179,7 +180,7 @@ path = CODE
 # path = LibRadTranM
 # path = LifeAsti
 # path = PANDOC
-path = PROGRAMS
+# path = PROGRAMS
 # path = PROJECTS/2017 AmyBear
 # path = PROJECTS/UVindex
 # path = PROJECTS/UVindex_Production
@@ -204,7 +205,15 @@ path = PROGRAMS
 
 source exclude_patterns.list
 
+## ignore git ?
+ignore = Name .git
+
 ###  Exclude by reference  ####
+
+ignore = Path {.config/nvim}
+ignore = Path {CODE/LEARNING}
+ignore = Path {CODE/R_POLAr}
+
 
 ignore = Path {.FontForge}
 ignore = Path {.GMapCatcher}
