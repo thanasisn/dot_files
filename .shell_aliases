@@ -20,6 +20,9 @@ alias weather='curl wttr.in'       # weather for current location
 alias head='head -n 20'
 alias info='pinfo'
 alias rm='trash'
+## override autojump and cd with zoxide
+alias j='z'
+alias cd='z'
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 
