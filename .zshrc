@@ -255,8 +255,12 @@ setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
 autoload -U compinit && compinit   # load + start completion
 zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
 
-## configure autojump for zsh
-. /usr/share/autojump/autojump.sh
+# ## configure autojump for zsh
+# . ~/.nix-profile/share/autojump/autojump.zsh
+
+## configure zoxide
+eval "$(~/.nix-profile/bin/zoxide init zsh)"
+
 
 
 ## ignore host file in autocomplete?
@@ -269,6 +273,21 @@ zstyle ':completion:*' hosts off
 
 if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
+
+## load pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+   eval "$(pyenv init --path)"
+fi
+eval "$(pyenv virtualenv-init -)"
+
+
+
+
+
+## set settings
+"$HOME/CODE/session/session_settings.sh"
 
 # Created by `pipx` on 2024-02-13 18:39:21
 export PATH="$PATH:/home/athan/.local/bin"
