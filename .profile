@@ -40,5 +40,5 @@ eval "$(pyenv init -)"
 
 
 ## set settings last
-"$HOME/CODE/session/session_settings.sh" > /dev/null
+"$HOME/CODE/session/session_settings.sh"  > /dev/null 2>&1
 

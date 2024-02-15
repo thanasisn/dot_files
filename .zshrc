@@ -287,7 +287,7 @@ eval "$(pyenv virtualenv-init -)"
 
 
 ## set settings
-"$HOME/CODE/session/session_settings.sh"
+"$HOME/CODE/session/session_settings.sh" > /dev/null
 
 # Created by `pipx` on 2024-02-13 18:39:21
 export PATH="$PATH:/home/athan/.local/bin"
