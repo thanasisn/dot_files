@@ -1,6 +1,5 @@
 
-
-### Common options for all syncs
+### Common options a door system
 
 maxbackups     = 2
 backuplocation = central
@@ -12,10 +11,6 @@ prefer         = newer
 log            = true
 
 
-##
-##  remember to check for conflicts between Include and exclude list
-##
-
 ###################
 ##    INCLUDE    ##
 ###################
@@ -25,173 +20,12 @@ log            = true
 source include_system.list
 
 
-# path = .Skype
-# path = .SpaceVim
-# path = .SpaceVim.d
-# path = .blueproximity
-# path = .cache/evolution
-# path = .cdsapirc
-# path = .config/Code/User
-# path = .config/JOSM
-# path = .config/JOSM_hgt2dsl_gr
-# path = .config/QLandkarte/QMapShack.conf
-# path = .config/QLandkarte/QMapTool.conf
-# path = .config/Recoll.org
-# path = .config/Skype
-# path = .config/awesome
-# path = .config/bspwm
-# path = .config/caja
-# path = .config/caja-pyextensions
-# path = .config/calibre
-# path = .config/dunst
-# path = .config/evolution/addressbook
-# path = .config/evolution/calendar
-# path = .config/evolution/mail/filters.xml
-# path = .config/evolution/mail/searches.xml
-# path = .config/evolution/mail/send-overrides.ini
-# path = .config/evolution/mail/sortorder.ini
-# path = .config/evolution/mail/vfolders.xml
-# path = .config/evolution/memos
-# path = .config/evolution/signatures
-# path = .config/evolution/sources
-# path = .config/evolution/tasks
-# path = .config/geany
-# path = .config/ghostwriter
-# path = .config/git
-# path = .config/goldencheetah.org
-# path = .config/gtk-2.0
-# path = .config/gtk-3.0
-# path = .config/gtkrc
-# path = .config/gtkrc-2.0
-# path = .config/katerc
-# path = .config/kateschemarc
-# path = .config/katesyntaxhighlightingrc
-# path = .config/katevirc
-# path = .config/klavaro
-# path = .config/latte
-# path = .config/libreoffice/4/user/wordbook/standard.dic
-# path = .config/lxsession/LXDE
-# path = .config/morc_menu
-# path = .config/mpv
-# path = .config/obsidian
-# path = .config/polybar
-# path = .config/qalculate
-# path = .config/qt5ct
-# path = .config/qutebrowser
-# path = .config/rkwardrc
-# path = .config/rofi
-# path = .config/rstudio
-# path = .config/spyder
-# path = .config/spyder-py3
-# path = .config/sxhkd
-# path = .config/texstudio
-# path = .config/texstudio/texstudioel_GR.ign
-# path = .config/texstudio/texstudioen_US.ign
-# path = .config/todo.sh
-# path = .config/user-dirs.dirs
-# path = .config/user-dirs.locale
-# path = .config/volumeicon
-# path = .config/zathura
-# path = .config/zim
-# path = .ecmwfapirc
-# path = .gcalclirc
-# path = .git-credentials
 path = .global_hist
-# path = .gnupg
-# path = .gtkrc-2.0
-# path = .hist_blue
-# path = .hist_crane
-# path = .hist_green
-# path = .hist_kostas
-# path = .hist_lite
-# path = .hist_sagan
-# path = .hist_tyler
-# path = .hist_yperos
 path = .hist_door
 path = .histfile
-# path = .i3
-# path = .i3status.conf
-# path = .icons/default/index.theme
-# path = .instaloader
-# path = .java/.userPrefs
-# path = .kcollectd
-# path = .kde/share/apps/kate
-# path = .kde/share/apps/kate/plugins
-# path = .kde/share/apps/kile
-# path = .kde/share/apps/konqueror
-# path = .kde/share/apps/ktouch
-# path = .kde/share/apps/okular
-# path = .kde/share/apps/rkward
-# path = .kde/share/config/kilerc
-# path = .kde/share/config/konquerorrc
-# path = .kde/share/config/ktouchrc
-# path = .languagetool.cfg
-# path = .local/share/caja-python
-# path = .local/share/file-manager
-# path = .local/share/keyrings
-# path = .local/share/lf/marks
-# path = .local/share/qalculate
-# path = .local/share/zathura
-# path = .local/share/zeitgeist
-# path = .local/share/zim
-# path = .mydict
-# path = .oh-my-zsh
-# path = .pandoc
-# path = .recently-used
-# path = .recoll
-# path = .rednotebook
-# path = .rkward
-# path = .spyder2
-# path = .ssh/config
-# path = .subversion
-# path = .zotero
-# path = Aerosols
 path = BASH
 path = Documents/KeePass2a.kdbx
-# path = CHP_1_DIR
-# path = CM_21_GLB
 path = CODE
-# path = DATA/Aeronet
-# path = DATA/Broad_Band
-# path = DATA/CHP1_LAP.DIR
-# path = DATA/Common_application
-# path = DATA/SOUNDINGS
-# path = DATA/SUN
-# path = DATA/WEATHER
-# path = DATA/cm21_data_validation
-# path = DATA_RAW/Aeronet
-# path = DATA_RAW/Bband
-# path = DATA_RAW/Raddata
-# path = DATA_RAW/SUN
-# path = DATA_RAW/tracker_chp1
-# path = DATA_RAW/uwyo
-# path = Documents
-# path = Ecotime_machine
-# path = FUNCTIONS
-# path = Formal
-# path = FreeCAD
-# path = GISdata
-# path = Improved_Aerosols_O3
-# path = LIBRARY
-# path = LOGs
-# path = LibRadTranG
-# path = LibRadTranM
-# path = LifeAsti
-# path = PANDOC
-# path = PROGRAMS
-# path = PROJECTS/2017 AmyBear
-# path = PROJECTS/UVindex
-# path = PROJECTS/UVindex_Production
-# path = PROJECTS/WeatherApp
-# path = PROJECTS/wunderground_collector
-# path = PROJECTS/Προτάσεις
-# path = PYTHON2
-# path = PYTHON3
-# path = Pictures/.digikam/digikam4.db
-# path = RAD_QC
-# path = TRAIN
-# path = SUN
-# path = TSI
 
 
 
@@ -206,13 +40,26 @@ source exclude_patterns.list
 ## ignore git ?
 ignore = Name .git
 
+
 ###  Exclude by reference  ####
 
 ignore = Path {.config/nvim}
-ignore = Path {CODE/LEARNING}
-ignore = Path {CODE/R_POLAr}
 ignore = Path {.dmrc}
 ignore = Path {.vim/bundle/vim-grammarous}
+ignore = Path {CODE/Fortran_MISC}
+ignore = Path {CODE/LEARNING}
+ignore = Path {CODE/R_POLAr}
+ignore = Path {CODE/car_tools}
+ignore = Path {CODE/gpx_tools}
+ignore = Path {CODE/img_tools}
+ignore = Path {CODE/music_tools}
+ignore = Path {CODE/training_analysis}
+
+
+
+
+
+## general ignore rules
 
 
 

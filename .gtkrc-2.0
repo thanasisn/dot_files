@@ -3,7 +3,7 @@
 
 include "/home/athan/.gtkrc-2.0.mine"
 gtk-theme-name="Adwaita-dark"
-gtk-icon-theme-name="breeze-dark"
+gtk-icon-theme-name="oxygen"
 gtk-font-name="Sans 9"
 gtk-cursor-theme-name="oxy-red-argentina"
 gtk-cursor-theme-size=0

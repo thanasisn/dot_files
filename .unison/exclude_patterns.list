@@ -1,6 +1,4 @@
-
 ###  Exclude patterns  ####
-
 # ignore = Name *_files/figure-latex
 # ignore = Path **/*_files/figure-docx/*
 # ignore = Path **/*_files/figure-latex/*
@@ -108,4 +106,3 @@ ignore = Regex .*\.kate-swp
 ignore = Regex .*\.lck
 ignore = Regex .*\.lock
 ignore = Regex .*\.swp
-
