@@ -11,6 +11,10 @@ prefer         = newer
 log            = true
 
 
+##
+##  remember to check for conflicts between Include and exclude list
+##
+
 ###################
 ##    INCLUDE    ##
 ###################
@@ -34,7 +38,6 @@ path = CODE
 ###################
 
 ###  Exclude patterns  ####
-
 source exclude_patterns.list
 
 ## ignore git ?
@@ -42,6 +45,7 @@ ignore = Name .git
 
 
 ###  Exclude by reference  ####
+source exclude_path_for_all.list
 
 ignore = Path {.config/nvim}
 ignore = Path {.dmrc}
@@ -63,31 +67,15 @@ ignore = Path {CODE/training_analysis}
 
 
 
-ignore = Path {.FontForge}
-ignore = Path {.GMapCatcher}
-ignore = Path {.ICEauthority}
-ignore = Path {.PlayOnLinux}
-ignore = Path {.RLPlot}
 ignore = Path {.Rd2pdf15381}
 ignore = Path {.Rd2pdf29235}
 ignore = Path {.Rd2pdf7348}
-ignore = Path {.Rhistory}
-ignore = Path {.SourceGear DiffMerge}
-ignore = Path {.Trash-1000}
-ignore = Path {.ViberPC}
 ignore = Path {.VirtualBox}
 ignore = Path {.Xauthority-c}
 ignore = Path {.Xauthority}
 ignore = Path {.adobe}
 ignore = Path {.advene}
 ignore = Path {.alsaplayer}
-ignore = Path {.aptitude}
-ignore = Path {.astropy}
-ignore = Path {.audacity-data}
-ignore = Path {.bash_history}
-ignore = Path {.bluefish}
-ignore = Path {.bogofilter}
-ignore = Path {.byobu/.ssh-agent}
 ignore = Path {.cache/evolution/CacheStorage}
 ignore = Path {.cache/evolution/WebKitCache}
 ignore = Path {.cache/evolution/addressbook}
@@ -123,7 +111,6 @@ ignore = Path {.config/Qtrac Ltd.}
 ignore = Path {.config/RStudio/desktop.ini}
 ignore = Path {.config/Rodeo}
 ignore = Path {.config/R}
-ignore = Path {.config/Skype}
 ignore = Path {.config/Synergy/Synergy.conf}
 ignore = Path {.config/Synergy}
 ignore = Path {.config/Trolltech.conf}
@@ -132,7 +119,6 @@ ignore = Path {.config/ViTables}
 ignore = Path {.config/VirtualBox/VBoxSVC.log}
 ignore = Path {.config/VirtualBox}
 ignore = Path {.config/anjuta}
-ignore = Path {.config/astropy}
 ignore = Path {.config/autostart/gnome-encfs-manager.desktop}
 ignore = Path {.config/autostart/shutter.desktop}
 ignore = Path {.config/autostart/skype.desktop}
@@ -310,11 +296,7 @@ ignore = Path {.macromedia}
 ignore = Path {.matplotlib}
 ignore = Path {.merkaartor}
 ignore = Path {.mission-control}
-ignore = Path {.mozilla}
-ignore = Path {.mplayer2}
 ignore = Path {.mytourbook/offline-map}
-ignore = Path {.notify-osd}
-ignore = Path {.openshot}
 ignore = Path {.oracle_jre_usage}
 ignore = Path {.pki}
 ignore = Path {.psensor}
@@ -327,9 +309,6 @@ ignore = Path {.qtoctave}
 ignore = Path {.quicksynergy}
 ignore = Path {.rclone.conf}
 ignore = Path {.recently-used}
-ignore = Path {.recoll/mboxcache}
-ignore = Path {.recoll/xapiandb}
-ignore = Path {.rednotebook/rednotebook.log}
 ignore = Path {.rstudio-desktop}
 ignore = Path {.sane}
 ignore = Path {.ssh}
@@ -337,10 +316,8 @@ ignore = Path {.stellarium}
 ignore = Path {.subversion}
 ignore = Path {.texmf-var}
 ignore = Path {.themes}
-ignore = Path {.thumbnails}
 ignore = Path {.thunderbird}
 ignore = Path {.update-notifier}
-ignore = Path {.viking-maps}
 ignore = Path {.viking}
 ignore = Path {.vnc}
 ignore = Path {.wicd}
@@ -351,7 +328,6 @@ ignore = Path {.xnviewmp}
 ignore = Path {.xnview}
 ignore = Path {.xournal}
 ignore = Path {.xrced}
-ignore = Path {.xscreensaver}
 ignore = Path {.xsession-errors.old}
 ignore = Path {.xsession-errors}
 ignore = Path {.zotero/zotero/u6vje8ly.default/zotero/pipes}
@@ -387,10 +363,6 @@ ignore = Path {PROGRAMS/opam}
 ignore = Path {PYTHON2/.git}
 ignore = Path {PYTHON3/.git}
 ignore = Path {Pictures/.digikam/thumbnails-digikam.db}
-ignore = Path {Pictures/ns}
-ignore = Path {Pictures/other2}
-ignore = Path {Pictures/other3}
-ignore = Path {Pictures/other}
 ignore = Path {R}
 ignore = Path {Stellarium}
 ignore = Path {TEACHING}
@@ -410,11 +382,7 @@ ignore = Path {UVindex_prod/MODIS}
 ignore = Path {UVindex_prod/O3_ncep}
 ignore = Path {UVindex_prod/UOA}
 ignore = Path {ViberDownloads}
-ignore = Path {ZHOST}
 ignore = Path {gPodder}
-ignore = Path {gdalwmscache}
-ignore = Path {nohup.out}
-ignore = Path {unison.log}
 
 
 # keep this last

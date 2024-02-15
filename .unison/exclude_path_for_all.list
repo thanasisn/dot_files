@@ -1,0 +1,40 @@
+##  Exclude by reference for all  ##
+##  Things here should not sync with any host
+##  due to functional of security reasons
+ignore = Path {.FontForge}
+ignore = Path {.GMapCatcher}
+ignore = Path {.ICEauthority}
+ignore = Path {.PlayOnLinux}
+ignore = Path {.RLPlot}
+ignore = Path {.Rhistory}
+ignore = Path {.SourceGear DiffMerge}
+ignore = Path {.Trash-1000}
+ignore = Path {.ViberPC}
+ignore = Path {.aptitude}
+ignore = Path {.astropy}
+ignore = Path {.audacity-data}
+ignore = Path {.bash_history}
+ignore = Path {.bluefish}
+ignore = Path {.bogofilter}
+ignore = Path {.byobu/.ssh-agent}
+ignore = Path {.config/Skype}
+ignore = Path {.config/astropy}
+ignore = Path {.mozilla}
+ignore = Path {.mplayer2}
+ignore = Path {.notify-osd}
+ignore = Path {.openshot}
+ignore = Path {.recoll/mboxcache}
+ignore = Path {.recoll/xapiandb}
+ignore = Path {.rednotebook/rednotebook.log}
+ignore = Path {.thumbnails}
+ignore = Path {.viking-maps}
+ignore = Path {.xscreensaver}
+ignore = Path {Pictures/.digikam}
+ignore = Path {Pictures/ns}
+ignore = Path {Pictures/other2}
+ignore = Path {Pictures/other3}
+ignore = Path {Pictures/other}
+ignore = Path {ZHOST}
+ignore = Path {gdalwmscache}
+ignore = Path {nohup.out}
+ignore = Path {unison.log}
