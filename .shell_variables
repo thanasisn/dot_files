@@ -21,6 +21,9 @@ export LC_NUMERIC="C"
 mkdir -p "$ZEITGEIST_DATABASE_PATH"
 
 
+## for  Could not initialize GLX on nix
+export QT_XCB_GL_INTEGRATION=none
+
 
 ## PROGRAMS CONFIGURATION 
 
