@@ -13,11 +13,13 @@ mod4 + Escape
 
 # Shell Terminal
 mod4 + {z,ζ}
-    x-terminal-emulator
+    lxterminal
+    # x-terminal-emulator
 
 # Floating Shell Terminal
 mod4 + shift + {z,ζ}
-    urxvt -name Floating
+    lxterminal -t Floating --geometry=105x24
+    # urxvt -name Floating
     #x-terminal-emulator -name Floating
 
 # Dmenu
@@ -36,13 +38,15 @@ mod4 + shift + {a,α}
 
 # Midnight commander
 mod4 + shift + {t,τ}
-    urxvt -e $SHELL -c "mc;$SHELL"
+    lxterminal -e $SHELL -c "mc;$SHELL"
+    # urxvt -e $SHELL -c "mc;$SHELL"
     # x-terminal-emulator -e $SHELL -c "mc;$SHELL"
     # x-terminal-emulator -e /home/athan/BASH/TOOLS/ranger_exec.sh
 
 # lf
 mod4 + {t,τ}
-    urxvt -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
+    lxterminal -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
+    # urxvt -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
     # x-terminal-emulator -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
     # x-terminal-emulator -e $SHELL -c "/home/athan/PROGRAMS/lf;$SHELL"
 
@@ -106,11 +110,12 @@ mod4 + {u,θ}; {p,π}
 
 # Quick notes
 mod4 + {i,ι}; {n,ν}
-    urxvt -name Floating -e $SHELL -c "quick_note.sh"
+    lxterminal -t Floating --geometry=105x24 -e $SHELL -c "/home/athan/CODE/system_tools/new_journal.sh;$SHELL"
 
-# Journal entry
-mod4 + {i,ι}; {j,ξ}
-    urxvt -name Floating -e $SHELL -c "new_journal.sh"
+# # Journal entry
+# mod4 + {i,ι}; {j,ξ}
+#     lxterminal -t Floating -e $SHELL -c "/home/athan/CODE/system_tools/new_journal.sh;$SHELL"
+#     # urxvt -name Floating -e $SHELL -c "new_journal.sh"
 
 # Journal entry
 mod4 + {i,ι}; {o,ο}
@@ -126,7 +131,8 @@ mod4 + {i,ι}; {g,γ}
 
 # terminal calculator  
 mod4 + {c,ψ}
-    urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
+    lxterminal --geometry=60x20 -t Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
+    # urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
 
 # Qalculator
 mod4 + shift + {c,ψ}
@@ -146,12 +152,15 @@ mod4 + {i,ι}; {r,ρ}
 
 # htop
 mod4 + {s,σ}; {h,η}
-    urxvt -name Floating -e htop
+    lxterminal -t Floating --geometry=150x40 -e htop
 
 # glances
 mod4 + {s,σ}; {g,γ}
-    urxvt -name Floating -e glances
+    lxterminal -t Floating --geometry=150x40 -e glances
 
+# btop
+mod4 + {s,σ}; {b,β}
+    lxterminal -t Floating --geometry=150x40 -e $SHELL -c "/home/athan/.nix-profile/bin/btop"
 
 
 # main browser
