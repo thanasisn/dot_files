@@ -2,3 +2,6 @@
 # dissable ctrl+l clear screen conflict with vim 
 "\C-l":
 
+## allow multiple lines on pasting
+set enable-bracketed-paste on
+
