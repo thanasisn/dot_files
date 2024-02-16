@@ -120,6 +120,7 @@ mod4 + {i,ι}; {n,ν}
 # Journal entry
 mod4 + {i,ι}; {o,ο}
     $HOME/.nix-profile/bin/obsidian
+    # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
 
 # Kate
 mod4 + {i,ι}; {k,κ}
