@@ -34,7 +34,6 @@ log            = true
 source include_system.list
 
 
-# path = .local/share/evolution
 path = .R
 path = .R/x86_64-pc-linux-gnu-library
 path = .cache/gargle
@@ -158,15 +157,6 @@ ignore = Path {.Xauthority}
 ignore = Path {.adobe}
 ignore = Path {.advene}
 ignore = Path {.alsaplayer}
-ignore = Path {.cache/evolution/CacheStorage}
-ignore = Path {.cache/evolution/WebKitCache}
-ignore = Path {.cache/evolution/addressbook}
-ignore = Path {.cache/evolution/calendar}
-ignore = Path {.cache/evolution/http}
-ignore = Path {.cache/evolution/mail}
-ignore = Path {.cache/evolution/rss}
-ignore = Path {.cache/evolution/tasks}
-ignore = Path {.cache/evolution/tmp}
 ignore = Path {.cache/thunderbird}
 ignore = Path {.cache}
 ignore = Path {.chirp}

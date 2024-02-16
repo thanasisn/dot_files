@@ -26,7 +26,6 @@ source include_system.list
 
 # path = .Skype
 # path = .blueproximity
-# path = .cache/evolution
 # path = .cdsapirc
 # path = .config/Code/User
 # path = .config/JOSM
@@ -41,17 +40,6 @@ source include_system.list
 # path = .config/caja-pyextensions
 # path = .config/calibre
 # path = .config/dunst
-# path = .config/evolution/addressbook
-# path = .config/evolution/calendar
-# path = .config/evolution/mail/filters.xml
-# path = .config/evolution/mail/searches.xml
-# path = .config/evolution/mail/send-overrides.ini
-# path = .config/evolution/mail/sortorder.ini
-# path = .config/evolution/mail/vfolders.xml
-# path = .config/evolution/memos
-# path = .config/evolution/signatures
-# path = .config/evolution/sources
-# path = .config/evolution/tasks
 # path = .config/geany
 # path = .config/ghostwriter
 # path = .config/git
