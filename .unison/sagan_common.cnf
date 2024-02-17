@@ -51,6 +51,7 @@ path = .config/evolution/calendar
 path = .config/evolution/mail/filters.xml
 path = .config/evolution/mail/searches.xml
 path = .config/evolution/mail/send-overrides.ini
+path = .zsh
 path = .config/evolution/mail/sortorder.ini
 path = .config/evolution/mail/vfolders.xml
 path = .config/evolution/memos

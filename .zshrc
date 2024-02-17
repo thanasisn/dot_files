@@ -282,9 +282,9 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 eval "$(pyenv virtualenv-init -)"
 
-
-
-
+## completions for nb
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
 
 ## set settings
 "$HOME/CODE/session/session_settings.sh" > /dev/null
