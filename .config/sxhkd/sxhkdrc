@@ -132,12 +132,13 @@ mod4 + {i,ι}; {g,γ}
 
 # terminal calculator  
 mod4 + {c,ψ}
-    lxterminal --geometry=60x20 -t Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
+    lxterminal --geometry=60x20 -t Floating -e $SHELL -c "$HOME/.nix-profile/bin/qalc"
     # urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
 
 # Qalculator
 mod4 + shift + {c,ψ}
-    "/home/athan/PROGRAMS/qalculate-4.5.1/qalculate"
+    "$HOME/.nix-profile/bin/qalculate-gtk"
+
 
 # R rstudio
 mod4 + {i,ι}; {r,ρ}
