@@ -18,7 +18,7 @@ mod4 + {z,ζ}
 
 # Floating Shell Terminal
 mod4 + shift + {z,ζ}
-    lxterminal -t Floating --geometry=105x24
+    lxterminal -t Floating --geometry=110x26
     # urxvt -name Floating
     #x-terminal-emulator -name Floating
 
