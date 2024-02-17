@@ -2,7 +2,7 @@
 
 ##  ALIASES FOR ALL HOSTS  ##########################################
 
-alias black='xset dpms force off;xset dpms force off;xset dpms force off'  # Black screeen
+alias black='xset dpms force off;xset dpms force off;xset dpms force off'  # Black screen
 alias catc='pygmentize -g'
 alias catcl='pygmentize -g -O style=colorful,linenos=1'
 alias l=' ls -CF'
@@ -21,12 +21,11 @@ alias head='head -n 20'
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 
-## Replace some existeing commands
-type pinfo >/dev/null 2>&1 &&  alias info='pinfo'
-type trash >/dev/null 2>&1 &&  alias   rm='trash'
-type z     >/dev/null 2>&1 &&  alias   cd='z'
-type j     >/dev/null 2>&1 &&  alias    j='z'
-
+## Replace some existing commands
+alias    j='z'
+if [ -x "$(command -v pinfo )" ]; then  alias info='pinfo'; fi
+if [ -x "$(command -v trash)"  ]; then  alias   rm='trash'; fi
+if [ -x "$(command -v zoxide)" ]; then  alias   cd='z'    ; fi
 
 
 ## hide terminal when gui
