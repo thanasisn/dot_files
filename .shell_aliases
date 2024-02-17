@@ -3,8 +3,8 @@
 ##  ALIASES FOR ALL HOSTS  ##########################################
 
 alias black='xset dpms force off;xset dpms force off;xset dpms force off'  # Black screeen
-alias ccat='pygmentize -g'
-alias ccatl='pygmentize -g -O style=colorful,linenos=1'
+alias catc='pygmentize -g'
+alias catcl='pygmentize -g -O style=colorful,linenos=1'
 alias l=' ls -CF'
 alias ls='ls --time-style=long-iso '                     # show hidden files
 alias la='ls --time-style=long-iso -Al'                  # show hidden files
@@ -18,13 +18,15 @@ alias lx='ls --time-style=long-iso -lXB'                 # sort by extension
 alias tree='tree -Csu'             # nice alternative to 'recursive ls'
 alias weather='curl wttr.in'       # weather for current location
 alias head='head -n 20'
-alias info='pinfo'
-alias rm='trash'
-## override autojump and cd with zoxide
-alias j='z'
-alias cd='z'
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
+
+## Replace some existeing commands
+type pinfo >/dev/null 2>&1 &&  alias info='pinfo'
+type trash >/dev/null 2>&1 &&  alias   rm='trash'
+type z     >/dev/null 2>&1 &&  alias   cd='z'
+type j     >/dev/null 2>&1 &&  alias    j='z'
+
 
 
 ## hide terminal when gui
@@ -45,13 +47,13 @@ alias vnc_connect.sh='devour.sh vnc_connect.sh'
 alias iftop='LANG=C iftop'
 alias make='make -f *[Mm]akefile'
 alias mount='mount | column -t'
-alias music='ssh -tt blue ./BASH/cmus.sh'
-alias music_lyvi='ssh -tt blue ./BASH/cmus_lyvi_nr.sh'
+alias music='       ssh -tt blue ./BASH/cmus.sh'
+alias music_lyvi='  ssh -tt blue ./BASH/cmus_lyvi_nr.sh'
 alias music_remote='ssh -tt blue ./BASH/cmus_remote.sh'
 alias ports='netstat -tulanp'
 alias rsynci='rsync --info=progress2,name0 '
 alias svim='vim -u ~/.SpaceVim/vimrc'
-alias tasks='gtasks tasks -l Pending '
+# alias tasks='gtasks tasks -l Pending '
 alias xargsln='tr '\n' '\0' | xargs -0 '
 alias stow='stow -v '
 # alias vim='nvim'
