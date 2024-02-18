@@ -33,6 +33,9 @@ if [ -x "$(command -v zoxide)" ]; then
     alias   cd='z'
 fi
 
+alias info='pinfo'
+alias   rm='trash'
+alias   cd='z'
 
 ## hide terminal when gui
 alias gthumb='devour.sh gthumb'
@@ -48,6 +51,7 @@ alias vnc_connect.sh='devour.sh vnc_connect.sh'
 
 ## call some command with args
 
+alias borgmatic='borgmatic --config ~/.config/borgmatic'
 # alias cal='cal -A 4 -B 4'
 alias iftop='LANG=C iftop'
 alias make='make -f *[Mm]akefile'
@@ -57,7 +61,6 @@ alias music_lyvi='  ssh -tt blue ./BASH/cmus_lyvi_nr.sh'
 alias music_remote='ssh -tt blue ./BASH/cmus_remote.sh'
 alias ports='netstat -tulanp'
 alias rsynci='rsync --info=progress2,name0 '
-alias svim='vim -u ~/.SpaceVim/vimrc'
 # alias tasks='gtasks tasks -l Pending '
 alias xargsln='tr '\n' '\0' | xargs -0 '
 alias stow='stow -v '

@@ -195,7 +195,7 @@ fi
 
 ## load aliases
 if [ -f $HOME/.shell_aliases ]; then
-    . $HOME/.shell_aliases
+    source $HOME/.shell_aliases
 fi
 
 ## load environment variables
