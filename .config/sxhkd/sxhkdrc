@@ -38,7 +38,8 @@ mod4 + shift + {a,α}
 
 # Midnight commander
 mod4 + shift + {t,τ}
-    lxterminal -e $SHELL -c "mc;$SHELL"
+    lxterminal -t Floating -e $SHELL -c "ranger;$SHELL"
+    # lxterminal -e $SHELL -c "mc;$SHELL"
     # urxvt -e $SHELL -c "mc;$SHELL"
     # x-terminal-emulator -e $SHELL -c "mc;$SHELL"
     # x-terminal-emulator -e /home/athan/BASH/TOOLS/ranger_exec.sh
