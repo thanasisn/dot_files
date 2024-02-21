@@ -50,6 +50,7 @@ export MPLAYER_HOME="$XDG_CONFIG_HOME"/mplayer
 export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export PYLINTHOME="$XDG_CACHE_HOME"/pylint
 
-RENV_PATHS_CACHE="$(Rscript -e 'cat(path.expand(paste0("~/.R/", R.version$platform, "-library/", R.version$major, ".", R.version$minor)))')"
-export RENV_PATHS_CACHE=$RENV_PATHS_CACHE
+# This in not corect
+# RENV_PATHS_CACHE="$(Rscript -e 'cat(path.expand(paste0("~/.R/", R.version$platform, "-library/", R.version$major, ".", R.version$minor)))')"
+# export RENV_PATHS_CACHE=$RENV_PATHS_CACHE
 
