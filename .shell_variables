@@ -25,7 +25,7 @@ mkdir -p "$ZEITGEIST_DATABASE_PATH"
 # export QT_XCB_GL_INTEGRATION=none
 
 ## GoldenCheetah needs to find R
-export R_HOME="/opt/R/4.2.3/bin/R"
+#export R_HOME="/opt/R/4.2.3/bin/R"
 
 ## PROGRAMS CONFIGURATION
 

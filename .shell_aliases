@@ -3,22 +3,22 @@
 ##  ALIASES FOR ALL HOSTS  ##########################################
 
 alias black='xset dpms force off;xset dpms force off;xset dpms force off'  # Black screen
-alias catc='pygmentize -g'
+alias catc=' pygmentize -g'
 alias catcl='pygmentize -g -O style=colorful,linenos=1'
-alias l=' ls -CF'
-alias ls='ls --time-style=long-iso '                     # show hidden files
-alias la='ls --time-style=long-iso -Al'                  # show hidden files
-alias lc='ls --time-style=long-iso -ltcr'                # sort by and show change time, most recent last
-alias lk='ls --time-style=long-iso -lSr'                 # sort by size, biggest last
-alias ll="ls --time-style=long-iso -l --group-directories-first"
-alias ls='ls --time-style=long-iso -hF --color'          # add colors for filetype recognition
-alias lt='ls --time-style=long-iso -ltr'                 # sort by date, most recent last
-alias lu='ls --time-style=long-iso -ltur'                # sort by and show access time, most recent last
-alias lx='ls --time-style=long-iso -lXB'                 # sort by extension
+alias l='   ls -CF'
+alias ls='  ls --time-style=long-iso '                     # show hidden files
+alias la='  ls --time-style=long-iso -Al'                  # show hidden files
+alias lc='  ls --time-style=long-iso -ltcr'                # sort by and show change time, most recent last
+alias lk='  ls --time-style=long-iso -lSr'                 # sort by size, biggest last
+alias ll="  ls --time-style=long-iso -l --group-directories-first"
+alias ls='  ls --time-style=long-iso -hF --color'          # add colors for filetype recognition
+alias lt='  ls --time-style=long-iso -ltr'                 # sort by date, most recent last
+alias lu='  ls --time-style=long-iso -ltur'                # sort by and show access time, most recent last
+alias lx='  ls --time-style=long-iso -lXB'                 # sort by extension
 alias tree='tree -Csu'             # nice alternative to 'recursive ls'
 alias weather='curl wttr.in'       # weather for current location
 alias head='head -n 20'
-
+alias rr='  ranger'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 
 ## Replace some existing commands
@@ -33,19 +33,18 @@ if [ -x "$(command -v zoxide)" ]; then
     alias   cd='z'
 fi
 
-alias info='pinfo'
-alias   rm='trash'
-alias   cd='z'
+# alias info='pinfo'
+# alias   rm='trash'
+# alias   cd='z'
 
 ## hide terminal when gui
-alias gthumb='devour.sh gthumb'
-alias mpv='devour.sh mpv'
-alias meld='devour.sh meld'
-alias zathura='devour.sh zathura'
-alias feh='devour.sh feh'
-# alias zotero='devour.sh zotero'
-alias geany='devour.sh geany'
-alias goldencheetah='devour.sh $HOME/PROGRAMS/GoldenCheetah_v3.6_x64.AppImage'
+alias gthumb='        devour.sh gthumb'
+alias mpv='           devour.sh mpv'
+alias meld='          devour.sh meld'
+alias zathura='       devour.sh zathura'
+alias feh='           devour.sh feh'
+alias geany='         devour.sh geany'
+alias goldencheetah=' devour.sh $HOME/PROGRAMS/GoldenCheetah_v3.6_x64.AppImage'
 alias vnc_connect.sh='devour.sh vnc_connect.sh'
 
 
