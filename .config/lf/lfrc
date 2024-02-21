@@ -1,0 +1,186 @@
+
+## lf Options
+
+# interpreter for shell commands
+set shell bash
+
+# set '-eu' options for shell commands
+# These options are used to have safer shell commands. Option '-e' is used to
+# exit on error and option '-u' is used to give error for unset variables.
+# Option '-f' disables pathname expansion which can be useful when $f, $fs, and
+# $fx variables contain names with '*' or '?' characters. However, this option
+# is used selectively within individual commands as it can be limiting at
+# times.
+set shellopts '-eu'
+
+# set internal field separator (IFS) to "\n" for shell commands
+# This is useful to automatically split file names in $fs and $fx properly
+# since default file separator used in these variables (i.e. 'filesep' option)
+# is newline. You need to consider the values of these options and create your
+# commands accordingly.
+set ifs "\n"
+
+# leave some space at the top and the bottom of the screen
+set scrolloff 10
+
+set noanchorfind
+set nodrawbox 
+set dirfirst
+set incsearch
+set incfilter
+set wrapscan
+set dircounts
+
+## display options for different filetypes
+set previewer ~/.config/lf/pv.sh 
+
+# use enter for shell commands
+map <enter> shell
+
+####  Defination of custom commants  ####
+
+## :  read (default)  builtin/custom command
+## $  shell           shell command
+## %  shell-pipe      shell command running with the ui
+## !  shell-wait      shell command waiting for key press
+## &  shell-async     shell command running asynchronously
+
+## a wide right pane for file viewing
+cmd fileviewer %{{
+    lf -remote "send $id set ratios 10:40"
+}}
+
+## adjust collumns by terminal
+cmd recol %{{
+    w=$(tput cols)
+    if [ $w -le 80 ]; then
+        lf -remote "send $id set ratios 10:20"
+    elif [ $w -le 160 ]; then
+        lf -remote "send $id set ratios 10:25:30"
+    else
+        # lf -remote "send $id set ratios 10:20:30:50"
+        lf -remote "send $id set ratios 10:30:30"
+    fi
+}}
+## run on startup
+# recol
+
+# define a custom 'open' command
+# This command is called when current file is not a directory. You may want to
+# use either file extensions and/or mime types here. Below uses an editor for
+# text files and a file opener for the rest.
+cmd open ${{
+    test -L $f && f=$(readlink -f $f)
+    case $(file --mime-type $f -b) in
+        text/*) setsid $EDITOR $fx;;
+        *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
+    esac
+}}
+
+
+
+# move current file or selected files to trash folder
+cmd trash %trash-put $fx
+# cmd trash %gio trash $fx
+
+cmd rmdelete ${{
+    rm -r $fx
+}}
+
+# list trash
+cmd trash_list ${{
+    # gio list trash:// | less
+    trash-list | less
+}}
+
+# empty trash
+cmd trash_empty %{{
+    gio trash --empty
+}}
+
+# trash restore
+cmd trash_restore ${{
+    ## may need location relative to lf view
+    trash-restore 
+}}
+
+
+# extract the current file with the right command
+# (xkcd link: https://xkcd.com/1168/)
+cmd extract ${{
+    set -f
+    case $f in
+        *.tar.bz|*.tar.bz2|*.tbz|*.tbz2) tar xjvf $f;;
+        *.tar.gz|*.tgz) tar xzvf $f;;
+        *.tar.xz|*.txz) tar xJvf $f;;
+        *.zip) unzip $f;;
+        *.rar) unrar x $f;;
+        *.7z) 7z x $f;;
+    esac
+}}
+
+# compress current file or selected files with tar and gunzip
+cmd tar ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    tar czf $1.tar.gz $1
+    rm -rf $1
+}}
+
+# compress current file or selected files with zip
+cmd zip ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    zip -r $1.zip $1
+    rm -rf $1
+}}
+
+# open terminal
+cmd open_terminal ${{
+    cd $PWD
+    x-terminal-emulator &
+}}
+
+## show file on terminal  
+cmd lessh ${{
+    /usr/share/source-highlight/src-hilite-lesspipe.sh $f | less -R -M
+    # batcat $f
+}}
+
+
+
+####  key mappings  ####
+
+## for executables
+map X &setsid x-terminal-emulator -e $SHELL -c "$f;$SHELL"
+map x !$f                           # execute file in lf
+
+map E &setsid x-terminal-emulator -e vim $f
+map <delete> trash                  # trash files
+map D trash                         # trash files
+map <shift> <delete> rmdelete       # delete files
+map F filter                        # remap filtering
+map I fileviewer                    # wide file preview
+map M &setsid meld $fx              # meld files 
+map O $setsid mimeopen --ask $f     # ask which XDG app to use
+map R recol                         # reset columns
+map T &caja $PWD                    # caja in current dir en
+map V $vim -d $fx                   # vimdiff files
+map i lessh                         # less file
+map o &setsid mimeopen $f           # open with default XDG app
+map r $printf '%s\n' $fx | vidir -  # rename files
+map t open_terminal                 # terminal in current dir en 
+map Τ &caja $PWD                    # caja in current dir gr
+map τ open_terminal                 # terminal in current dir gr 
+
+
+## bookmarks
+map gd cd ~/Downloads
+
+
+# TODO
+# image preview
+# execute in terminal
+# config without xorgs
