@@ -15,8 +15,19 @@ export EDITOR=vim
 # export METEOBLUE_API="88295037d574"
 export METEOBLUE_API="R6m9gVqJDQbMtcfu"
 
+
+### Check names with `locale -a`
 ## overide locale numeric
 export LC_NUMERIC="C"
+## for a iso date format in some programs
+# export LC_TIME="en_DK.UTF-8"
+export LC_TIME="en_DK.utf8"
+## overide locale numeric
+# export LC_NUMERIC="C.UTF-8" 
+export LC_NUMERIC="C.utf8" 
+## ranger needs that
+export LC_ALL="C.utf8"
+
 
 mkdir -p "$ZEITGEIST_DATABASE_PATH"
 

@@ -6,10 +6,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 HISTFILE=~/.hist_$(hostname)
 
-## for a better date format in some programs
-export LC_TIME="en_DK.UTF-8"
-## overide locale numeric
-export LC_NUMERIC="C.UTF-8" 
 
 ## better theme for kde with qt5ct
 export QT_QPA_PLATFORMTHEME=qt5ct
