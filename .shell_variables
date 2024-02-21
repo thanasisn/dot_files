@@ -14,7 +14,8 @@ export VISUAL=vim
 export EDITOR=vim
 # export METEOBLUE_API="88295037d574"
 export METEOBLUE_API="R6m9gVqJDQbMtcfu"
-
+R_LIBS_USER="$(Rscript -e 'cat(path.expand(paste0("~/.R/", R.version$platform, "-library/", R.version$major, ".", R.version$minor)))')"
+export R_LIBS_USER=$R_LIBS_USER
 
 ### Check names with `locale -a`
 ## overide locale numeric

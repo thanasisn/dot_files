@@ -179,7 +179,10 @@ let g:gruvbox_guisp_fallback = "bg"
 let g:gruvbox_italic = 1
 let g:gruvbox_underline = 1
 set background=dark
-colorscheme gruvbox
+" colorscheme gruvbox
+" colorscheme default
+" colorscheme desert
+colorscheme lunaperche
 
 " set voom for Rmd
 let voom_ft_modes = {'markdown': 'pandoc', 'rmd': 'pandoc'}
@@ -245,7 +248,7 @@ endfunction
 """ SPECIAL OPTIONS
 
 "" vim diff options
-if &diff                             
+if &diff
     set diffopt=filler,context:1000000  "" filler is default and inserts empty lines for sync
 endif
 
