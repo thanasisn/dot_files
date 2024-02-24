@@ -158,7 +158,7 @@ bindkey -s $terminfo[kf12] '\e0\e_ '
 
 
 # Unmount all encfs
-alias ccc=' fusermount -uz  /home/athan/ZHOST/noble; fusermount -uz  /home/athan/Pictures/other; fusermount -uz /home/athan/Pictures/other2; fusermount -uz /home/athan/Pictures/other3; fusermount -uz /home/athan/Pictures/ns; fusermount -uz /home/athan/Documents/Docu'
+alias ccc=' fusermount -uz  /home/athan/ZHOST/noble; fusermount -uz  /home/athan/Pictures/other; fusermount -uz /home/athan/Pictures/other2; fusermount -uz /home/athan/Pictures/other3; fusermount -uz /home/athan/Pictures/ns'
 
 
 ## Conditional aliases
@@ -173,7 +173,6 @@ if [ "$(hostname)" = "tyler" ]; then
     alias nsfw=' encfs --idle=380 /home/folder/CAMERATTA/.NSFW   /home/athan/Pictures/ns'
 fi
 
-alias docu="encfs --idle=180 /home/athan/Documents/.Docu.enc /home/athan/Documents/Docu"
 alias nnn=' encfs --idle=180 /home/folder/.TEMO              /home/athan/ZHOST/noble; cd /home/athan/ZHOST/noble'
 
 
