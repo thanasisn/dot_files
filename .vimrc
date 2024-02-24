@@ -4,9 +4,9 @@
 """ GENERAL OPTIONS
 
 set nocompatible                    " disable compatibility to old-time vi
-set tabstop=4                       " number of columns occupied by a tab character
-set shiftwidth=4                    " width for autoindents
-set softtabstop=4                   " see multiple spaces as tabstops so <BS> does the right thing
+set tabstop=2                       " number of columns occupied by a tab character
+set shiftwidth=2                    " width for autoindents
+set softtabstop=2                   " see multiple spaces as tabstops so <BS> does the right thing
 set expandtab                       " convert tabs to white space
 set smarttab
 set history=1000                    " remember commands
@@ -253,7 +253,7 @@ if &diff
 endif
 
 " Fill R comments with "-" up to 80
-autocmd FileType r,R nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
+autocmd FileType r,R,sh,py nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
 
 
 " "" close vim if the only window left open is a NERDTree 
