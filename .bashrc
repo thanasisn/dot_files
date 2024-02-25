@@ -135,11 +135,13 @@ fi
 
 
 # Alias definitions.
-if [ -f ~/.shell_aliases ]; then
-    . ~/.shell_aliases
+. ~/.shell_aliases
+
+if [ -f ~/.ssh/telegram/unikey_$(hostname) ]; then
+    . ~/.ssh/telegram/unikey_$(hostname)
+  else
+    . ~/.ssh/telegram/unikey_hosts
 fi
-
-
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

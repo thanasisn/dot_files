@@ -189,8 +189,7 @@ if [ -n "$DISPLAY" ]; then
 fi
 
 ## load aliases
-#. ~/.shell_aliases
-source ~/.shell_aliases
+. ~/.shell_aliases
 
 
 ## load environment variables
@@ -201,6 +200,13 @@ fi
 ## load shell functions
 if [ -f $HOME/.shell_functions ]; then
     . $HOME/.shell_functions
+fi
+
+
+if [ -f ~/.ssh/telegram/unikey_$(hostname) ]; then
+    . ~/.ssh/telegram/unikey_$(hostname)
+  else
+    . ~/.ssh/telegram/unikey_hosts
 fi
 
 
