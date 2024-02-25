@@ -33,9 +33,9 @@ if [ -x "$(command -v zoxide)" ]; then
     alias   cd='z'
 fi
 
-# alias info='pinfo'
-# alias   rm='trash'
-# alias   cd='z'
+alias info='pinfo'
+alias   rm='trash'
+alias   cd='z'
 
 ## hide terminal when gui
 alias gthumb='        devour.sh gthumb'
