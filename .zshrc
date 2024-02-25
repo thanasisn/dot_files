@@ -189,9 +189,9 @@ if [ -n "$DISPLAY" ]; then
 fi
 
 ## load aliases
-if [ -f $HOME/.shell_aliases ]; then
-    source $HOME/.shell_aliases
-fi
+#. ~/.shell_aliases
+source ~/.shell_aliases
+
 
 ## load environment variables
 if [ -f $HOME/.shell_variables ]; then

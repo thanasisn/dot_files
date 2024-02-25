@@ -23,19 +23,19 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 
 ## Replace some existing commands
 alias    j='z'
-# if [ -x "$(command -v pinfo )" ]; then
-#     alias info='pinfo'
-# fi
-# if [ -x "$(command -v trash)"  ]; then
-#     alias   rm='trash'
-# fi
-# if [ -x "$(command -v zoxide)" ]; then
-#     alias   cd='z'
-# fi
+if [ -x "$(command -v pinfo )" ]; then
+    alias info='pinfo'
+fi
+if [ -x "$(command -v trash)"  ]; then
+    alias   rm='trash'
+fi
+if [ -x "$(command -v zoxide)" ]; then
+    alias   cd='z'
+fi
 
-alias info='pinfo'
-alias   rm='trash'
-alias   cd='z'
+# alias info='pinfo'
+# alias   rm='trash'
+# alias   cd='z'
 
 ## hide terminal when gui
 alias gthumb='        devour.sh gthumb'
