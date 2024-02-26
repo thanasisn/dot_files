@@ -59,7 +59,7 @@ cmd recol %{{
         lf -remote "send $id set ratios 10:25:30"
     else
         # lf -remote "send $id set ratios 10:20:30:50"
-        lf -remote "send $id set ratios 10:30:30"
+        lf -remote "send $id set ratios 10:40:50"
     fi
 }}
 ## run on startup
