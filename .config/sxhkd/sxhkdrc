@@ -46,7 +46,8 @@ mod4 + shift + {t,τ}
 
 # lf
 mod4 + {t,τ}
-    lxterminal -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
+    lxterminal -e $SHELL -c "/home/athan/PROGRAMS/lf-ueberzug/lf-ueberzug; $SHELL"
+    # lxterminal -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
     # urxvt -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
     # x-terminal-emulator -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
     # x-terminal-emulator -e $SHELL -c "/home/athan/PROGRAMS/lf;$SHELL"

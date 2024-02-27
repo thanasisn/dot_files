@@ -188,26 +188,29 @@ if [ -n "$DISPLAY" ]; then
     xset b off
 fi
 
+
+
+## load shell functions first
+if [ -f $HOME/.shell_functions ]; then
+    . $HOME/.shell_functions
+fi
+
 ## load aliases
 . ~/.shell_aliases
-
 
 ## load environment variables
 if [ -f $HOME/.shell_variables ]; then
     . $HOME/.shell_variables
 fi
 
-## load shell functions
-if [ -f $HOME/.shell_functions ]; then
-    . $HOME/.shell_functions
-fi
-
-
+## load keys
 if [ -f ~/.ssh/telegram/unikey_$(hostname) ]; then
     . ~/.ssh/telegram/unikey_$(hostname)
   else
     . ~/.ssh/telegram/unikey_hosts
 fi
+
+
 
 
 ## disable software flow control XOFF
@@ -273,6 +276,7 @@ zstyle ':completion:*' hosts off
 
 
 if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
 
 
 ## load pyenv

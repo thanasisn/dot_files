@@ -29,4 +29,19 @@ remove-lines() (
 )
 
 
+## set alias if exist
+alias_if() (
+  if (( $+commands[$2] )); then
+    alias "$1"="$2"
+    echo "alias $1"="$2"
+  else
+    if (( $+commands[$1] )); then
+      echo "IS HERE: $1"
+    else
+      echo "NOT HERE: $1"
+    fi
+  fi
+)
+
+
 

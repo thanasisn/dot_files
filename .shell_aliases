@@ -26,16 +26,21 @@ alias    j='z'
 if [ -x "$(command -v pinfo )" ]; then
     alias info='pinfo'
 fi
-if [ -x "$(command -v trash)"  ]; then
-    alias   rm='trash'
-fi
-if [ -x "$(command -v zoxide)" ]; then
-    alias   cd='z'
-fi
+# if [ -x "$(command -v zoxide)" ]; then
+#     alias   cd='z'
+# fi
 
 alias info='pinfo'
-alias   rm='trash'
 alias   cd='z'
+
+## set aliases if program exists
+alias_if  lf  lf-ueberzug  >/dev/null
+alias_if  rm  trash        >/dev/null
+
+
+alias lf='lf-ueberzug'
+alias rm='trash'
+
 
 ## hide terminal when gui
 alias gthumb='        devour.sh gthumb'
