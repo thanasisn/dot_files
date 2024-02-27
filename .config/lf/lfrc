@@ -46,22 +46,25 @@ map <enter> shell
 ## &  shell-async     shell command running asynchronously
 
 ## a wide right pane for file viewing
-cmd fileviewer %{{
-    lf -remote "send $id set ratios 10:40"
-}}
+# cmd fileviewer %{{
+#     lf -remote "send $id set ratios 10:40"
+# }}
 
-## adjust collumns by terminal
-cmd recol %{{
-    w=$(tput cols)
-    if [ $w -le 80 ]; then
-        lf -remote "send $id set ratios 10:20"
-    elif [ $w -le 160 ]; then
-        lf -remote "send $id set ratios 10:25:30"
-    else
-        # lf -remote "send $id set ratios 10:20:30:50"
-        lf -remote "send $id set ratios 10:40:50"
-    fi
-}}
+## does it work?
+set ratios '1:4:5'
+
+# # ## adjust collumns by terminal
+# cmd recol %{{
+#     w=$(tput cols)
+#     if [ $w -le 80 ]; then
+#         lf -remote "send $id set ratios 10:20"
+#     elif [ $w -le 160 ]; then
+#         lf -remote "send $id set ratios 10:25:30"
+#     else
+#         # lf -remote "send $id set ratios 10:20:30:50"
+#         lf -remote "send $id set ratios 10:40:50"
+#     fi
+# }}
 ## run on startup
 # recol
 
@@ -165,7 +168,7 @@ map F filter                        # remap filtering
 map I fileviewer                    # wide file preview
 map M &setsid meld $fx              # meld files 
 map O $setsid mimeopen --ask $f     # ask which XDG app to use
-map R recol                         # reset columns
+# map R recol                         # reset columns
 map T &caja $PWD                    # caja in current dir en
 map V $vim -d $fx                   # vimdiff files
 map i lessh                         # less file
@@ -179,6 +182,9 @@ map τ open_terminal                 # terminal in current dir gr
 ## bookmarks
 map gd cd ~/Downloads
 
+## from lf-ueberxug
+set previewer ~/.config/lf/lf-ueberzug/lf-ueberzug-previewer
+set cleaner   ~/.config/lf/lf-ueberzug/lf-ueberzug-cleaner
 
 # TODO
 # image preview

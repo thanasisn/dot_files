@@ -33,12 +33,12 @@ fi
 alias info='pinfo'
 alias   cd='z'
 
-## set aliases if program exists
-alias_if  lf  lf-ueberzug  >/dev/null
-alias_if  rm  trash        >/dev/null
+# ## set aliases if program exists
+# alias_if  lf  lf-ueberzug  >/dev/null
+# alias_if  rm  trash        >/dev/null
 
 
-alias lf='lf-ueberzug'
+alias lf='~/.config/lf/lf-ueberzug/lf-ueberzug'
 alias rm='trash'
 
 
