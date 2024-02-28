@@ -278,6 +278,8 @@ zstyle ':completion:*' hosts off
 if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 
+## enable atuin
+# eval "$(atuin init zsh)"
 
 ## load pyenv
 export PYENV_ROOT="$HOME/.pyenv"
