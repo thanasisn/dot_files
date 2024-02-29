@@ -81,10 +81,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3238
-Expansion=0,1007,1008,1009,1010,1011,1012,1013,1014,3238,3239,3240,3242,3246,3250,3251,3249,3252,3253,3254,3256,3259,3260,-3
+CurrentIndex=-4
+Expansion=0,3264,3265,3266,-4,1,1007,1008,1009,1010,1011,1012,1013,1014,3227,3238,3239,3240,3242,3246,3250,3251,3249,3252,3253,3254,3256,3259,3260,-3
 RestoreChecked=false
-Selection=3238
+Selection=-4
 SortColumn=0
 SortOrder=0
 
@@ -134,7 +134,7 @@ EnableCM=true
 GamutCheckMaskColor=126,255,255
 LastMismatchBehavior=2049
 LastMissingProfileBehavior=2050
-LastSpecifiedAssignProfile[$e]=/usr/share/digikam/profiles/
+LastSpecifiedAssignProfile=
 LastSpecifiedInputProfile=
 LastUncalibratedBehavior=2080
 ManagedPreviews=true
@@ -145,7 +145,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=10,1017,303,50,994,11,289,1795
+Recently Used Tags=50,49,1891,1119,483,2449,10,1017,303,994
 
 [DMetadata Settings]
 readingAllTags=false
@@ -909,7 +909,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJcXFw=
+Database Encrypted Password=AwI6Ojo=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -937,13 +937,13 @@ Minimized=false
 RestoreSize=-1
 
 [Digikam Right Sidebar]
-ActiveTab=3
+ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
-Minimized=true
+Minimized=false
 PhotographProperties Expanded=true
-RestoreSize=293
+RestoreSize=-1
 VideoProperties Expanded=true
 
 [Digikam Right Sidebar][Captions Tags Properties Tab]
@@ -952,7 +952,7 @@ ItemDescEdit Tab=0
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
 ItemDescEditTab TagCheckViewCurrentIndex=
-ItemDescEditTab TagCheckViewExpansion=0
+ItemDescEditTab TagCheckViewExpansion=0,4
 ItemDescEditTab TagCheckViewRestoreChecked=false
 ItemDescEditTab TagCheckViewSelection=
 ItemDescEditTab TagCheckViewSortColumn=0
@@ -1215,8 +1215,8 @@ CaseSensitive=0
 
 [General Settings]
 1920x1080 screen: Height=1038
-1920x1080 screen: Width=1920
-1920x1080 screen: XPosition=0
+1920x1080 screen: Width=1530
+1920x1080 screen: XPosition=390
 1920x1080 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
@@ -1237,7 +1237,7 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=true
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABfoAAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1680,9 +1680,9 @@ Version Properties Tab=versions
 Version Properties View Mode=2
 
 [MainWindow]
-InitialAlbumID=3238
-SplitterState=AAAA/wAAAAEAAAADAAABYQAABeMAAAAAAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAWVAAAAyPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABZUAAABCAQAABwAABdoAAAOmAAAABAAAAAQAAAAIAAAACPwAAAAA
+InitialAlbumID=-4
+SplitterState=AAAA/wAAAAEAAAADAAABYQAABFMAAAFsAf////8AAAAAAQE=
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAALnAAAAyPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAucAAABCAQAABwAAAucAAAOmAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [Metadata Settings]
 Album Date Source=1
@@ -1745,7 +1745,7 @@ CaseSensitive=0
 [Setup Dialog]
 1920x1080 screen: Height=798
 1920x1080 screen: Width=1380
-Setup Page=12
+Setup Page=1
 Template Tab=0
 
 [Sketch Search View]
@@ -1757,6 +1757,9 @@ AlbumComboBox-Selection=
 AlbumComboBox-SortColumn=0
 AlbumComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
+
+[TagEditDlgTitleEdit Search Text Tool]
+CaseSensitive=0
 
 [TagFilter Sidebar]
 FaceTagsFilter Expanded=true
@@ -1771,10 +1774,10 @@ TypeGeolocationFilter Expanded=true
 TypeMimeFilter Expanded=true
 
 [TagView Sidebar]
-CurrentIndex=
-Expansion=0
+CurrentIndex=483
+Expansion=0,137,125,483
 RestoreChecked=false
-Selection=
+Selection=483
 SortColumn=0
 SortOrder=0
 TagsSource=false
