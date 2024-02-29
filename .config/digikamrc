@@ -13,7 +13,7 @@ Default Icon Size=150
 Default Tree Face Size=32
 Default Tree Icon Size=22
 Icon Show Aspect Ratio=false
-Icon Show Comments=true
+Icon Show Comments=false
 Icon Show Coordinates=true
 Icon Show Date=true
 Icon Show Fullscreen=true
@@ -25,8 +25,8 @@ Icon Show Rating=false
 Icon Show Resolution=false
 Icon Show Size=false
 Icon Show Tags=true
-Icon Show Title=true
-IconView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
+Icon Show Title=false
+IconView Font=Noto Sans,8,-1,5,50,0,0,0,0,0
 Image Group Mode=2
 Image Group Sort Order=0
 Image Sort Order=0
@@ -111,6 +111,7 @@ BqmBottomSplitter=AAAA/wAAAAEAAAACAAAAnQAAAJ0B/////wEAAAABAA==
 BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACMAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAdwAAAHEB/////wEAAAACAA==
 HDMI-1=HDMI-1
+RestorePositionForNextInstance=false
 
 [Camera Settings]
 DefaultTargetAlbumId=0
@@ -909,7 +910,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwI6Ojo=
+Database Encrypted Password=AwI7Ozs=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1215,8 +1216,8 @@ CaseSensitive=0
 
 [General Settings]
 1920x1080 screen: Height=1038
-1920x1080 screen: Width=1530
-1920x1080 screen: XPosition=390
+1920x1080 screen: Width=1920
+1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
@@ -1225,25 +1226,86 @@ Clean core DB At Start=false
 Detect faces in newly added images=false
 Draw Frames To Grouped Items=true
 Expand New Current Item On Click=true
+Face Scanner First Run=true
 FullScreen Hide SideBars=false
 FullScreen Hide StatusBar=false
 FullScreen Hide ThumbBar=true
 FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 Icon Theme=oxygen
+RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=true
-State=AAAA/wAAAAD9AAAAAAAABfoAAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
 Use Native File Dialog=true
 Use Trash=true
 Version=7.9.0
+
+[Geolocation Edit Settings]
+1920x1080 screen: Height=876
+1920x1080 screen: Width=1214
+Bookmarks visible=false
+Current Tab=3
+Map Layout=0
+Show oldest images first=false
+Splitter H1 CollapsedSize=0
+SplitterState H1=AAAA/wAAAAEAAAACAAADBgAAAX8B/////wEAAAABAA==
+SplitterState V1=AAAA/wAAAAEAAAACAAAAQgAAAMAB/////wEAAAACAA==
+
+[Geolocation Edit Settings][Correlator Widget]
+GPX File Open Last Directory=/home/athan
+Interpolate=true
+Max Gap Time=00:00:30
+Max Inter Dist Time=00:15:00
+Offset Sign=0
+Offset Time=00:00:00
+ShowTracksOnMap=true
+Time Zone=13
+
+[Geolocation Edit Settings][Map Widget]
+Backend=marble
+Center=geo:52,6
+GoogleMaps Map Type=ROADMAP
+GoogleMaps Show Map Type Control=true
+GoogleMaps Show Navigation Control=true
+GoogleMaps Show Scale Control=true
+Marble Map Theme=earth/srtm/srtm.dgml
+Marble Projection=spherical
+Marble Show Compass=false
+Marble Show Navigation=false
+Marble Show Overview Map=false
+Marble Show Scale Bar=false
+Marker Grouping Radius=1
+Mouse Mode=16
+Preview Grouped Items=true
+Preview Single Items=true
+Show Thumbnails=true
+Show numbers on items=true
+Thumbnail Grouping Radius=30
+Thumbnail Size=60
+Zoom=marble:900
+
+[Geolocation Edit Settings][Reverse Geocoding Widget]
+Hide options=false
+Language=23
+RG Backend=0
+Spacers count=0
+XMP location=false
+
+[Geolocation Edit Settings][Search Widget]
+Keep old results=false
+Search backend=osm
+
+[Geolocation Edit Settings][Tree View]
+Header State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\x00\x0e\x00\x00\x00\x03\x00\x00\x00\x0b\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x04w\x00\x00\x00\r\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x1b\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
+Image List Thumbnail Size=60
 
 [Grouping Behaviour]
 Do BQM operations on all=2
@@ -1320,6 +1382,7 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
+RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1501,6 +1564,23 @@ Toggle Auto Tags=0
 [ItemIconViewTagSearchBar Search Text Tool]
 CaseSensitive=0
 
+[KMLExport Settings]
+Altitude Mode=0
+GPX Altitude Mode=0
+GPXFile=
+KMLFileName=kmldocument
+Line Width=4
+Time Zone=12
+Track Color=#17eeee
+Track Opacity=64
+UrlDestDir=https://www.example.com/
+UseGPXTracks=false
+baseDestDir=/tmp/
+iconSize=33
+localTarget=true
+optimize_googlemap=false
+size=320
+
 [Labels Sidebar]
 ColorSelection=
 Expansion=
@@ -1519,6 +1599,7 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABbAAAAD0AAAFsAf////8AAAAAAQE=
 Navigate By Pair=false
+RestorePositionForNextInstance=false
 Show Thumbbar=true
 
 [LightTable Settings][Left Sidebar]
@@ -1743,9 +1824,9 @@ SortOrder=0
 CaseSensitive=0
 
 [Setup Dialog]
-1920x1080 screen: Height=798
-1920x1080 screen: Width=1380
-Setup Page=1
+1920x1080 screen: Height=544
+1920x1080 screen: Width=1327
+Setup Page=2
 Template Tab=0
 
 [Sketch Search View]
@@ -1781,6 +1862,29 @@ Selection=483
 SortColumn=0
 SortOrder=0
 TagsSource=false
+
+[Time Adjust Dialog]
+1920x1080 screen: Height=750
+1920x1080 screen: Width=900
+
+[Time Adjust Settings]
+Adjustment Days=0
+Adjustment Time=2000,1,1,0,0,0
+Adjustment Type=0
+Custom Date=2000,1,1,0,0,0
+Custom Time=2000,1,1,0,0,0
+File Timestamp Type=0
+Meta Timestamp Type=0
+Update EXIF Digitization Time=true
+Update EXIF Modification Time=true
+Update EXIF Original Time=true
+Update EXIF Thumbnail Time=true
+Update File Modification Time=true
+Update IPTC Time=true
+Update Only If Available Time=true
+Update XMP Creation Time=true
+Update XMP Video Time=true
+Use Timestamp Type=0
 
 [TimeLine Sidebar]
 CurrentIndex=
