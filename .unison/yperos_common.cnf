@@ -126,6 +126,7 @@ path = .histfile
 # path = .rkward
 # path = .spyder2
 # path = .ssh/config
+path = .ssh/telegram
 # path = .subversion
 # path = .zotero
 path = Aerosols
