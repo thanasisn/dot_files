@@ -910,7 +910,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJiYmI=
+Database Encrypted Password=AwJGRkY=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1216,9 +1216,9 @@ CaseSensitive=0
 
 [General Settings]
 1920x1080 screen: Height=1038
-1920x1080 screen: Width=958
-1920x1080 screen: XPosition=0
-1920x1080 screen: YPosition=0
+1920x1080 screen: Width=638
+1920x1080 screen: XPosition=1282
+1920x1080 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
 Apply Sidebar Changes Directly=true
@@ -1240,7 +1240,7 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=true
-State=AAAA/wAAAAD9AAAAAAAAA74AAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAn4AAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
