@@ -81,12 +81,12 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3269
-Expansion=0,3265,3266,3269,3267,3268,1007,1008,1009,1010,1011,1012,1013,1014,3187,-4,3227,3238,3239,3240,3263,3242,3243,3244,3245,3246,3247,3248,3250,3251,3249,3252,3253,3254,3256,3259,3260,-3
+CurrentIndex=0
+Expansion=0,3227,3238,3253,3260,3259,3256,3254,3252,3249,3251,3250,3248,3247,3246,3245,3244,3243,3242,3273,3272,3263,3240,3239,-3,1,3187,1014,1013,1012,1011,1010,1009,1008,1007,-4,3268,3267,3269,3266,3265
 RestoreChecked=false
-Selection=3269
+Selection=0
 SortColumn=0
-SortOrder=0
+SortOrder=1
 
 [AlbumIconViewFilterSearchTextBar Search Text Tool]
 CaseSensitive=0
@@ -146,7 +146,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=11,1891,1119,483,87,279,1838,1710,1725,50
+Recently Used Tags=2379,303,1891,117,87,11,1119,483,279,1838
 
 [DMetadata Settings]
 readingAllTags=false
@@ -910,7 +910,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJ6eno=
+Database Encrypted Password=AwJiYmI=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -934,17 +934,17 @@ SortOrder=0
 
 [Digikam Left Sidebar]
 ActiveTab=0
-Minimized=false
-RestoreSize=-1
+Minimized=true
+RestoreSize=213
 
 [Digikam Right Sidebar]
 ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
-Minimized=true
+Minimized=false
 PhotographProperties Expanded=true
-RestoreSize=364
+RestoreSize=-1
 VideoProperties Expanded=true
 
 [Digikam Right Sidebar][Captions Tags Properties Tab]
@@ -953,7 +953,7 @@ ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
 ItemDescEditTab TagCheckViewCurrentIndex=306
-ItemDescEditTab TagCheckViewExpansion=0,499,500,501,2719,2720,2721,2722,4,6,306
+ItemDescEditTab TagCheckViewExpansion=0,500,501,2719,2720,2721,2722,6,87
 ItemDescEditTab TagCheckViewRestoreChecked=false
 ItemDescEditTab TagCheckViewSelection=306
 ItemDescEditTab TagCheckViewSortColumn=0
@@ -977,7 +977,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.484888883,-3.651066666
+Center=geo:40.620003381,22.962013578
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1216,9 +1216,9 @@ CaseSensitive=0
 
 [General Settings]
 1920x1080 screen: Height=1038
-1920x1080 screen: Width=1920
+1920x1080 screen: Width=958
 1920x1080 screen: XPosition=0
-1920x1080 screen: YPosition=20
+1920x1080 screen: YPosition=0
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
 Apply Sidebar Changes Directly=true
@@ -1240,7 +1240,7 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=true
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA74AAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1271,7 +1271,7 @@ Time Zone=13
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.6201057222,22.9619331116
+Center=geo:40.6199111666,22.962011333
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1290,7 +1290,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3500
+Zoom=marble:3466
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1785,9 +1785,9 @@ Version Properties Tab=versions
 Version Properties View Mode=2
 
 [MainWindow]
-InitialAlbumID=3269
+InitialAlbumID=0
 SplitterState=AAAA/wAAAAEAAAADAAABYQAABFMAAAFsAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAARtAAAAyPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABG0AAABCAQAABwAABdoAAAOmAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAARtAAAAyPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABG0AAABCAQAABwAABc8AAAOmAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [Metadata Settings]
 Album Date Source=1
