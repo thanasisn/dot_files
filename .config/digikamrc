@@ -111,6 +111,7 @@ BqmBottomSplitter=AAAA/wAAAAEAAAACAAAAnQAAAJ0B/////wEAAAABAA==
 BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACMAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAdwAAAHEB/////wEAAAACAA==
 HDMI-1=HDMI-1
+RestorePositionForNextInstance=false
 
 [Camera Settings]
 DefaultTargetAlbumId=0
@@ -909,7 +910,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJXV1c=
+Database Encrypted Password=AwJ6eno=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1232,6 +1233,7 @@ FullScreen Hide ThumbBar=true
 FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 Icon Theme=oxygen
+RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
@@ -1269,12 +1271,12 @@ Time Zone=13
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.6265629726,22.9475610002
+Center=geo:40.6201057222,22.9619331116
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
 GoogleMaps Show Scale Control=true
-Marble Map Theme=earth/srtm/srtm.dgml
+Marble Map Theme=earth/openstreetmap/openstreetmap.dgml
 Marble Projection=spherical
 Marble Show Compass=false
 Marble Show Navigation=false
@@ -1288,7 +1290,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:900
+Zoom=marble:3500
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1404,6 +1406,7 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
+RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1620,6 +1623,7 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABbAAAAD0AAAFsAf////8AAAAAAQE=
 Navigate By Pair=false
+RestorePositionForNextInstance=false
 Show Thumbbar=true
 
 [LightTable Settings][Left Sidebar]
