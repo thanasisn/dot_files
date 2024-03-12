@@ -15,7 +15,7 @@ colo zellner                        " set colorscheme
 set scrolloff=10                    " Vertical center cursor
 set number                          " add line numbers
 set relativenumber                  " number relative to cursor
-set hlsearch                        " highlight search matches       
+set hlsearch                        " highlight search matches
 set incsearch                       " Incremental search
 set undodir=~/.vim/undo_dir         " undo storage path
 set undofile                        " store undo of all edits
@@ -139,6 +139,9 @@ call vundle#begin()
   " Color for current line
   Plugin 'miyakogi/conoline.vim'
 
+  " a color scheme
+  Plugin 'romainl/Apprentice'
+
   " Plugin 'ycm-core/YouCompleteMe'
 
   """ fixes
@@ -250,6 +253,8 @@ endfunction
 "" vim diff options
 if &diff
     set diffopt=filler,context:1000000  "" filler is default and inserts empty lines for sync
+    colorscheme apprentice
+    let g:conoline_auto_enable = 0
 endif
 
 " Fill R comments with "-" up to 80
