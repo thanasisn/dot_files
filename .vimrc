@@ -267,9 +267,13 @@ autocmd FileType r,R,sh,py nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
 "" We always wan't spelling in some files
 augroup markdownSpell
     autocmd!
-    autocmd BufRead,BufNewFile *.md,*.Rmd,*.qmd setlocal spell spelllang=en_us,el
-    autocmd FileType latex,tex,md,markdown setlocal spell spelllang=en_us,el
+    autocmd BufRead,BufNewFile *.md,*.Rmd,*.qmd setlocal spell spelllang=en_us,el textwidth=85 formatoptions+=t colorcolumn=85
+    autocmd FileType      latex,tex,md,markdown setlocal spell spelllang=en_us,el
 augroup END
+
+"" autowrap for writing
+
+
 
 "" Colorizer options
 let g:colorizer_auto_color = 1
