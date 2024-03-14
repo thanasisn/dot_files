@@ -310,7 +310,7 @@ let g:ale_r_lintr_linters = "linters_with_defaults(line_length_linter(999))"
 
 
 "" vimwiki
-let g:vimwiki_list = [{'path': '~/vimwiki/',
+let g:vimwiki_list = [{'path': '~/NOTES/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': 'md'}]
 " his option will treat all markdown files in your system as part of vimwiki
 
