@@ -37,6 +37,9 @@ set cursorline                      " highlight current line
 filetype plugin indent on           " auto-indenting depending on file type
 set t_Co=256                        " set terminal colors
 
+filetype plugin on
+syntax on
+
 "" https://vim.fandom.com/wiki/Highlight_unwanted_spaces
 "" highlight trailing whitespace in red
 "" have this highlighting not appear whilst you are typing in insert mode
@@ -67,8 +70,7 @@ noremap <Left>  <Nop>
 noremap <Right> <Nop>
 
 
-
-filetype  off                  "  required
+"" filetype  off                  "  required
 "" highlight CursorLine cterm=NONE ctermbg=Blue ctermfg=white
 
 
@@ -85,7 +87,7 @@ call vundle#begin()
   Plugin 'junegunn/vim-peekaboo'
   "" Showing key bindings, configure it
   Plugin 'liuchengxu/vim-which-key'
-  filetype plugin on
+  
   Plugin 'rhysd/vim-grammarous'
   "" Automatically causes vim to reload files which have been written on disk but not modified in the buffer since the last write from vim
   Plugin 'djoshea/vim-autoread'
@@ -143,6 +145,10 @@ call vundle#begin()
   Plugin 'romainl/Apprentice'
 
   " Plugin 'ycm-core/YouCompleteMe'
+
+  Plugin 'vimwiki/vimwiki'
+
+
 
   """ fixes
   if !has('nvim')
@@ -300,6 +306,16 @@ let g:ale_enable_r_lintr_checker = 1
 let g:ale_r_checkers = ['lintr']
 let g:ale_r_lintr_linters = "linters_with_defaults(line_length_linter(999))"
 "let g:ale_r_lintr_options = "linters_with_defaults(line_length_linter(120))"
+
+
+
+"" vimwiki
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': 'md'}]
+" his option will treat all markdown files in your system as part of vimwiki
+
+" restrict Vimwiki's operation to only those paths listed in g:vimwiki_list
+let g:vimwiki_global_ext = 0
 
 
 
