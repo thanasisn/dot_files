@@ -307,6 +307,9 @@ let g:ale_r_checkers = ['lintr']
 let g:ale_r_lintr_linters = "linters_with_defaults(line_length_linter(999))"
 "let g:ale_r_lintr_options = "linters_with_defaults(line_length_linter(120))"
 
+"" NerdTree
+" show lines cound
+let g:NERDTreeFileLines = 1
 
 
 "" vimwiki
