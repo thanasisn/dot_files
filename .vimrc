@@ -317,6 +317,21 @@ let g:vimwiki_list = [{'path': '~/NOTES/',
 " restrict Vimwiki's operation to only those paths listed in g:vimwiki_list
 let g:vimwiki_global_ext = 0
 
+" task tools
+function! VimwikiFindIncompleteTasks()
+  lvimgrep /- \[ \]/ %:p
+  lopen
+endfunction
+
+function! VimwikiFindAllIncompleteTasks()
+  VimwikiSearch /- \[ \]/
+  lopen
+endfunction
+
+nmap <Leader>wa :call VimwikiFindAllIncompleteTasks()<CR>
+nmap <Leader>wx :call VimwikiFindIncompleteTasks()<CR>
+
+
 
 
 
