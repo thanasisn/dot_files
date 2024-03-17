@@ -148,6 +148,11 @@ call vundle#begin()
 
   Plugin 'vimwiki/vimwiki'
 
+  " " markdown folding
+  " Plugin 'shushcat/vim-minimd'
+
+  "
+  Plugin 'vim-voom/VOoM'
 
 
   """ fixes
@@ -334,8 +339,9 @@ endfunction
 nmap <Leader>wa :call VimwikiFindAllIncompleteTasks()<CR>
 nmap <Leader>wx :call VimwikiFindIncompleteTasks()<CR>
 
-
-
+" "" vim-minimd
+" nmap z :<C-u>MiniMDToggleFold<CR>
+" let g:default_markdown_syntax = 1
 
 
 
