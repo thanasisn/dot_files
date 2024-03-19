@@ -268,7 +268,8 @@ endfunction
 let g:langtool_jar = '~/PROGRAMS/LanguageTool-6.3/languagetool-commandline.jar'
 
 "" LanguageTool
-let g:languagetool_jar='/home/athan/PROGRAMS/LanguageTool-6.3/languagetool-commandline.jar'
+" let g:languagetool_jar='/home/athan/PROGRAMS/LanguageTool-6.3/languagetool-commandline.jar'
+let g:languagetool_jar='/home/athan/PROGRAMS/LanguageTool-5.9/languagetool-commandline.jar'
 
 
 "" vim diff options
