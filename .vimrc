@@ -89,6 +89,9 @@ call vundle#begin()
   Plugin 'liuchengxu/vim-which-key'
   
   Plugin 'rhysd/vim-grammarous'
+  Plugin 'Konfekt/vim-langtool'
+  Plugin 'dpelle/vim-LanguageTool'
+
   "" Automatically causes vim to reload files which have been written on disk but not modified in the buffer since the last write from vim
   Plugin 'djoshea/vim-autoread'
   "" diff two separate blocks of text with :Linediff
@@ -260,6 +263,13 @@ endfunction
 
 
 """ SPECIAL OPTIONS
+
+"" vim-langtool
+let g:langtool_jar = '~/PROGRAMS/LanguageTool-6.3/languagetool-commandline.jar'
+
+"" LanguageTool
+let g:languagetool_jar='/home/athan/PROGRAMS/LanguageTool-6.3/languagetool-commandline.jar'
+
 
 "" vim diff options
 if &diff
