@@ -89,7 +89,6 @@ call vundle#begin()
   Plugin 'liuchengxu/vim-which-key'
   
   Plugin 'rhysd/vim-grammarous'
-  Plugin 'Konfekt/vim-langtool'
   Plugin 'dpelle/vim-LanguageTool'
 
   "" Automatically causes vim to reload files which have been written on disk but not modified in the buffer since the last write from vim
@@ -264,13 +263,13 @@ endfunction
 
 """ SPECIAL OPTIONS
 
-"" vim-langtool
-let g:langtool_jar = '~/PROGRAMS/LanguageTool-6.3/languagetool-commandline.jar'
-
 "" LanguageTool
-" let g:languagetool_jar='/home/athan/PROGRAMS/LanguageTool-6.3/languagetool-commandline.jar'
-let g:languagetool_jar='/home/athan/PROGRAMS/LanguageTool-5.9/languagetool-commandline.jar'
+" let g:languagetool_jar='/home/athan/.vim/bundle/LanguageTool-5.9/languagetool-commandline.jar'
+let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-5.9/languagetool-commandline.jar'
 
+"" Grammarous
+let g:grammarous#jar_url = 'https://www.languagetool.org/download/LanguageTool-5.9.zip'
+" let g:grammarous#languagetool_cmd='java -jar ~/.vim/bundle/LanguageTool-5.9/languagetool-commandline.jar'
 
 "" vim diff options
 if &diff
