@@ -191,14 +191,14 @@ mod4 + {o,ο}
 ## Current date 
 # mod4 + {r,ρ}; {d,δ}
 #     xdotool type $(date +'%Y-%m-%d %H:%M')
-    
-    
+
+
 # toggle polybar
 mod4 + shift + {g,γ}
-    polybar-msg cmd toggle 
+    polybar-msg cmd toggle
 
 # Kill x
-mod4 + {x,χ}    
+mod4 + {x,χ}
     xkill
 
 
