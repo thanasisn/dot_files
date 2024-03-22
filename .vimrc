@@ -202,7 +202,7 @@ colorscheme lunaperche
 
 " set voom for Rmd
 let voom_ft_modes = {'markdown': 'pandoc', 'rmd': 'pandoc'}
-au BufRead,BufNewFile *.Rmd command! Toc Voom
+au BufRead,BufNewFile *.md,*.Rmd,*.qmd command! Toc Voom
 
 
 
@@ -362,6 +362,10 @@ map  <F2> :NERDTreeToggle<CR>
 
 " F3: Toggle Tagbar
 nmap <F3> :TagbarToggle<CR>
+
+
+" F4: Toc for markdowns
+map <F4> :Toc<CR>
 
 " F5: run current script
 nnoremap <F5> :w<CR>:!%:p<CR>
