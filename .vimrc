@@ -202,7 +202,8 @@ colorscheme lunaperche
 
 " set voom for Rmd
 let voom_ft_modes = {'markdown': 'pandoc', 'rmd': 'pandoc'}
-au BufRead,BufNewFile *.md,*.Rmd,*.qmd command! Toc Voom
+" au BufRead,BufNewFile *.md,*.Rmd,*.qmd command! Toc Voom
+au BufRead,BufNewFile *.Rmd,*.qmd command! Toc Voom
 
 
 
@@ -285,6 +286,7 @@ autocmd FileType r,R,sh,py nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
 " "" close vim if the only window left open is a NERDTree 
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+"" autowrap for writing
 "" We always wan't spelling in some files
 augroup markdownSpell
     autocmd!
@@ -292,7 +294,6 @@ augroup markdownSpell
     autocmd FileType      latex,tex,md,markdown setlocal spell spelllang=en_us,el
 augroup END
 
-"" autowrap for writing
 
 
 
@@ -365,7 +366,7 @@ nmap <F3> :TagbarToggle<CR>
 
 
 " F4: Toc for markdowns
-map <F4> :Toc<CR>
+map <F4> :Voom<CR>
 
 " F5: run current script
 nnoremap <F5> :w<CR>:!%:p<CR>
