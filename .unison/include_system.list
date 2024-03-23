@@ -80,3 +80,4 @@ path = .vnc/passwd
 path = .xmonad
 path = .xsession
 path = .zshrc
+path = LOGs/SYSTEM_LOGS
