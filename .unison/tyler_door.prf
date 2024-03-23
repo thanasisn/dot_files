@@ -6,5 +6,5 @@ root = ssh://kali@10.12.12.10:22//home/kali
 
 sshargs = -C -i /home/athan/.ssh/door
 
-include door_common.cnf
+include common_door.cnf 
 
