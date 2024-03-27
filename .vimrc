@@ -152,6 +152,8 @@ call vundle#begin()
 
   " " markdown folding
   " Plugin 'shushcat/vim-minimd'
+  " " Undo tree to test
+  Plugin 'mbbill/undotree'
 
   "
   Plugin 'vim-voom/VOoM'
@@ -372,6 +374,9 @@ map <F4> :Voom<CR>
 nnoremap <F5> :w<CR>:!%:p<CR>
 " F5: run current script
 inoremap <F5> <Esc>:w<CR>:!%:p<CR>
+
+" F6: undo tree
+nnoremap <F6> :UndotreeToggle<CR>
 
 " F9: Build C++ 
 autocmd FileType cpp map <F9> :w <CR> :!g++ -std=c++11 -Wall -o "%<" "%" && \time -f "Time: %E  CPU: %P  MEM: %MKb  STA: %I\n" "./%<"<CR>
