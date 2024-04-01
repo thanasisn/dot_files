@@ -71,7 +71,7 @@ alias stow='stow -v '
 # alias vim='nvim'
 
 #alias rmlint="rmlint -c sh:cmd='trash-put "$1"'"
-alias aptupdate='sudo apt update; sudo apt -y upgrade; sudo apt -y autoclean; sudo apt -y autoremove'
+alias aptupdate='sudo apt update; sudo apt -y upgrade; sudo apt -y autoclean; sudo apt -y autoremove; sudo apt clean'
 
 
 ## mount and unmount remote disks
