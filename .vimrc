@@ -292,7 +292,7 @@ autocmd FileType r,R,sh,py nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
 "" We always wan't spelling in some files
 augroup markdownSpell
     autocmd!
-    autocmd BufRead,BufNewFile *.md,*.Rmd,*.qmd setlocal spell spelllang=en_us,el textwidth=85 formatoptions+=t colorcolumn=85
+    autocmd BufRead,BufNewFile *.md,*.Rmd,*.qmd setlocal spell spelllang=en_us,el textwidth=85 formatoptions+=t colorcolumn=86
     autocmd FileType      latex,tex,md,markdown setlocal spell spelllang=en_us,el
 augroup END
 
@@ -366,20 +366,19 @@ map  <F2> :NERDTreeToggle<CR>
 " F3: Toggle Tagbar
 nmap <F3> :TagbarToggle<CR>
 
-
 " F4: Toc for markdowns
 map <F4> :Voom<CR>
 
-" F5: run current script
-nnoremap <F5> :w<CR>:!%:p<CR>
-" F5: run current script
-inoremap <F5> <Esc>:w<CR>:!%:p<CR>
+" " F5: run current script
+" nnoremap <F5> :w<CR>:!%:p<CR>
+" " F5: run current script
+" inoremap <F5> <Esc>:w<CR>:!%:p<CR>
 
 " F6: undo tree
 nnoremap <F6> :UndotreeToggle<CR>
 
-" F9: Build C++ 
-autocmd FileType cpp map <F9> :w <CR> :!g++ -std=c++11 -Wall -o "%<" "%" && \time -f "Time: %E  CPU: %P  MEM: %MKb  STA: %I\n" "./%<"<CR>
+" " F9: Build C++
+" autocmd FileType cpp map <F9> :w <CR> :!g++ -std=c++11 -Wall -o "%<" "%" && \time -f "Time: %E  CPU: %P  MEM: %MKb  STA: %I\n" "./%<"<CR>
 
 " '\d': Refresh diff highlight 
 nnoremap <silent> <leader>d :diffupdate<CR>
@@ -391,7 +390,7 @@ nnoremap <silent> <space> :<c-u>WhichKey '  '<CR>
 " ': shows keys in general
 nnoremap <silent> ' :<c-u>WhichKey ''<CR>
 
-" ctrl+f, ctrl+6: change language both with
+" ctrl+f, ctrl+6: change language with both
 inoremap <c-f> <c-^>
 
 " Navigate windows with CTRL + hjkl
