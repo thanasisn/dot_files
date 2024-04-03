@@ -158,6 +158,9 @@ call vundle#begin()
   "
   Plugin 'vim-voom/VOoM'
 
+  "
+  Plugin 'junegunn/fzf.vim'
+  Plugin 'junegunn/fzf'
 
   """ fixes
   if !has('nvim')
