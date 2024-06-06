@@ -30,7 +30,7 @@ export LC_NUMERIC="C.utf8"
 export LC_ALL="C.utf8"
 
 
-mkdir -p "$ZEITGEIST_DATABASE_PATH"
+# mkdir -p "$ZEITGEIST_DATABASE_PATH"
 
 
 ## for  Could not initialize GLX on nix
