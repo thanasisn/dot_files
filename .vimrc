@@ -103,8 +103,8 @@ call vundle#begin()
   Plugin 'preservim/tagbar'
   "" multiple cursors
   Plugin 'mg979/vim-visual-multi'
-  "" diff dirs
-  Plugin 'will133/vim-dirdiff'
+  "; "" diff dirs
+  "; Plugin 'will133/vim-dirdiff'
   "" diff dirs better??
   Plugin 'ZSaberLv0/ZFVimDirDiff'
   Plugin 'ZSaberLv0/ZFVimJob' " required
