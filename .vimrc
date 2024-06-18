@@ -157,7 +157,6 @@ call vundle#begin()
 
   Plugin 'vimwiki/vimwiki'
 
-  Plugin 'tpope/vim-markdown'
 
   " " markdown folding
   " Plugin 'shushcat/vim-minimd'
@@ -309,6 +308,8 @@ augroup markdownSpell
 augroup END
 
 
+"" Folding markdown
+let g:markdown_folding = 1
 
 
 "" Colorizer options
