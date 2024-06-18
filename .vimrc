@@ -157,6 +157,8 @@ call vundle#begin()
 
   Plugin 'vimwiki/vimwiki'
 
+  Plugin 'tpope/vim-markdown'
+
   " " markdown folding
   " Plugin 'shushcat/vim-minimd'
   " " Undo tree to test
