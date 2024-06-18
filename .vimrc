@@ -70,6 +70,13 @@ noremap <Left>  <Nop>
 noremap <Right> <Nop>
 
 
+"" gvim option
+" set guioptions-=m  "menu bar
+set guioptions-=T  "hide toolbar
+set guioptions-=r  "hide scrollbar
+
+
+
 "" filetype  off                  "  required
 "" highlight CursorLine cterm=NONE ctermbg=Blue ctermfg=white
 
