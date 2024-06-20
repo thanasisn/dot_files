@@ -116,7 +116,7 @@ call vundle#begin()
   Plugin 'ZSaberLv0/ZFVimDirDiff'
   Plugin 'ZSaberLv0/ZFVimJob' " required
   Plugin 'ZSaberLv0/ZFVimIgnore' " optional, but recommended for auto ignore setup
-  Plugin 'ZSaberLv0/ZFVimBackup' " optional, but recommended for auto backup
+  " Plugin 'ZSaberLv0/ZFVimBackup' " optional, but recommended for auto backup
   "" Pretty
   Plugin 'vim-airline/vim-airline'
   "" Toggle comments
@@ -276,6 +276,7 @@ endfunction
 
 
 """ SPECIAL OPTIONS
+
 
 "" LanguageTool
 " let g:languagetool_jar='/home/athan/.vim/bundle/LanguageTool-5.9/languagetool-commandline.jar'
