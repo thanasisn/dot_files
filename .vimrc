@@ -137,14 +137,14 @@ call vundle#begin()
   "" Plugin 'quarto-dev/quarto-vim'
   Plugin 'quarto-dev/quarto-nvim'
   "" async lint engine
-  Plugin 'w0rp/ale'
+  " Plugin 'w0rp/ale'
   Plugin 'neovim/nvim-lspconfig'
   " For R completion
   Plugin 'ncm2/ncm2'
   Plugin 'roxma/nvim-yarp'
   Plugin 'gaalcaras/ncm-R'
   " Invoke autocomplete with tab ?
-  Plugin 'ervandew/supertab'
+  " Plugin 'ervandew/supertab'
   " More autocomplete options?
   " Plugin 'girishji/vimcomplete'
   " Color for current line
