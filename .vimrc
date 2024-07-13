@@ -146,7 +146,7 @@ call vundle#begin()
   " Invoke autocomplete with tab ?
   Plugin 'ervandew/supertab'
   " More autocomplete options?
-  Plugin 'girishji/vimcomplete'
+  " Plugin 'girishji/vimcomplete'
   " Color for current line
   Plugin 'miyakogi/conoline.vim'
 
