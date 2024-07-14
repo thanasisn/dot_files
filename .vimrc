@@ -94,7 +94,7 @@ call vundle#begin()
   Plugin 'junegunn/vim-peekaboo'
   "" Showing key bindings, configure it
   Plugin 'liuchengxu/vim-which-key'
-  
+
   Plugin 'rhysd/vim-grammarous'
   Plugin 'dpelle/vim-LanguageTool'
 
@@ -127,7 +127,7 @@ call vundle#begin()
   Plugin 'jpalardy/vim-slime'
   "" Julia support
   Plugin 'JuliaEditorSupport/julia-vim'
-  "" R IDE 
+  "" R IDE
   Plugin 'jalvesaq/Nvim-R'
   "" code completion source for code embedded in other documents
   Plugin 'jmbuhr/otter.nvim'
@@ -137,23 +137,23 @@ call vundle#begin()
   "" Plugin 'quarto-dev/quarto-vim'
   Plugin 'quarto-dev/quarto-nvim'
   "" async lint engine
-  " Plugin 'w0rp/ale'
+  Plugin 'w0rp/ale'
   Plugin 'neovim/nvim-lspconfig'
   " For R completion
   Plugin 'ncm2/ncm2'
   Plugin 'roxma/nvim-yarp'
   Plugin 'gaalcaras/ncm-R'
   " Invoke autocomplete with tab ?
-  " Plugin 'ervandew/supertab'
+  Plugin 'ervandew/supertab'
   " More autocomplete options?
-  " Plugin 'girishji/vimcomplete'
+  Plugin 'girishji/vimcomplete'
   " Color for current line
   Plugin 'miyakogi/conoline.vim'
 
   " a color scheme
   Plugin 'romainl/Apprentice'
 
-  " Plugin 'ycm-core/YouCompleteMe'
+  Plugin 'ycm-core/YouCompleteMe'
 
   Plugin 'vimwiki/vimwiki'
 
