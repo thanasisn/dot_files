@@ -153,7 +153,7 @@ call vundle#begin()
   " a color scheme
   Plugin 'romainl/Apprentice'
 
-  Plugin 'ycm-core/YouCompleteMe'
+  " Plugin 'ycm-core/YouCompleteMe'
 
   Plugin 'vimwiki/vimwiki'
 
