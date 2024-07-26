@@ -54,22 +54,23 @@ alias goldencheetah=' devour.sh $HOME/PROGRAMS/GoldenCheetah_v3.6_x64.AppImage'
 alias vnc_connect.sh='devour.sh vnc_connect.sh'
 
 
-## call some command with args
+## call some commands with args
 
 alias borgmatic='borgmatic --config ~/.config/borgmatic'
 # alias cal='cal -A 4 -B 4'
-alias iftop='LANG=C iftop'
-alias make='make -f *[Mm]akefile'
-alias mount='mount | column -t'
+alias iftop='       LANG=C iftop'
+# alias make='  make -f *[Mm]akefile'
+alias mount='       mount | column -t'
 alias music='       ssh -tt blue ./BASH/cmus.sh'
 alias music_lyvi='  ssh -tt blue ./BASH/cmus_lyvi_nr.sh'
 alias music_remote='ssh -tt blue ./BASH/cmus_remote.sh'
-alias ports='netstat -tulanp'
-alias rsynci='rsync --info=progress2,name0 '
+alias ports='       netstat -tulanp'
+alias rsynci='      rsync --info=progress2,name0 '
 # alias tasks='gtasks tasks -l Pending '
-alias xargsln='tr '\n' '\0' | xargs -0 '
-alias stow='stow -v '
+alias xargsln='     tr '\n' '\0' | xargs -0 '
+alias stow='        stow -v '
 # alias vim='nvim'
+alias gcalcli='     gcalcli --calendar main --calendar Birthdays '
 
 #alias rmlint="rmlint -c sh:cmd='trash-put "$1"'"
 alias aptupdate='sudo apt update; sudo apt -y upgrade; sudo apt -y autoclean; sudo apt -y autoremove; sudo apt clean'
