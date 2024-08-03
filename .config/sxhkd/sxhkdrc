@@ -1,13 +1,14 @@
-
 #
-# wm independent hotkeys
+#   wm independent hotkeys
+#
+# the comment line before the entry is used for the keybinding table
 #
 
 # Show sxhkdrc keybinds
 mod4 + F1
     "$HOME/.config/sxhkd/sxhkdrc_keybinds.sh" "$HOME/.config/sxhkd/sxhkdrc"
 
-# Reload sxhkd configuration 
+# Reload sxhkd configuration
 mod4 + Escape
 	pkill -USR1 -x sxhkd; notify-send -t 3000 "sxhkd reloaded"
 
@@ -53,33 +54,31 @@ mod4 + {t,τ}
     # x-terminal-emulator -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
     # x-terminal-emulator -e $SHELL -c "/home/athan/PROGRAMS/lf;$SHELL"
 
-# Main File Manager
+# caja  1. File Manager
 mod4 + {y,υ}
     caja
 #    pcmanfm
 
-# Second File Manager
+# pcmanfm  2. File Manager
 mod4 + shift + {y,υ}
     pcmanfm
 #    thunar
 
-# Dolphin
+# dolphin  3. File Manager
 mod4 + {f,φ}
     dolphin
 
-# Caja
+# thunar  4. File Manager
 mod4 + shift + {f,φ}
     thunar
-#    caja
 
 
 # Desktop tools
 
 # Zotero
-# mod4 + {m,μ}
-#     GTK_THEME=Adwaita:light ./PROGRAMS/Zotero_linux-x86_64/zotero
 mod4 + {m,μ}
     GTK_THEME=Adwaita:dark "$HOME/.nix-profile/bin/zotero"
+#     GTK_THEME=Adwaita:light ./PROGRAMS/Zotero_linux-x86_64/zotero
 
 
 # Zathura History
@@ -120,7 +119,7 @@ mod4 + {i,ι}; {n,ν}
 #     lxterminal -t Floating -e $SHELL -c "/home/athan/CODE/system_tools/new_journal.sh;$SHELL"
 #     # urxvt -name Floating -e $SHELL -c "new_journal.sh"
 
-# Journal entry
+# obsidian
 mod4 + {i,ι}; {o,ο}
     $HOME/.nix-profile/bin/obsidian
     # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
@@ -133,14 +132,19 @@ mod4 + {i,ι}; {k,κ}
 mod4 + {i,ι}; {g,γ}
     geany
 
-# terminal calculator  
+# qalc terminal calculator
 mod4 + {c,ψ}
     lxterminal --geometry=60x20 -t Floating -e $SHELL -c "$HOME/.nix-profile/bin/qalc"
     # urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
 
-# Qalculator
+# Qalculator gui calculator
 mod4 + shift + {c,ψ}
     "$HOME/.nix-profile/bin/qalculate-gtk"
+
+# Quick note
+mod4 + {s,σ}
+    urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/CODE/system_tools/quick_note.sh; $SHELL"
+
 
 
 # R rstudio
