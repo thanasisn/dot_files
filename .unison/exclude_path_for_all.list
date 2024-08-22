@@ -29,6 +29,7 @@ ignore = Path {.rednotebook/rednotebook.log}
 ignore = Path {.thumbnails}
 ignore = Path {.viking-maps}
 ignore = Path {.xscreensaver}
+ignore = Path {DATA/Other/Activities_records.duckdb.tmp}
 ignore = Path {Pictures/.digikam}
 ignore = Path {Pictures/ns}
 ignore = Path {Pictures/other2}
