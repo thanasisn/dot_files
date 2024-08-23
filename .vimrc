@@ -33,6 +33,7 @@ set iminsert=0                      " start always with English language
 set imsearch=-1                     " not sure for language probably
 set mouse=nicr                      " Mouse scrolls
 set ignorecase                      " case insensitive matching
+set smartcase                       " case sensitive matching if a capital letters used
 set cursorline                      " highlight current line
 filetype plugin indent on           " auto-indenting depending on file type
 set t_Co=256                        " set terminal colors
