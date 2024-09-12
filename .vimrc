@@ -215,7 +215,7 @@ set background=dark
 colorscheme lunaperche
 
 " set voom for Rmd
-let voom_ft_modes = {'markdown': 'pandoc', 'rmd': 'pandoc'}
+let voom_ft_modes = {'markdown': 'pandoc', 'rmd': 'pandoc', 'qmd': 'pandoc'}
 " au BufRead,BufNewFile *.md,*.Rmd,*.qmd command! Toc Voom
 au BufRead,BufNewFile *.Rmd,*.qmd command! Toc Voom
 
