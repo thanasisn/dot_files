@@ -20,8 +20,8 @@ set incsearch                       " Incremental search
 set undodir=~/.vim/undo_dir         " undo storage path
 set undofile                        " store undo of all edits
 "" set spell spelllang=en,el           " select spell languages
-set spelllang=en_us,el              " select spell languages
-"" set spelllang=en_gb,el              " select spell languages
+"" set spelllang=en_us,el              " select spell languages
+set spelllang=en_gb,el              " select spell languages
 set showmatch                       " show matching brackets
 set iskeyword-=_                    " underscore can separate words
 syntax    on                        " highlight syntax
@@ -389,6 +389,8 @@ map <F4> :Voom<CR>
 " " F5: run current script
 " inoremap <F5> <Esc>:w<CR>:!%:p<CR>
 
+
+
 " F6: undo tree
 nnoremap <F6> :UndotreeToggle<CR>
 
@@ -405,8 +407,8 @@ nnoremap <silent> <space> :<c-u>WhichKey '  '<CR>
 " ': shows keys in general
 nnoremap <silent> ' :<c-u>WhichKey ''<CR>
 
-" ctrl+f, ctrl+6: change language with both
-inoremap <c-f> <c-^>
+" F5, ctrl+6: change language with both
+inoremap <F5> <c-^>
 
 " Navigate windows with CTRL + hjkl
 nnoremap <C-h> <C-w>h
