@@ -409,6 +409,8 @@ nnoremap <silent> ' :<c-u>WhichKey ''<CR>
 
 " F5, ctrl+6: change language with both
 inoremap <F5> <c-^>
+inoremap <C-space> <c-^>
+
 
 " Navigate windows with CTRL + hjkl
 nnoremap <C-h> <C-w>h
