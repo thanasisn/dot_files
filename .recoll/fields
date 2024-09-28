@@ -1,3 +1,4 @@
+
 [prefixes]
 
 refjournal=RFJOURNAL
@@ -69,9 +70,10 @@ refbooktitle = bibtex:booktitle
 refurl = bibtex:url
 reftype = bibtex:entrytype bibtex:type
 refkey = bibtex:bibtexkey
-refabstract = bibtex:abstract dc:Description PDF:Subject
+refabstract = bibtex:abstract
 refkeywords = bibtex:keywords
 refcomment = bibtex:comment
 refedition = bibtex:edition
 reflanguage = bibtex:language
 author = xesam:author
+

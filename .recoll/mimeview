@@ -9,6 +9,8 @@
 
 xallexcepts- = application/x-fsdirectory|parentopen inode/directory|parentopen
 xallexcepts+ = 
+
 [view]
 inode/directory|parentopen = /home/athan/BASH/TOOLS/caja_focus_file.sh  %(childurl)
 application/x-mobipocket-ebook = /home/athan/BASH/TOOLS/caja_focus_file.sh %f
+
