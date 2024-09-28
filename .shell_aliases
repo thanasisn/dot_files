@@ -88,5 +88,5 @@ alias umntgridro='fusermount -u /media/grid_ro'
 alias josm_thanasis='java -Djosm.pref=$HOME/.config/JOSM -jar $HOME/PROGRAMS/josm-tested.jar'
 alias josm_hgt2adsl='java -Djosm.pref=$HOME/.config/JOSM_hgt2dsl_gr -jar $HOME/PROGRAMS/josm-tested.jar'
 
-
+alias recoll='QT_STYLE_OVERRIDE=fusion recoll'
 
