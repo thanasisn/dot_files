@@ -1,3 +1,7 @@
+
+## profiling
+# zmodload zsh/zprof
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -298,3 +302,8 @@ autoload -Uz compinit && compinit -i
 
 # Created by `pipx` on 2024-02-13 18:39:21
 export PATH="$PATH:/home/athan/.local/bin"
+
+
+
+## profiling
+# zprof
