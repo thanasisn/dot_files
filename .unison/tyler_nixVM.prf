@@ -440,7 +440,6 @@ ignore = Path {.xsession-errors.old}
 ignore = Path {.xsession-errors}
 ignore = Path {Aerosols/RAerosols/RAerosols.Rcheck}
 ignore = Path {Aerosols/RlibRadtran/RlibRadtran.Rcheck}
-ignore = Path {CM_21_GLB/REPORTS/RUNTIME}
 ignore = Path {Desktop}
 ignore = Path {Documents/Docu}
 ignore = Path {Documents/Hardcopies Archived.9.tar.xz}
