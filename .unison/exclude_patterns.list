@@ -99,6 +99,7 @@ ignore = Regex .*/.*_cache
 # ignore = Regex .*/.*_files/figure-latex/*
 ignore = Regex .*/.Proj.user/.*
 ignore = Regex .*/.syncthing.*.tmp
+ignore = Regex .*/Trash.*
 ignore = Regex .*/\.Proj.user
 ignore = Regex .*/\.Proj.user/.*
 ignore = Regex .*/\.Trash.*
