@@ -316,7 +316,8 @@ augroup END
 
 
 "" Folding markdown
-let g:markdown_folding = 1
+" let g:markdown_folding = 1
+let g:markdown_folding = 0
 
 
 "" Colorizer options
