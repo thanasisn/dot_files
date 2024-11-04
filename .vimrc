@@ -19,6 +19,7 @@ set hlsearch                        " highlight search matches
 set incsearch                       " Incremental search
 set undodir=~/.vim/undo_dir         " undo storage path
 set undofile                        " store undo of all edits
+set spell
 "" set spell spelllang=en,el           " select spell languages
 "" set spelllang=en_us,el              " select spell languages
 set spelllang=en_gb,el              " select spell languages
@@ -40,6 +41,10 @@ set t_Co=256                        " set terminal colors
 
 filetype plugin on
 syntax on
+
+"" reload files
+set autoread
+au CursorHold * checktime
 
 "" https://vim.fandom.com/wiki/Highlight_unwanted_spaces
 "" highlight trailing whitespace in red
@@ -255,7 +260,7 @@ function! RFillLine( str )
     endif
 endfunction
 
-"" Find max line lenght
+"" Find max line length
 function MaxLine()
     let maxcol = 0
     let lnum = 1
@@ -388,7 +393,6 @@ map <F4> :Voom<CR>
 " nnoremap <F5> :w<CR>:!%:p<CR>
 " " F5: run current script
 " inoremap <F5> <Esc>:w<CR>:!%:p<CR>
-
 
 
 " F6: undo tree
