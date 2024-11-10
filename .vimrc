@@ -103,6 +103,7 @@ call vundle#begin()
 
   Plugin 'rhysd/vim-grammarous'
   Plugin 'dpelle/vim-LanguageTool'
+  Plugin 'PatrBal/vim-textidote'
 
   "" Automatically causes vim to reload files which have been written on disk but not modified in the buffer since the last write from vim
   Plugin 'djoshea/vim-autoread'
@@ -132,16 +133,14 @@ call vundle#begin()
   "" Sent text for REPL evaluation
   Plugin 'jpalardy/vim-slime'
   "" Julia support
-  Plugin 'JuliaEditorSupport/julia-vim'
+  " Plugin 'JuliaEditorSupport/julia-vim'
   "" R IDE
   Plugin 'jalvesaq/Nvim-R'
   "" code completion source for code embedded in other documents
-  Plugin 'jmbuhr/otter.nvim'
+  " Plugin 'jmbuhr/otter.nvim'
   "" misc for md and r
   Plugin 'vim-pandoc/vim-rmarkdown'
   Plugin 'vim-pandoc/vim-pandoc-syntax'
-  "" Plugin 'quarto-dev/quarto-vim'
-  Plugin 'quarto-dev/quarto-nvim'
   "" async lint engine
   Plugin 'w0rp/ale'
   Plugin 'neovim/nvim-lspconfig'
@@ -285,12 +284,12 @@ endfunction
 
 
 "" LanguageTool
-" let g:languagetool_jar='/home/athan/.vim/bundle/LanguageTool-5.9/languagetool-commandline.jar'
-let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-5.9/languagetool-commandline.jar'
+" let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-5.9/languagetool-commandline.jar'
+let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-6.5/languagetool-commandline.jar'
 
 "" Grammarous
 let g:grammarous#jar_url = 'https://www.languagetool.org/download/LanguageTool-5.9.zip'
-" let g:grammarous#languagetool_cmd='java -jar ~/.vim/bundle/LanguageTool-5.9/languagetool-commandline.jar'
+" let g:grammarous#languagetool_cmd='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-6.5/languagetool-commandline.jar'
 
 "" vim diff options
 if &diff
