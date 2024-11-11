@@ -284,12 +284,12 @@ endfunction
 
 
 "" LanguageTool
-" let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-5.9/languagetool-commandline.jar'
-let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-6.5/languagetool-commandline.jar'
+let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-5.9/languagetool-commandline.jar'
+" let g:languagetool_jar='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-6.5/languagetool-commandline.jar'
 
 "" Grammarous
-let g:grammarous#jar_url = 'https://www.languagetool.org/download/LanguageTool-5.9.zip'
-" let g:grammarous#languagetool_cmd='/home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-6.5/languagetool-commandline.jar'
+" let g:grammarous#jar_url = 'https://www.languagetool.org/download/LanguageTool-5.9.zip'
+let g:grammarous#languagetool_cmd='java -jar /home/athan/.vim/bundle/vim-grammarous/misc/LanguageTool-5.9/languagetool-commandline.jar'
 
 "" vim diff options
 if &diff
