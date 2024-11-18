@@ -13,6 +13,7 @@ Default Icon Size=150
 Default Tree Face Size=32
 Default Tree Icon Size=22
 Icon Show Aspect Ratio=false
+Icon Show Color Label=true
 Icon Show Comments=false
 Icon Show Coordinates=true
 Icon Show Date=true
@@ -21,6 +22,7 @@ Icon Show Image Format=false
 Icon Show Modification Date=false
 Icon Show Name=true
 Icon Show Overlays=true
+Icon Show Pick Label=true
 Icon Show Rating=false
 Icon Show Resolution=false
 Icon Show Size=false
@@ -34,6 +36,7 @@ Image Sorting=0
 Item Left Click Action=0
 Preview Convert To Eight Bit=true
 Preview Load Full Image Size=false
+Preview Scale Fit To Window=false
 Preview Show Icons=true
 Rating Filter Condition=0
 Recursive Albums=true
@@ -82,7 +85,7 @@ Update Type=0
 
 [AlbumFolderView Sidebar]
 CurrentIndex=0
-Expansion=0,3227,3238,3253,3260,3259,3256,3254,3252,3249,3251,3250,3248,3247,3246,3245,3244,3243,3242,3273,3272,3263,3240,3239,-3,1,3187,1014,1013,1012,1011,1010,1009,1008,1007,-4,3268,3267,3269,3266,3265
+Expansion=0,3227,3238,3252,3251,3248,3247,3246,3245,3243,3242,-3,1,3187,1014,1013,1012,1011,1010,1009,1008,1007,-4,3268,3267,3269,3266,3265
 RestoreChecked=false
 Selection=0
 SortColumn=0
@@ -108,10 +111,9 @@ Sync Digikam to Baloo=false
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=0
 BqmBottomSplitter=AAAA/wAAAAEAAAACAAAAnQAAAJ0B/////wEAAAABAA==
-BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACMAf////8BAAAAAQA=
-BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAdwAAAHEB/////wEAAAACAA==
+BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
+BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjAAAAIEB/////wEAAAACAA==
 HDMI-1=HDMI-1
-RestorePositionForNextInstance=false
 
 [Camera Settings]
 DefaultTargetAlbumId=0
@@ -135,15 +137,15 @@ EnableCM=true
 GamutCheckMaskColor=126,255,255
 LastMismatchBehavior=2049
 LastMissingProfileBehavior=2050
-LastSpecifiedAssignProfile[$e]=/usr/share/digikam/profiles/
+LastSpecifiedAssignProfile[$e]=/nix/store/g500d969jn3isrvcr8fzapq2r8as7cr9-digikam-8.3.0/share/digikam/profiles/
 LastSpecifiedInputProfile=
 LastUncalibratedBehavior=2080
 ManagedPreviews=true
 ManagedView=true
-MonitorProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
+MonitorProfileFile[$e]=/nix/store/g500d969jn3isrvcr8fzapq2r8as7cr9-digikam-8.3.0/share/digikam/profiles/srgb-d65.icm
 ProofingRenderingIntent=3
 RenderingIntent=0
-WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
+WorkProfileFile[$e]=/nix/store/g500d969jn3isrvcr8fzapq2r8as7cr9-digikam-8.3.0/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
 Recently Used Tags=2379,303,1891,117,87,11,1119,483,279,1838
@@ -910,7 +912,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwISEhI=
+Database Encrypted Password=AwIwMDA=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -919,10 +921,12 @@ Database Name Thumbnails=/home/folder/CAMERATTA/
 Database Port=-1
 Database Type=QSQLITE
 Database Username=
+Database WAL Mode=true
 Internal Database Server=false
 Internal Database Server Mysql Admin Command=
 Internal Database Server Mysql Init Command=
 Internal Database Server Mysql Server Command=
+Internal Database Server Mysql Upgrade Command=
 Internal Database Server Path=
 
 [DateFolderView Sidebar]
@@ -935,16 +939,19 @@ SortOrder=0
 [Digikam Left Sidebar]
 ActiveTab=0
 Minimized=true
-RestoreSize=213
+RestoreSize=211
 
 [Digikam Right Sidebar]
 ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
+LocationProperties Expanded=true
 Minimized=false
 PhotographProperties Expanded=true
 RestoreSize=-1
+RightsProperties Expanded=true
+TagsProperties Expanded=true
 VideoProperties Expanded=true
 
 [Digikam Right Sidebar][Captions Tags Properties Tab]
@@ -1112,7 +1119,7 @@ AlbumComboBox-Selection=
 AlbumComboBox-SortColumn=0
 AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
-Already Scanned Handling=Skip
+Already Scanned Handling=0
 Face Scan Main Task=Detect
 TagComboBox-Checked=
 TagComboBox-CurrentIndex=
@@ -1136,6 +1143,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Last maximum similarity=100
 Last minimum similarity=90
+Last reference image method=0
 Last search album tag relation=0
 Last search results restriction=0
 Lower bound for minimum similarity=40
@@ -1216,8 +1224,8 @@ CaseSensitive=0
 
 [General Settings]
 1920x1080 screen: Height=1038
-1920x1080 screen: Width=1920
-1920x1080 screen: XPosition=0
+1920x1080 screen: Width=636
+1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
@@ -1233,14 +1241,13 @@ FullScreen Hide ThumbBar=true
 FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 Icon Theme=oxygen
-RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=true
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAOmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAnwAAAOyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1406,12 +1413,11 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
-RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
 SixteenBitsImage=false
-SplitterState=AAAA/wAAAAEAAAACAAAAYQAAAYkB/////wAAAAABAQ==
+SplitterState=AAAA/wAAAAEAAAACAAAAwAAAAYkB/////wAAAAABAQ==
 TIFFCompression=false
 Unclip Color=0
 UnderExposureColor=255,255,255
@@ -1432,9 +1438,12 @@ ActiveTab=0
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
+LocationProperties Expanded=true
 Minimized=true
 PhotographProperties Expanded=true
 RestoreSize=-1
+RightsProperties Expanded=true
+TagsProperties Expanded=true
 VideoProperties Expanded=true
 
 [ImageViewer Settings][Right Sidebar][Captions Tags Properties Tab]
@@ -1621,9 +1630,8 @@ FullScreen Hide SideBars=false
 FullScreen Hide StatusBar=false
 FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
-Horizontal Splitter State=AAAA/wAAAAEAAAADAAABbAAAAD0AAAFsAf////8AAAAAAQE=
+Horizontal Splitter State=AAAA/wAAAAEAAAADAAABbAAAAFcAAAFsAf////8AAAAAAQE=
 Navigate By Pair=false
-RestorePositionForNextInstance=false
 Show Thumbbar=true
 
 [LightTable Settings][Left Sidebar]
@@ -1631,9 +1639,12 @@ ActiveTab=0
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
+LocationProperties Expanded=true
 Minimized=true
 PhotographProperties Expanded=true
-RestoreSize=33
+RestoreSize=31
+RightsProperties Expanded=true
+TagsProperties Expanded=true
 VideoProperties Expanded=true
 
 [LightTable Settings][Left Sidebar][Captions Tags Properties Tab]
@@ -1710,9 +1721,12 @@ ActiveTab=0
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
+LocationProperties Expanded=true
 Minimized=true
 PhotographProperties Expanded=true
-RestoreSize=32
+RestoreSize=30
+RightsProperties Expanded=true
+TagsProperties Expanded=true
 VideoProperties Expanded=true
 
 [LightTable Settings][Right Sidebar][Captions Tags Properties Tab]
@@ -1787,7 +1801,7 @@ Version Properties View Mode=2
 [MainWindow]
 InitialAlbumID=0
 SplitterState=AAAA/wAAAAEAAAADAAABYQAABFMAAAFsAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAARtAAAAyPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABG0AAABCAQAABwAABc8AAAOmAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAARtAAAAyPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABG0AAABXAP///wAAASAAAAOyAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [Metadata Settings]
 Album Date Source=1
@@ -1846,6 +1860,16 @@ SortOrder=0
 
 [SearchBar Search Text Tool]
 CaseSensitive=0
+
+[Select Reference]
+AlbumComboBox-Checked=
+AlbumComboBox-CurrentIndex=
+AlbumComboBox-Expansion=
+AlbumComboBox-RestoreChecked=true
+AlbumComboBox-Selection=
+AlbumComboBox-SortColumn=0
+AlbumComboBox-SortOrder=0
+UseWholeAlbumsEntry=false
 
 [Setup Dialog]
 1920x1080 screen: Height=544
@@ -1937,6 +1961,9 @@ Saving Format for Versions=JPG
 Show Intermediates in View=true
 Show Original in View=true
 
+[WebBrowserDlgSearchBar Search Text Tool]
+CaseSensitive=0
+
 [mainwindow_mapwidgetview]
 Sort Order=0
 
@@ -1968,7 +1995,7 @@ Grouping mode=2
 
 [mainwindow_tableview][Current Profile]
 Column Count=6
-Header State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02X\x00\x00\x00\x06\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
+Header State=AAAA/wAAAAAAAAABAAAAAQAAAAYBAAAAAAAAAAAAAAAAAAAAAAAAAlgAAAAGAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAGAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAABk
 Profile Name=
 
 [mainwindow_tableview][Current Profile][Column 0]
