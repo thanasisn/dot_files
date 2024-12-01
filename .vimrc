@@ -162,6 +162,8 @@ call vundle#begin()
 
   Plugin 'vimwiki/vimwiki'
 
+  "" Ranger in vim
+  Plugin 'francoiscabrol/ranger.vim'
 
   " " markdown folding
   " Plugin 'shushcat/vim-minimd'
