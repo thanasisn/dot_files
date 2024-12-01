@@ -348,15 +348,18 @@ let g:ale_r_lintr_linters = "linters_with_defaults(line_length_linter(999))"
 "let g:ale_r_lintr_options = "linters_with_defaults(line_length_linter(120))"
 
 "" NerdTree
-" show lines cound
-let g:NERDTreeFileLines = 1
+" show lines count
+let g:NERDTreeFileLines   = 1
+let g:NERDTreeHijackNetrw = 0
+
+"" Ranger
+let g:ranger_replace_netrw = 1  " open ranger when vim open a directory
 
 
 "" vimwiki
 let g:vimwiki_list = [{'path': '~/NOTES/',
                       \ 'syntax': 'markdown', 'ext': 'md'}]
-" his option will treat all markdown files in your system as part of vimwiki
-
+" this option will treat all markdown files in your system as part of vimwiki
 " restrict Vimwiki's operation to only those paths listed in g:vimwiki_list
 let g:vimwiki_global_ext = 0
 
@@ -383,7 +386,7 @@ nmap <Leader>wx :call VimwikiFindIncompleteTasks()<CR>
 """ KEYBINDS
 
 " F2: Toggle file tree
-map  <F2> :NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>
 
 " F3: Toggle Tagbar
 nmap <F3> :TagbarToggle<CR>
@@ -391,11 +394,13 @@ nmap <F3> :TagbarToggle<CR>
 " F4: Toc for markdowns
 map <F4> :Voom<CR>
 
+" F5: open ranger in vim
+nnoremap <F5> :RangerCurrentFileExistingOrNewTab<CR>
+
 " " F5: run current script
 " nnoremap <F5> :w<CR>:!%:p<CR>
 " " F5: run current script
 " inoremap <F5> <Esc>:w<CR>:!%:p<CR>
-
 
 " F6: undo tree
 nnoremap <F6> :UndotreeToggle<CR>
@@ -413,10 +418,8 @@ nnoremap <silent> <space> :<c-u>WhichKey '  '<CR>
 " ': shows keys in general
 nnoremap <silent> ' :<c-u>WhichKey ''<CR>
 
-" F5, ctrl+6: change language with both
-inoremap <F5> <c-^>
+" ctrl+6, ctrl+space : change language with both
 inoremap <C-space> <c-^>
-
 
 " Navigate windows with CTRL + hjkl
 nnoremap <C-h> <C-w>h
@@ -430,11 +433,15 @@ noremap <silent> <C-Right> :vertical resize -1<CR>
 noremap <silent> <C-Up>    :resize +1<CR>
 noremap <silent> <C-Down>  :resize -1<CR>
 
-" Scroll open tabs
+" Scroll open buffers
 nnoremap <silent> [b :bprevious<CR>
 nnoremap <silent> ]b :bnext<CR>
 nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
+
+" Scroll tabs
+nnoremap <C-Left>  :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
 
 " Change headers/comments level
 nnoremap <buffer> <silent> ]# :keeppatterns s/^/#/e<cr>
