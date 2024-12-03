@@ -23,10 +23,6 @@ alias τρανσ='  trans'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 
 ## Replace some existing commands
-alias    j='z'
-if [ -x "$(command -v pinfo )" ]; then
-    alias info='pinfo'
-fi
 # if [ -x "$(command -v zoxide)" ]; then
 #     alias   cd='z'
 # fi
@@ -49,14 +45,14 @@ alias mpv='           devour.sh mpv'
 alias meld='          devour.sh meld'
 alias zathura='       devour.sh zathura'
 alias feh='           devour.sh feh'
-alias geany='         devour.sh geany'
+# alias geany='         devour.sh geany'
 alias goldencheetah=' devour.sh $HOME/PROGRAMS/GoldenCheetah_v3.6_x64.AppImage'
 alias vnc_connect.sh='devour.sh vnc_connect.sh'
 
 
 ## call some commands with args
 
-alias borgmatic='borgmatic --config ~/.config/borgmatic'
+# alias borgmatic='borgmatic --config ~/.config/borgmatic'
 # alias cal='cal -A 4 -B 4'
 alias iftop='       LANG=C iftop'
 # alias make='  make -f *[Mm]akefile'
@@ -88,5 +84,5 @@ alias umntgridro='fusermount -u /media/grid_ro'
 alias josm_thanasis='java -Djosm.pref=$HOME/.config/JOSM -jar $HOME/PROGRAMS/josm-tested.jar'
 alias josm_hgt2adsl='java -Djosm.pref=$HOME/.config/JOSM_hgt2dsl_gr -jar $HOME/PROGRAMS/josm-tested.jar'
 
-alias recoll='QT_STYLE_OVERRIDE=fusion recoll'
+# alias recoll='QT_STYLE_OVERRIDE=fusion recoll'
 

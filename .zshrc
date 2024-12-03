@@ -269,8 +269,6 @@ zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;
 ## configure zoxide
 eval "$(~/.nix-profile/bin/zoxide init zsh)"
 
-
-
 ## ignore host file in autocomplete?
 # zstyle -e ':completion:*:hosts' hosts 'reply=(
 #   ${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) 2>/dev/null)"}%%[#| ]*}//,/ }
