@@ -88,7 +88,7 @@ shadows=false
 
 [Layout]
 output_lines=0
-left_panel_size=55
+left_panel_size=41
 top_panel_size=0
 message_visible=false
 keybar_visible=true
@@ -122,6 +122,8 @@ rxvt-unicode-256color=
 xterm-256color=
 
 alacritty=
+
+xterm=
 
 [Panels]
 show_mini_info=true
