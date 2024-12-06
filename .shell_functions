@@ -43,5 +43,13 @@ alias_if() (
   fi
 )
 
+## preserve mtime on a edited file
+vim_preserve_time () {
+    for file in "$@"; do
+        local mtime=$(stat -c %y "$file")
+        vim "$file"
+        touch -d "$mtime" "$file"
+    done
+}
 
 
