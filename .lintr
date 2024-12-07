@@ -1,11 +1,10 @@
-
 linters: linters_with_defaults(
     indentation_linter(indent = 2L),
     line_length_linter(120),
-    commented_code_linter = NULL,
-    whitespace_linter     = NULL
+    commented_code_linter    = NULL,
+    whitespace_linter        = NULL,
+    pipe_continuation_linter = NULL
   )
-
 exclusions: list(
     "renv"
   )
