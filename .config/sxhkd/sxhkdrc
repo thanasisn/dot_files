@@ -39,9 +39,9 @@ mod4 + shift + {a,α}
 
 # Midnight commander
 mod4 + shift + {t,τ}
-    lxterminal -t Floating -e $SHELL -c "ranger;$SHELL"
+    urxvt -e $SHELL -c "mc;$SHELL"
+    # lxterminal -t Floating -e $SHELL -c "ranger;$SHELL"
     # lxterminal -e $SHELL -c "mc;$SHELL"
-    # urxvt -e $SHELL -c "mc;$SHELL"
     # x-terminal-emulator -e $SHELL -c "mc;$SHELL"
     # x-terminal-emulator -e /home/athan/BASH/TOOLS/ranger_exec.sh
 
@@ -59,9 +59,10 @@ mod4 + {y,υ}
     caja
 #    pcmanfm
 
-# pcmanfm  2. File Manager
+# xfe  2. File Manager
 mod4 + shift + {y,υ}
-    pcmanfm
+     xfe
+#    pcmanfm
 #    thunar
 
 # dolphin  3. File Manager
