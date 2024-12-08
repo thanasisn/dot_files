@@ -22,3 +22,8 @@ endif
 
 
 set gfn=Fira\ Code\ 9
+
+" set guioptions-=m  "menu bar
+set guioptions-=T  "hide toolbar
+set guioptions-=r  "hide scrollbar
+

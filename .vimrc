@@ -80,8 +80,7 @@ noremap <Right> <Nop>
 " set guioptions-=m  "menu bar
 set guioptions-=T  "hide toolbar
 set guioptions-=r  "hide scrollbar
-
-
+set guifont=Monospace\ Regular\ 8
 
 "" filetype  off                  "  required
 "" highlight CursorLine cterm=NONE ctermbg=Blue ctermfg=white
