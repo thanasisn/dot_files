@@ -61,7 +61,8 @@ mod4 + {y,υ}
 
 # xfe  2. File Manager
 mod4 + shift + {y,υ}
-     xfe
+    pcmanfm
+#      setsid "$HOME/.nix-profile/xfe"
 #    pcmanfm
 #    thunar
 
