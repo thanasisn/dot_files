@@ -38,7 +38,7 @@ set smartcase                       " case sensitive matching if a capital lette
 set cursorline                      " highlight current line
 filetype plugin indent on           " auto-indenting depending on file type
 set t_Co=256                        " set terminal colors
-set conceallever=0                  " I like more verbatim display
+set conceallevel=0                  " I like more verbatim display
 
 
 filetype plugin on
