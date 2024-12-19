@@ -301,7 +301,8 @@ autoload -Uz compinit && compinit -i
 # Created by `pipx` on 2024-02-13 18:39:21
 export PATH="$PATH:/home/athan/.local/bin"
 
-
+## autoload project environment
+eval "$(direnv hook zsh)"
 
 ## profiling
 # zprof
