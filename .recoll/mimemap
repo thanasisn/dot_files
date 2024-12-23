@@ -12,5 +12,6 @@
 .rmd = text/plain
 .R = text/plain
 .r = text/plain
+.m = text/plain
 
 
