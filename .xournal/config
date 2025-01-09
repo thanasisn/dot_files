@@ -13,9 +13,9 @@ window_maximize=false
 # start in full screen mode (true/false)
 window_fullscreen=false
 # the window width in pixels (when not maximized)
-window_width=425
+window_width=1037
 # the window height in pixels
-window_height=987
+window_height=950
 # scrollbar step increment (in pixels)
 scrollbar_speed=30
 # the step increment in the zoom dialog box
@@ -49,7 +49,7 @@ autosave_enabled=true
 # delay for periodic autosaves (in seconds)
 autosave_delay=5
 # default path for open/save (leave blank for current directory)
-default_path=/home/athan/Downloads/Photos-001
+default_path=/home/athan/Formal/Διατριβή
 # use pressure sensitivity to control pen stroke width (true/false)
 pressure_sensitivity=true
 # minimum width multiplier
