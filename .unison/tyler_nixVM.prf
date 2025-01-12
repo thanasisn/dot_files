@@ -8,7 +8,6 @@ sshargs = -C -i /home/athan/.ssh/nixVM
 
 
 
-
 ### Common options for all syncs
 
 maxbackups     = 10
@@ -140,7 +139,7 @@ ignore = Regex .*\.Proj.user
 ignore = Regex .*\.cmeta$
 ignore = Regex .*\.kate-swp
 ignore = Regex .*\.lck
-ignore = Regex .*\.lock
+# ignore = Regex .*\.lock
 ignore = Regex .*\.swp
 
 
