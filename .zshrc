@@ -1,6 +1,6 @@
 
 ## profiling
-# zmodload zsh/zprof
+zmodload zsh/zprof
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -66,8 +66,8 @@ setopt autocd extendedglob
 bindkey -v
 zstyle :compinstall filename '/home/athan/.zshrc'
 
-autoload -Uz compinit
-compinit
+# autoload -Uz compinit
+# compinit
 
 setopt histignorealldups sharehistory
 
@@ -141,7 +141,7 @@ source $ZSH/oh-my-zsh.sh
 
 ## use bash auto completion
 autoload bashcompinit
-bashcompinit
+# bashcompinit
 
 ## bind last command to F12
 bindkey -s $terminfo[kf12] '\e0\e_ '
@@ -215,8 +215,6 @@ if [ -f ~/.ssh/telegram/unikey_$(hostname) ]; then
 fi
 
 
-
-
 ## disable software flow control XOFF
 ## this usually freeze vim after ctrl+s you can continue with ctrl+q
 stty stop ""
@@ -243,24 +241,13 @@ PERL_LOCAL_LIB_ROOT="/home/athan/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_R
 PERL_MB_OPT="--install_base \"/home/athan/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/athan/perl5";       export PERL_MM_OPT;
 
-# if [[ $(hostname) == "sagan" ]]; then
-#     neofetch --size 400px --chafa "$HOME/MISC/Media/LOGO/LAP3_t_bg_full.png"
-# fi
-# 
-# if [[ $(hostname) == "tyler" ]]; then
-#     neofetch --size 300px --chafa "$HOME/MISC/Media/tyler/tyler_cs.jpg"
-# fi
-# 
-# if [[ $(hostname) == "sagan" ]]; then
-#     neofetch --size 300px --chafa "$HOME/MISC/Media/sagan/Burns-Carl-Sagan-sc.jpg"
-# fi
 
 ## visited directory stack
 ## this config may be unnecessary
 setopt AUTO_PUSHD                  # pushes the old directory onto the stack
 setopt PUSHD_MINUS                 # exchange the meanings of '+' and '-'
 setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
-autoload -U compinit && compinit   # load + start completion
+# autoload -U compinit && compinit   # load + start completion
 zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
 
 # ## configure autojump for zsh
@@ -292,7 +279,10 @@ fi
 eval "$(pyenv virtualenv-init -)"
 
 ## completions for nb
-fpath=(~/.zsh/completion $fpath)
+# fpath=(~/.zsh/completion $fpath)
+# autoload -Uz compinit && compinit -i
+
+## load autocompletions
 autoload -Uz compinit && compinit -i
 
 ## set settings
@@ -305,4 +295,4 @@ export PATH="$PATH:/home/athan/.local/bin"
 eval "$(direnv hook zsh)"
 
 ## profiling
-# zprof
+zprof
