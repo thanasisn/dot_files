@@ -1,6 +1,6 @@
 
 ## profiling
-zmodload zsh/zprof
+# zmodload zsh/zprof
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -264,7 +264,8 @@ eval "$(~/.nix-profile/bin/zoxide init zsh)"
 zstyle ':completion:*' hosts off
 
 
-if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then 
+  . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 
 ## enable atuin
@@ -295,4 +296,4 @@ export PATH="$PATH:/home/athan/.local/bin"
 eval "$(direnv hook zsh)"
 
 ## profiling
-zprof
+# zprof
