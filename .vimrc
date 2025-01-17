@@ -226,6 +226,16 @@ let voom_ft_modes = {'markdown': 'pandoc', 'rmd': 'pandoc', 'qmd': 'pandoc'}
 " au BufRead,BufNewFile *.md,*.Rmd,*.qmd command! Toc Voom
 au BufRead,BufNewFile *.Rmd,*.qmd command! Toc Voom
 
+"" Save and restore sessions
+let g:session_dir = '~/.config/vim-sessions'
+set wildmenu
+set wildmode=full
+" \ss: save session
+exec 'nnoremap <Leader>ss :mks! ' . g:session_dir . '/*.vim<C-D><BS><BS><BS><BS><BS>'
+" \so: open session
+exec 'nnoremap <Leader>so :so ' . g:session_dir . '/*.vim<C-D><BS><BS><BS><BS><BS>'
+
+
 
 
 """ FUNCTIONS
