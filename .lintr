@@ -3,7 +3,10 @@ linters: linters_with_defaults(
     line_length_linter(120),
     commented_code_linter    = NULL,
     whitespace_linter        = NULL,
-    pipe_continuation_linter = NULL
+    line_length_linter       = NULL,
+    pipe_continuation_linter = NULL,
+    object_name_linter       = NULL,
+    commented_code_linter    = NULL
   )
 exclusions: list(
     "renv"
