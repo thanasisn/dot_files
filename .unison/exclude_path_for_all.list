@@ -48,3 +48,6 @@ ignore = Path {unison.log}
 backupnot = Name *.duckdb
 backupnot = Path *.duckdb
 backupnot = Path **/*.duckdb
+backupnot = Name *.gpkg
+backupnot = Path *.gpkg
+backupnot = Path **/*.gpkg
