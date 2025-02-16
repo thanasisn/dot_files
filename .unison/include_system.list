@@ -18,6 +18,7 @@ path = .config/gnucash
 path = .config/gtk-2.0
 path = .config/gtk-3.0
 path = .config/htop
+path = .config/yazi
 path = .config/i3
 path = .config/i3status
 path = .config/jabref
