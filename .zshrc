@@ -28,7 +28,7 @@ export FZF_DEFAULT_OPTS=" --preview 'batcat --color=always --style=plain,header 
 ## default theme
 ZSH_THEME="tjkirch"
 
-## dissable clear screan with ctrl+l conflict with vim
+## disable clear screen with ctrl+l conflict with vim
 bindkey -r "^L"
 
 ## color terminal emulators
@@ -294,6 +294,18 @@ export PATH="$PATH:/home/athan/.local/bin"
 
 ## autoload project environment
 eval "$(direnv hook zsh)"
+
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	/usr/bin/rm -f -- "$tmp"
+}
+
+
 
 ## profiling
 # zprof

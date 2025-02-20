@@ -1,3 +1,6 @@
+
+-- Yazi 0.3.3 (Nixpkgs 2024-09-04)
+
 function Linemode:mtimev2()
     local current_year = os.date("%Y") -- Get the current year as a string
     local time = math.floor(self._file.cha.modified or 0)
