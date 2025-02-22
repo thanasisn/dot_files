@@ -217,5 +217,5 @@ URxvt.keysym.C-S-Down: perl:font-size:decglobal
 !! Ctrl+Right	Move tab to the right
 !! Ctrl+d	Close tab
 
-
-
+Xcursor.theme: Adwaita
+Xcursor.size: 16
