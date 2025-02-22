@@ -1,6 +1,7 @@
 ##  Include by path reference of basic system configuration files
 path = .Renviron
 path = .Rprofile
+path = .lintr
 path = .Xresources
 path = .bashrc
 path = .bcrc
@@ -19,7 +20,7 @@ path = .config/gtk-2.0
 path = .config/gtk-3.0
 path = .config/htop
 path = .config/yazi
-path = .config/i3
+path = .config/i2
 path = .config/i3status
 path = .config/jabref
 path = .config/katerc
