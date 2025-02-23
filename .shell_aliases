@@ -42,7 +42,7 @@ alias rm='trash'
 ## hide terminal when gui
 alias gthumb='        devour.sh gthumb'
 alias mpv='           devour.sh mpv'
-alias meld='          devour.sh meld'
+# alias meld='          devour.sh meld'
 alias zathura='       devour.sh zathura'
 alias feh='           devour.sh feh'
 # alias geany='         devour.sh geany'
