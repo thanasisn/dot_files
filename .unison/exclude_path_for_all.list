@@ -44,6 +44,7 @@ ignore = Path {ZHOST}
 ignore = Path {gdalwmscache}
 ignore = Path {nohup.out}
 ignore = Path {unison.log}
+ignore = Path {.config/systemd/user/timers.target.wants}
 
 
 backupnot = Name *.duckdb
