@@ -8,7 +8,7 @@ function dirdiff()
     vim $@ -c "DirDiff $DIR1 $DIR2"
 }
 
-## fd - cd to selected directory
+## gd - cd to selected directory
 fd() {
     local dir
     dir=$(find ${1:-.} -path '*/\.*' -prune \
