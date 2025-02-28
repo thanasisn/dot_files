@@ -2,7 +2,8 @@
 # Sync secondary crane with sagan server
 #
 root = /home/athan
-root = ssh://athan@155.207.9.214:22//home/athan
+#root = ssh://athan@155.207.9.214:22//home/athan
+root = ssh://athan@100.101.191.106:22//home/athan
 
 sshargs = -C -i /home/athan/.ssh/sagan
 
