@@ -357,6 +357,8 @@ let g:ale_enable_r_lintr_checker = 1
 let g:ale_r_checkers = ['lintr']
 let g:ale_r_lintr_linters = "linters_with_defaults(line_length_linter(999))"
 "let g:ale_r_lintr_options = "linters_with_defaults(line_length_linter(120))"
+let b:ale_linters = ['pylint']
+let g:ale_python_pylint_options = '--rcfile '.expand('~/.pylintrc')
 
 "" NerdTree
 " show lines count
