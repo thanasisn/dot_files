@@ -3,6 +3,7 @@ path = .Renviron
 path = .Rprofile
 path = .Xresources
 path = .bashrc
+path = .condarc
 path = .bcrc
 path = .cdsapirc
 path = .config/Code/User
