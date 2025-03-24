@@ -295,6 +295,8 @@ export PATH="$PATH:/home/athan/.local/bin"
 ## autoload project environment
 eval "$(direnv hook zsh)"
 
+## function to enable OREO env
+. "$HOME/OREO/development/start_oreo.sh"
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
