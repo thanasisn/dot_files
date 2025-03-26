@@ -23,7 +23,7 @@ export MANPAGER='bat -pl man'
 
 ## fzf options
 # map r push :rename<space>
-export FZF_DEFAULT_OPTS=" --preview 'batcat --color=always --style=plain,header  --line-range=:50 {}' "
+export FZF_DEFAULT_OPTS=" --preview 'bat --color=always --style=plain,header --line-range=:50 {}' "
 
 ## default theme
 ZSH_THEME="tjkirch"
