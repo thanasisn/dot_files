@@ -27,8 +27,9 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 #     alias   cd='z'
 # fi
 
-alias info='pinfo'
-alias   cd='z'
+type zoxide >/dev/null 2>&1 && alias   cd='z'
+type pinfo  >/dev/null 2>&1 && alias info='pinfo'
+
 
 # ## set aliases if program exists
 # alias_if  lf  lf-ueberzug  >/dev/null
@@ -36,8 +37,7 @@ alias   cd='z'
 
 
 alias lf='~/.config/lf/lf-ueberzug/lf-ueberzug'
-alias rm='trash'
-
+type trash >/dev/null 2>&1 && alias rm='trash'
 
 ## hide terminal when gui
 alias gthumb='        devour.sh gthumb'
@@ -45,17 +45,15 @@ alias mpv='           devour.sh mpv'
 # alias meld='          devour.sh meld'
 alias zathura='       devour.sh zathura'
 alias feh='           devour.sh feh'
-# alias geany='         devour.sh geany'
 alias goldencheetah=' devour.sh $HOME/PROGRAMS/GoldenCheetah_v3.6_x64.AppImage'
 alias vnc_connect.sh='devour.sh vnc_connect.sh'
 
 
 ## call some commands with args
 
-# alias borgmatic='borgmatic --config ~/.config/borgmatic'
 # alias cal='cal -A 4 -B 4'
 alias iftop='       LANG=C iftop'
-alias make='  make -f *[Mm]akefile'
+alias make='        make -f *[Mm]akefile'
 alias mount='       mount | column -t'
 alias music='       ssh -tt blue ./BASH/cmus.sh'
 alias music_lyvi='  ssh -tt blue ./BASH/cmus_lyvi_nr.sh'
@@ -66,7 +64,7 @@ alias rsynci='      rsync --info=progress2,name0 '
 alias xargsln='     tr '\n' '\0' | xargs -0 '
 alias stow='        stow -v '
 # alias vim='nvim'
-alias gcalcli='     gcalcli --calendar main --calendar Birthdays '
+# alias gcalcli='     gcalcli --calendar main --calendar Birthdays '
 
 #alias rmlint="rmlint -c sh:cmd='trash-put "$1"'"
 alias aptupdate='sudo apt update; sudo apt -y upgrade; sudo apt -y autoclean; sudo apt -y autoremove; sudo apt clean'
