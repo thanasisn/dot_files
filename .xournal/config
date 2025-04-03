@@ -13,9 +13,9 @@ window_maximize=false
 # start in full screen mode (true/false)
 window_fullscreen=false
 # the window width in pixels (when not maximized)
-window_width=1037
+window_width=958
 # the window height in pixels
-window_height=950
+window_height=1038
 # scrollbar step increment (in pixels)
 scrollbar_speed=30
 # the step increment in the zoom dialog box
@@ -134,11 +134,11 @@ highlighter_ruler=false
 # default highlighter is in shape recognizer mode (true/false)
 highlighter_recognizer=false
 # button 2 tool (pen, eraser, highlighter, text, selectregion, selectrect, vertspace, hand, image)
-btn2_tool=eraser
+btn2_tool=pen
 # button 2 brush linked to primary brush (true/false) (overrides all other settings)
 btn2_linked=true
 # button 2 brush color (for pen or highlighter only)
-btn2_color=white
+btn2_color=black
 # button 2 brush thickness (pen, eraser, or highlighter only)
 btn2_thickness=2
 # button 2 ruler mode (true/false) (for pen or highlighter only)
