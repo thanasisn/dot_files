@@ -254,7 +254,9 @@ zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;
 # . ~/.nix-profile/share/autojump/autojump.zsh
 
 ## configure zoxide
-eval "$(~/.nix-profile/bin/zoxide init zsh)"
+# eval "$(~/.nix-profile/bin/zoxide init zsh)"
+type zoxide >/dev/null 2>&1 && eval "$($(which zoxide) init zsh)"
+
 
 ## ignore host file in autocomplete?
 # zstyle -e ':completion:*:hosts' hosts 'reply=(
