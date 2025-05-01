@@ -50,7 +50,6 @@ path = .config/user-dirs.locale
 path = .config/vim-sessions
 path = .config/yazi
 path = .config/zathura
-path = .config/zeitgeist
 path = .config/zim
 path = .dot_files
 path = .ecmwfapirc

@@ -97,7 +97,6 @@ path = .kde/share/apps/ktouch
 path = .local/share/keyrings
 path = .local/share/qalculate
 path = .local/share/rstudio/monitored/lists
-path = .local/share/zeitgeist
 path = .recently-used
 path = .rednotebook
 path = .spyder2

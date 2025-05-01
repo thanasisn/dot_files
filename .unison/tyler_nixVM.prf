@@ -6,8 +6,6 @@ root = ssh://athan@192.168.1.105:22//home/athan
 
 sshargs = -C -i /home/athan/.ssh/nixVM
 
-
-
 ### Common options for all syncs
 
 maxbackups     = 10
