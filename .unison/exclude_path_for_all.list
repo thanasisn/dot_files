@@ -44,7 +44,16 @@ ignore = Path {ZHOST}
 ignore = Path {gdalwmscache}
 ignore = Path {nohup.out}
 ignore = Path {unison.log}
+ignore = Path {.config/Recoll.org/needidxretrydate}
+ignore = Path {.config/Recoll.org/tneedidxretrydate}
+ignore = Path {.config/borg/security}
 ignore = Path {.config/systemd/user/timers.target.wants}
+ignore = Path {.recoll/idxstatus.txt}
+ignore = Path {.recoll/index.pid}
+ignore = Path {.recoll/indexing.log}
+ignore = Path {.recoll/list_of_dirs.list}
+ignore = Path {.recoll/list_of_files.list}
+ignore = Path {.recoll/missing}
 
 
 backupnot = Name *.duckdb

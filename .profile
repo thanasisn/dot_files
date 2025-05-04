@@ -10,37 +10,35 @@
 
 ## use GTK thme for qt5 applications
 ## needs qt5-style-plugins
-export QT_QPA_PLATFORMTHEME=gtk2
+# test this
+# export QT_QPA_PLATFORMTHEME=gtk2
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
-    # include .bashrc if it exists
-    if [ -f "$HOME/.bashrc" ]; then
-	. "$HOME/.bashrc"
-    fi
-fi
-
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
+  # include .bashrc if it exists
+  if [ -f "$HOME/.bashrc" ]; then
+	  . "$HOME/.bashrc"
+  fi
 fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
+  PATH="$HOME/.local/bin:$PATH"
 fi
 
 ## add desktop application path for nix
-export XDG_DATA_DIRS=$HOME/.nix-profile/share/aplications:"${XDG_DATA_DIRS:-/usr/local/share/:/usr/share/}"
-
-if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then
+  . /home/athan/.nix-profile/etc/profile.d/nix.sh;
+  export XDG_DATA_DIRS=$HOME/.nix-profile/share/aplications:"${XDG_DATA_DIRS:-/usr/local/share/:/usr/share/}"
+fi # added by Nix installer
 
 
 ## add python pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"  
-
+if [ -d "$HOME/.pyenv" ] ; then
+  export PYENV_ROOT="$HOME/.pyenv"
+  [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+  eval "$(pyenv init -)"  
+fi
 
 ## set settings last
 "$HOME/CODE/session/session_settings.sh"  > /dev/null 2>&1
