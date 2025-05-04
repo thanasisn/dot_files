@@ -6,6 +6,7 @@ path = .bashrc
 path = .condarc
 path = .bcrc
 path = .cdsapirc
+path = .gitconfig
 path = .config/Code/User
 path = .config/Thunar
 path = .config/bspwm
