@@ -1,5 +1,6 @@
 ###  Exclude patterns  ####
 ignore = Name **/renv/*
+ignore = Name **/result      ## links to nix builds
 ignore = Name *.Rcheck
 ignore = Name *.Rcheck/*
 ignore = Name *.Rhistory
@@ -81,6 +82,7 @@ ignore = Path */.stversion*
 ignore = Path */.stversions
 ignore = Path */.stversions*
 ignore = Path */nohup.out
+ignore = Path */result      ## links to nix builds
 ignore = Path *Proj.user
 ignore = Path *Rproj.user*
 ignore = Path *Rproj.user/*
@@ -104,6 +106,7 @@ ignore = Regex .*/\.Proj.user
 ignore = Regex .*/\.Proj.user/.*
 ignore = Regex .*/\.Trash.*
 ignore = Regex .*/nohup.out
+ignore = Regex .*/result      ## links to nix builds
 ignore = Regex .*Proj.user
 ignore = Regex .*Proj.user/.*
 ignore = Regex .*\.Proj.user
