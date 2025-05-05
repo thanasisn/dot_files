@@ -187,11 +187,12 @@ mod4 + {p,π}
 mod4 + shift + {p,π}
     firefox-esr
 
-# Rofi lancher
+# Rofi luncher
 mod4 + {o,ο}
-    ([[ $HOST == "tyler" ]] && rofi -show combi) || \
-    ([[ $HOST == "sagan" ]] && rofi -show combi) || \
-    rofi -config /home/athan/.config/rofi/config -show combi 
+    rofi -combi-modi window,drun,ssh -theme solarized -font "hack 10" -show combi -icon-theme "Papirus" -show-icons
+    # ([[ $HOST == "tyler" ]] && rofi -show combi) || \
+    # ([[ $HOST == "sagan" ]] && rofi -show combi) || \
+    # rofi -config /home/athan/.config/rofi/config -show combi 
 
 
 # Text insert
