@@ -114,7 +114,7 @@ mod4 + {u,θ}; {p,π}
 
 # Regular Applications
 
-# New journal enty
+# New journal entry
 mod4 + {i,ι}; {j,ξ}
     lxterminal -t Floating --geometry=105x24 -e $SHELL -c "/home/athan/CODE/system_tools/new_journal.sh;$SHELL"
 
