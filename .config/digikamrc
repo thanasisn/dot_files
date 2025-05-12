@@ -117,6 +117,7 @@ BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjgAAAIgB/////wEAAAACAA==
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
+RestorePositionForNextInstance=false
 
 [Calendar Dialog]
 2560x1440 screen: Height=750
@@ -919,7 +920,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwLS0tI=
+Database Encrypted Password=AwKYmJg=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1250,8 +1251,8 @@ CaseSensitive=0
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=1411
-2560x1440 screen: XPosition=1149
+2560x1440 screen: Width=1505
+2560x1440 screen: XPosition=1055
 2560x1440 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
@@ -1269,13 +1270,14 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=breeze-dark
+RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAABYMAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABeEAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1446,6 +1448,7 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
+RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1668,6 +1671,7 @@ HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABlwAAAFcAAAGXAf////8AAAAAAQE=
 Navigate By Pair=false
+RestorePositionForNextInstance=false
 Show Thumbbar=true
 
 [LightTable Settings][Left Sidebar]
