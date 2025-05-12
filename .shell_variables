@@ -3,8 +3,9 @@
 #### Variables for all shells
 
 # ~/.shell_variables: source by default shell
-# source do not run
+# source do not run !!
 
+export GEH_PATH="/media/scratch/GEH"
 
 export XZ_OPT="-9"
 export ZEITGEIST_DATABASE_PATH="$HOME/.config/zeitgeist/$(hostname)/"
@@ -12,13 +13,13 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export VISUAL=vim
 export EDITOR=vim
-# export METEOBLUE_API="88295037d574"
 export METEOBLUE_API="R6m9gVqJDQbMtcfu"
 R_LIBS_USER="$(Rscript -e 'cat(path.expand(paste0("~/.R/", R.version$platform, "-library/", R.version$major, ".", R.version$minor)))')"
 export R_LIBS_USER=$R_LIBS_USER
 
+
 ### Check names with `locale -a`
-## overide locale numeric
+## override locale numeric
 export LC_NUMERIC="C"
 ## for a iso date format in some programs
 # export LC_TIME="en_DK.UTF-8"
@@ -51,7 +52,7 @@ export MPLAYER_HOME="$XDG_CONFIG_HOME"/mplayer
 export PARALLEL_HOME="$XDG_CONFIG_HOME"/parallel
 export PYLINTHOME="$XDG_CACHE_HOME"/pylint
 
-# This in not corect
+# This in not correct
 # RENV_PATHS_CACHE="$(Rscript -e 'cat(path.expand(paste0("~/.R/", R.version$platform, "-library/", R.version$major, ".", R.version$minor)))')"
 # export RENV_PATHS_CACHE=$RENV_PATHS_CACHE
 
