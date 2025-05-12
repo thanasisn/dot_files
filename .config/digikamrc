@@ -1,3 +1,6 @@
+[AdvancedRename Dialog]
+Dialog Size=450,450
+
 [AdvancedRename Input]
 Pattern History List=\\0
 
@@ -84,10 +87,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3791
-Expansion=0,1,1007,1008,1009,1010,1011,1012,1013,1014,3696,3699,3795,3794,3243,3187,3227,3763,3764,3769,3790,3770,3771,3772,3774,3776,3777,3238,3343,3242,3245,3246,3247,3248,3791,3251,3252,-3
+CurrentIndex=3188
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,3338,3243,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,3763,3764,3769,3790,3770,3771,3772,3774,3776,3777,3238,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-3
 RestoreChecked=false
-Selection=3791
+Selection=3188
 SortColumn=0
 SortOrder=0
 
@@ -144,7 +147,7 @@ EnableCM=true
 GamutCheckMaskColor=126,255,255
 LastMismatchBehavior=2049
 LastMissingProfileBehavior=2050
-LastSpecifiedAssignProfile[$e]=/usr/share/digikam/profiles/
+LastSpecifiedAssignProfile=
 LastSpecifiedInputProfile=
 LastUncalibratedBehavior=2080
 ManagedPreviews=true
@@ -155,7 +158,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=1710,87,11,430,201,138,26,2327,1892,545
+Recently Used Tags=231,252,265,235,263,145,29,9,2852,1710
 
 [DMetadata Settings]
 readingAllTags=false
@@ -919,7 +922,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwLS0tI=
+Database Encrypted Password=AwL9/f0=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -949,7 +952,7 @@ Minimized=false
 RestoreSize=-1
 
 [Digikam Right Sidebar]
-ActiveTab=0
+ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
@@ -966,10 +969,10 @@ Contact Expanded=true
 ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
-ItemDescEditTab TagCheckViewCurrentIndex=201
-ItemDescEditTab TagCheckViewExpansion=0,137,545,500,501,2719,2720,2721,2722,6,87,28
+ItemDescEditTab TagCheckViewCurrentIndex=306
+ItemDescEditTab TagCheckViewExpansion=0,137,545,500,501,2719,2720,2721,2722,8,6,235,28
 ItemDescEditTab TagCheckViewRestoreChecked=false
-ItemDescEditTab TagCheckViewSelection=201
+ItemDescEditTab TagCheckViewSelection=306
 ItemDescEditTab TagCheckViewSortColumn=0
 ItemDescEditTab TagCheckViewSortOrder=0
 ItemDescEditTab TagCheckViewToggle Auto Tags=0
@@ -991,7 +994,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.657913964,22.931996778
+Center=geo:40.294246635,23.115470382
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1141,7 +1144,7 @@ UseWholeTagsEntry=false
 
 [FileCopy Export Dialog]
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=849
+2560x1440 screen: Width=851
 
 [FileCopyExport]
 albumPath=true
@@ -1157,7 +1160,7 @@ targetUrl=file:///home/athan/ZHOST/natasha_share/to_move
 [Find Duplicates View]
 AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=
-AlbumComboBox-Expansion=1,3227
+AlbumComboBox-Expansion=
 AlbumComboBox-RestoreChecked=true
 AlbumComboBox-Selection=
 AlbumComboBox-SortColumn=0
@@ -1176,13 +1179,13 @@ TagComboBox-RestoreChecked=true
 TagComboBox-Selection=
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
-UseWholeAlbumsEntry=true
+UseWholeAlbumsEntry=false
 UseWholeTagsEntry=false
 
 [Fuzzy Search Sidebar]
 CurrentIndex=702
 Expansion=
-FuzzySearch Tab=0
+FuzzySearch Tab=1
 Pen Sketch Hue=0
 Pen Sketch Saturation=0
 Pen Sketch Size=10
@@ -1250,8 +1253,8 @@ CaseSensitive=0
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=1411
-2560x1440 screen: XPosition=1149
+2560x1440 screen: Width=2006
+2560x1440 screen: XPosition=554
 2560x1440 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
@@ -1275,13 +1278,16 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAABYMAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB9YAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
 Use Native File Dialog=true
 Use Trash=true
 Version=7.9.0
+
+[General Settings][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
 
 [Geolocation Edit Settings]
 1920x1080 screen: Height=875
@@ -1308,7 +1314,7 @@ Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.6612679794,22.9187177395
+Center=geo:40.4727524497,20.9621011589
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1327,7 +1333,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:2773
+Zoom=marble:3466
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1365,7 +1371,7 @@ Keep old results=false
 Search backend=osm
 
 [Geolocation Edit Settings][Tree View]
-Header State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\x00\x0e\x00\x00\x00\x03\x00\x00\x00\x0b\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x06\x8f\x00\x00\x00\r\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x033\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
+Header State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\x00\x0e\x00\x00\x00\x03\x00\x00\x00\x0b\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x06\x8f\x00\x00\x00\r\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x033\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
 Image List Thumbnail Size=60
 
 [Grouping Behaviour]
@@ -1835,9 +1841,9 @@ Version Properties Tab=versions
 Version Properties View Mode=2
 
 [MainWindow]
-InitialAlbumID=536871658
-SplitterState=AAAA/wAAAAEAAAADAAABYAAAAkgAAAGXAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAJIAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAkgAAABcAQAABwAAAkgAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
+InitialAlbumID=3188
+SplitterState=AAAA/wAAAAEAAAADAAACIwAAA/oAAAF1Af////8AAAAAAQE=
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAASCAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABIIAAABcAQAABwAAA/oAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
@@ -1928,7 +1934,7 @@ HelpBoxNotifSeen=true
 
 [People Sidebar]
 CurrentIndex=5
-Expansion=30,5,31,432,161,91
+Expansion=4,30,5,31,432,161,91
 RestoreChecked=false
 Selection=5
 SortColumn=0
@@ -1963,7 +1969,7 @@ UseWholeAlbumsEntry=false
 1920x1080 screen: Width=1327
 2560x1440 screen: Height=911
 2560x1440 screen: Width=1300
-Setup Page=12
+Setup Page=4
 Template Tab=0
 
 [Sketch Search View]
