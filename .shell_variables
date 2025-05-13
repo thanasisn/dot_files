@@ -5,7 +5,10 @@
 # ~/.shell_variables: source by default shell
 # source do not run !!
 
-export GEH_PATH="/media/scratch/GEH"
+export GEH_DATA_PATH="/media/scratch/GEH"
+export GEH_MOUNTPOINT="/media/scratch"
+export GEH_SCRIPT_PATH="$HOME/BASH/SCRAP_NET/GEH"
+
 
 export XZ_OPT="-9"
 export ZEITGEIST_DATABASE_PATH="$HOME/.config/zeitgeist/$(hostname)/"
