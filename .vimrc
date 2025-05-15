@@ -364,6 +364,7 @@ let g:ale_python_pylint_options = '--rcfile '.expand('~/.pylintrc')
 " show lines count
 let g:NERDTreeFileLines   = 1
 let g:NERDTreeHijackNetrw = 0
+let g:NERDTreeMirror      = 0
 
 "" Ranger
 let g:ranger_replace_netrw = 1  " open ranger when vim open a directory
