@@ -31,6 +31,15 @@ ZSH_THEME="tjkirch"
 ## disable clear screen with ctrl+l conflict with vim
 bindkey -r "^L"
 
+
+
+#000403
+#0c000f
+#000010
+#
+#100003
+#00030a
+#0b010a
 ## color terminal emulators
 if [ "$(hostname)" = "tyler" ]; then
     ZSH_THEME="tjkirch"
@@ -60,6 +69,12 @@ if [ "$(hostname)" = "crane" ]; then
 #    printf '\033]11;#0f0f0f\007'
 fi
 
+if [ "$(hostname)" = "mumra" ]; then
+    # ZSH_THEME="ys"
+    ZSH_THEME="tjkirch"
+    printf '\033]11;#080100\007'
+fi
+
 HISTSIZE=9999
 SAVEHIST=9999
 setopt autocd extendedglob
@@ -77,6 +92,8 @@ setopt HIST_REDUCE_BLANKS
 # If a new command line being added to the history list duplicates an older one, the older
 # command is removed from the list (even if it is not the previous event).
 setopt HIST_IGNORE_ALL_DUPS
+
+setopt SHARE_HISTORY
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
