@@ -25,55 +25,41 @@ export MANPAGER='bat -pl man'
 # map r push :rename<space>
 export FZF_DEFAULT_OPTS=" --preview 'bat --color=always --style=plain,header --line-range=:50 {}' "
 
-## default theme
-ZSH_THEME="tjkirch"
 
 ## disable clear screen with ctrl+l conflict with vim
 bindkey -r "^L"
 
 
+case "$(hostname)" in
 
-#000403
-#0c000f
-#000010
-#
-#100003
-#00030a
-#0b010a
-## color terminal emulators
-if [ "$(hostname)" = "tyler" ]; then
+  crane)
     ZSH_THEME="tjkirch"
-    # printf '\033]11;#000f00\007'
-fi
+    printf '\033]11;#101003\007'
+    ;;
 
-if [ "$(hostname)" = "kostas" ]; then
-    ZSH_THEME="tjkirch"
-#    printf '\033]11;#0f0e00\007'
-fi
+  mumra)
+    ZSH_THEME="candy"
+    printf '\033]11;#080110\007'
+    ;;
 
-if [ "$(hostname)" = "sagan" ]; then
-    # ZSH_THEME="bureau"
-    ZSH_THEME="tjkirch"
-fi
+  sagan)
+    ZSH_THEME="bureau"
+    printf '\033]11;#001012\007'
+    ;;
 
-if [ "$(hostname)" = "blue" ]; then
-    # ZSH_THEME="jtriley"
-    ZSH_THEME="tjkirch"
-#    printf '\033]11;#000117\007'
-fi
+  tyler)
+    ZSH_THEME="clean"
+    printf '\033]11;#000f00\007'
+    ;;
 
-if [ "$(hostname)" = "crane" ]; then
-    # ZSH_THEME="ys"
+  *)
+    ## default theme
     ZSH_THEME="tjkirch"
-    # ZSH_THEME="candy"
-#    printf '\033]11;#0f0f0f\007'
-fi
+    ;;
+esac
 
-if [ "$(hostname)" = "mumra" ]; then
-    # ZSH_THEME="ys"
-    ZSH_THEME="tjkirch"
-    printf '\033]11;#080100\007'
-fi
+
+
 
 HISTSIZE=9999
 SAVEHIST=9999
