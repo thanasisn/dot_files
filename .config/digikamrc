@@ -87,10 +87,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3852
-Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,1647,3852,3696,3865,3952,3867,3868,3338,3243,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3790,3770,3771,3772,3774,3776,3777,3238,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252
+CurrentIndex=-2
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,3852,3865,3952,3867,3868,3338,3243,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3763,3764,3769,3790,3770,3771,3772,3774,3776,3777,3238,3954,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
 RestoreChecked=false
-Selection=3852
+Selection=-2
 SortColumn=0
 SortOrder=0
 
@@ -158,7 +158,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=11,2853,98,87,1892,1548,467,231,252,265
+Recently Used Tags=87,201,11,2853,98,1892,1548,467,231,252
 
 [DMetadata Settings]
 readingAllTags=false
@@ -922,7 +922,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwLS0tI=
+Database Encrypted Password=AwIVFRU=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -957,9 +957,9 @@ DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
 LocationProperties Expanded=true
-Minimized=false
+Minimized=true
 PhotographProperties Expanded=true
-RestoreSize=-1
+RestoreSize=373
 RightsProperties Expanded=true
 TagsProperties Expanded=true
 VideoProperties Expanded=true
@@ -1144,7 +1144,7 @@ UseWholeTagsEntry=false
 
 [FileCopy Export Dialog]
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=1278
+2560x1440 screen: Width=761
 
 [FileCopyExport]
 albumPath=true
@@ -1158,7 +1158,7 @@ targetBehavior=0
 targetUrl=file:///home/athan/ZHOST/natasha_share/to_move
 
 [Find Duplicates View]
-AlbumComboBox-Checked=
+AlbumComboBox-Checked=3865
 AlbumComboBox-CurrentIndex=
 AlbumComboBox-Expansion=1,3227
 AlbumComboBox-RestoreChecked=true
@@ -1253,8 +1253,8 @@ CaseSensitive=0
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=766
-2560x1440 screen: XPosition=0
+2560x1440 screen: Width=1523
+2560x1440 screen: XPosition=1037
 2560x1440 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
@@ -1278,7 +1278,7 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAAAv4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABfMAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1314,7 +1314,7 @@ Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.6120926138,22.9518331384
+Center=geo:40.6048901324,22.9511119452
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1333,7 +1333,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3466
+Zoom=marble:2634
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1849,9 +1849,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAATCAAAAyPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=3852
-SplitterState=AAAA/wAAAAEAAAADAAAB0AAAAXUAAAF1Af////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAJ1AAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAnUAAABcAQAABwAAAOkAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
+InitialAlbumID=-2
+SplitterState=AAAA/wAAAAEAAAADAAABvQAAA/MAAAAAAf////8AAAAAAQE=
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAWxAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABbEAAABcAQAABwAAA/MAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
