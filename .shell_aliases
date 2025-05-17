@@ -45,7 +45,7 @@ alias mpv='           devour.sh mpv'
 # alias meld='          devour.sh meld'
 alias zathura='       devour.sh zathura'
 alias feh='           devour.sh feh'
-alias goldencheetah=' devour.sh $HOME/PROGRAMS/GoldenCheetah_v3.6_x64.AppImage'
+alias goldencheetah=' setsid $HOME/PROGRAMS/GoldenCheetah_v3.7_x64Qt6.AppImage'
 alias vnc_connect.sh='devour.sh vnc_connect.sh'
 
 
