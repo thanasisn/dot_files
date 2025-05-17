@@ -48,7 +48,7 @@ case "$(hostname)" in
     ;;
 
   tyler)
-    ZSH_THEME="clean"
+    ZSH_THEME="fox"
     printf '\033]11;#000f00\007'
     ;;
 
