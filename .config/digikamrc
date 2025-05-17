@@ -87,10 +87,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=-2
-Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,3852,3865,3952,3867,3868,3338,3243,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3763,3764,3769,3790,3770,3771,3772,3774,3776,3777,3238,3954,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
+CurrentIndex=3864
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,3852,3864,3865,3952,3867,3868,3338,3243,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3790,3770,3771,3772,3774,3776,3777,3238,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
 RestoreChecked=false
-Selection=-2
+Selection=3864
 SortColumn=0
 SortOrder=0
 
@@ -120,7 +120,6 @@ BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjgAAAIgB/////wEAAAACAA==
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
-RestorePositionForNextInstance=false
 
 [Calendar Dialog]
 2560x1440 screen: Height=750
@@ -159,7 +158,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=87,201,11,2853,98,1892,1548,467,231,252
+Recently Used Tags=1710,201,87,11,2853,98,1892,1548,467,231
 
 [DMetadata Settings]
 readingAllTags=false
@@ -923,7 +922,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJubm4=
+Database Encrypted Password=AwKAgIA=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -958,9 +957,9 @@ DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
 LocationProperties Expanded=true
-Minimized=true
+Minimized=false
 PhotographProperties Expanded=true
-RestoreSize=373
+RestoreSize=-1
 RightsProperties Expanded=true
 TagsProperties Expanded=true
 VideoProperties Expanded=true
@@ -995,7 +994,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.630027221,22.95636597
+Center=geo:40.658175036,22.931705826
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1015,7 +1014,7 @@ Show numbers on items=true
 Sticky Mode State=false
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3400
+Zoom=marble:3291
 
 [Digikam Right Sidebar][Metadata Properties Tab]
 Current EXIF Item=
@@ -1145,7 +1144,7 @@ UseWholeTagsEntry=false
 
 [FileCopy Export Dialog]
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=761
+2560x1440 screen: Width=1278
 
 [FileCopyExport]
 albumPath=true
@@ -1159,7 +1158,7 @@ targetBehavior=0
 targetUrl=file:///home/athan/ZHOST/natasha_share/to_move
 
 [Find Duplicates View]
-AlbumComboBox-Checked=3955
+AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=
 AlbumComboBox-Expansion=1,3227
 AlbumComboBox-RestoreChecked=true
@@ -1254,7 +1253,7 @@ CaseSensitive=0
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=1278
+2560x1440 screen: Width=2560
 2560x1440 screen: XPosition=0
 2560x1440 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
@@ -1273,14 +1272,13 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=breeze-dark
-RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAABP4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAACgAAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1454,7 +1452,6 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
-RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1679,7 +1676,6 @@ HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABlwAAAFcAAAGXAf////8AAAAAAQE=
 Navigate By Pair=false
-RestorePositionForNextInstance=false
 Show Thumbbar=true
 State=AAAA/wAAAAD9AAAAAAAABP4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -1853,9 +1849,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAATCAAAAyPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=-2
-SplitterState=AAAA/wAAAAEAAAADAAABvQAAA/MAAAAAAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAWxAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABbEAAABcAQAABwAAA/MAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
+InitialAlbumID=3864
+SplitterState=AAAA/wAAAAEAAAADAAACOQAABg4AAAF1Af////8AAAAAAQE=
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAYOAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABg4AAABcAQAABwAABg4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
@@ -1945,10 +1941,10 @@ CaseSensitive=0
 HelpBoxNotifSeen=true
 
 [People Sidebar]
-CurrentIndex=5
-Expansion=4,30,5,31,432,161,91
+CurrentIndex=1710
+Expansion=4,30,5,31,432,1710,161,91
 RestoreChecked=false
-Selection=5
+Selection=1710
 SortColumn=0
 SortOrder=0
 
