@@ -38,7 +38,9 @@ Image Sort Order=2
 Image Sorting=0
 Item Left Click Action=0
 Preview Convert To Eight Bit=true
-Preview Load Full Image Size=false
+Preview Load Full Image Size=true
+Preview Raw Use Embedded Preview=false
+Preview Raw Use Half Size Data=false
 Preview Scale Fit To Window=false
 Preview Show Icons=true
 Rating Filter Condition=0
@@ -87,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3864
-Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,3852,3864,3865,3952,3867,3868,3338,3243,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3790,3770,3771,3772,3774,3776,3777,3238,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
+CurrentIndex=-3
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,1647,4089,3954,3852,3864,3865,3952,3867,3868,3338,3970,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3770,3771,3772,3774,3776,3777,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
 RestoreChecked=false
-Selection=3864
+Selection=-3
 SortColumn=0
 SortOrder=0
 
@@ -147,7 +149,7 @@ EnableCM=true
 GamutCheckMaskColor=126,255,255
 LastMismatchBehavior=2049
 LastMissingProfileBehavior=2050
-LastSpecifiedAssignProfile=
+LastSpecifiedAssignProfile[$e]=/usr/share/digikam/profiles/
 LastSpecifiedInputProfile=
 LastUncalibratedBehavior=2080
 ManagedPreviews=true
@@ -158,7 +160,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=1710,201,87,11,2853,98,1892,1548,467,231
+Recently Used Tags=1566,1892,1940,125,294,115,117,87,145,230
 
 [DMetadata Settings]
 readingAllTags=false
@@ -922,7 +924,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwKAgIA=
+Database Encrypted Password=AwLt7e0=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -969,10 +971,10 @@ Contact Expanded=true
 ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
-ItemDescEditTab TagCheckViewCurrentIndex=306
-ItemDescEditTab TagCheckViewExpansion=0,137,545,467,500,501,2719,2720,2721,2722,6,87
+ItemDescEditTab TagCheckViewCurrentIndex=115
+ItemDescEditTab TagCheckViewExpansion=0,137,125,1940,500,501,2719,2720,2721,2722,8,115,6,87,28
 ItemDescEditTab TagCheckViewRestoreChecked=false
-ItemDescEditTab TagCheckViewSelection=306
+ItemDescEditTab TagCheckViewSelection=115
 ItemDescEditTab TagCheckViewSortColumn=0
 ItemDescEditTab TagCheckViewSortOrder=0
 ItemDescEditTab TagCheckViewToggle Auto Tags=0
@@ -994,7 +996,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.658175036,22.931705826
+Center=geo:40.62004785,22.962060558
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1014,7 +1016,7 @@ Show numbers on items=true
 Sticky Mode State=false
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3291
+Zoom=marble:3400
 
 [Digikam Right Sidebar][Metadata Properties Tab]
 Current EXIF Item=
@@ -1025,7 +1027,7 @@ Current XMP Item=
 EXIF Level=0
 EXIFTOOL Level=0
 IPTC Level=0
-ImagePropertiesMetaData Tab=3
+ImagePropertiesMetaData Tab=0
 MAKERNOTE Level=0
 XMP Level=0
 
@@ -1160,7 +1162,7 @@ targetUrl=file:///home/athan/ZHOST/natasha_share/to_move
 [Find Duplicates View]
 AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=
-AlbumComboBox-Expansion=1,3227
+AlbumComboBox-Expansion=
 AlbumComboBox-RestoreChecked=true
 AlbumComboBox-Selection=
 AlbumComboBox-SortColumn=0
@@ -1179,7 +1181,7 @@ TagComboBox-RestoreChecked=true
 TagComboBox-Selection=
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
-UseWholeAlbumsEntry=true
+UseWholeAlbumsEntry=false
 UseWholeTagsEntry=false
 
 [Fuzzy Search Sidebar]
@@ -1260,7 +1262,7 @@ Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
 Apply Sidebar Changes Directly=true
 Clean core DB At Start=false
-Detect faces in newly added images=false
+Detect faces in newly added images=true
 Draw Frames To Grouped Items=true
 Expand New Current Item On Click=true
 Face Scanner First Run=true
@@ -1314,7 +1316,7 @@ Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.6581215249,22.9318318663
+Center=geo:40.6198155082,22.9624000919
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1849,7 +1851,7 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAATCAAAAyPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=3864
+InitialAlbumID=-3
 SplitterState=AAAA/wAAAAEAAAADAAACOQAABg4AAAF1Af////8AAAAAAQE=
 ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAYOAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABg4AAABcAQAABwAABg4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
 
@@ -1864,23 +1866,23 @@ AlbumComboBox-Selection=
 AlbumComboBox-SortColumn=0
 AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
-CleanupDatabase=false
+CleanupDatabase=true
 CleanupFacesDatabase=false
 CleanupSimilarityDatabase=false
 CleanupThumbDatabase=false
 DbCleanup Expanded=true
 Duplicates=false
 Duplicates Expanded=false
-FaceManagement=true
+FaceManagement=false
 FaceManagement Expanded=true
 FaceScannedHandling=0
 FingerPrints=false
 Fingerprints Expanded=false
-ImageQualitySorter=true
+ImageQualitySorter=false
 ImageQualitySorter Expanded=true
 MetadataSync=false
 MetadataSync Expanded=true
-NewItems=true
+NewItems=false
 NewItems Expanded=false
 Options Expanded=true
 QualityScanMode=1
@@ -1898,7 +1900,7 @@ TagComboBox-SortOrder=0
 Thumbnails=false
 Thumbnails Expanded=true
 UseMutiCoreCPU=false
-UseWholeAlbumsEntry=true
+UseWholeAlbumsEntry=false
 UseWholeTagsEntry=false
 duplicatesRestriction=0
 maxSimilarity=100
@@ -1977,7 +1979,7 @@ UseWholeAlbumsEntry=false
 1920x1080 screen: Width=1327
 2560x1440 screen: Height=911
 2560x1440 screen: Width=1300
-Setup Page=2
+Setup Page=12
 Template Tab=0
 
 [Sketch Search View]
