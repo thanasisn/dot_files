@@ -89,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=-3
-Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,1647,4089,3954,3852,3864,3865,3952,3867,3868,3338,3970,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3770,3771,3772,3774,3776,3777,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
+CurrentIndex=3777
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,4089,3954,3852,3864,3865,3952,3867,3868,3338,3970,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3770,3771,3772,3774,3776,3777,3778,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
 RestoreChecked=false
-Selection=-3
+Selection=3777
 SortColumn=0
 SortOrder=0
 
@@ -122,7 +122,6 @@ BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjgAAAIgB/////wEAAAACAA==
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
-RestorePositionForNextInstance=false
 
 [Calendar Dialog]
 2560x1440 screen: Height=750
@@ -161,7 +160,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=1566,1892,1940,125,294,115,117,87,145,230
+Recently Used Tags=1892,1561,546,467,1566,1940,125,294,115,117
 
 [DMetadata Settings]
 readingAllTags=false
@@ -925,7 +924,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwLIyMg=
+Database Encrypted Password=AwKbm5s=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -973,7 +972,7 @@ ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
 ItemDescEditTab TagCheckViewCurrentIndex=115
-ItemDescEditTab TagCheckViewExpansion=0,137,125,1940,500,501,2719,2720,2721,2722,8,115,6,87,28
+ItemDescEditTab TagCheckViewExpansion=0,125,1940,467,500,501,2719,2720,2721,2722,6,87,28
 ItemDescEditTab TagCheckViewRestoreChecked=false
 ItemDescEditTab TagCheckViewSelection=115
 ItemDescEditTab TagCheckViewSortColumn=0
@@ -997,7 +996,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.62004785,22.962060558
+Center=geo:40.633544097,22.956133302
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1275,7 +1274,6 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=breeze-dark
-RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
@@ -1456,7 +1454,6 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
-RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1681,7 +1678,6 @@ HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABlwAAAFcAAAGXAf////8AAAAAAQE=
 Navigate By Pair=false
-RestorePositionForNextInstance=false
 Show Thumbbar=true
 State=AAAA/wAAAAD9AAAAAAAABP4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -1855,7 +1851,7 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAATCAAAAyPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=-3
+InitialAlbumID=3777
 SplitterState=AAAA/wAAAAEAAAADAAACOQAABg4AAAF1Af////8AAAAAAQE=
 ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAYOAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABg4AAABcAQAABwAABg4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
 
