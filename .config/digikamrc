@@ -89,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3764
-Expansion=0,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,4096,4092,4089,3954,3852,3853,3861,4094,3864,3865,3952,3867,3868,4091,3338,3970,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3763,3764,3769,3770,3771,3772,3774,3776,3777,3778,3779,3282,3270,3234,3235,3238,4095,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
+CurrentIndex=3219
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,4096,4092,4089,3954,3852,3853,3861,4094,3864,3865,3952,3867,3868,4091,3338,3970,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3770,3771,3772,3774,3776,3777,3778,3779,3282,3270,3234,3235,3238,4095,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
 RestoreChecked=false
-Selection=3764
+Selection=3219
 SortColumn=0
 SortOrder=0
 
@@ -160,7 +160,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=50,55,2832,87,2855,2291,340,514,508,1710
+Recently Used Tags=291,2433,11,1558,1795,430,268,239,271,147
 
 [DMetadata Settings]
 readingAllTags=false
@@ -924,7 +924,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJHR0c=
+Database Encrypted Password=AwIjIyM=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -971,10 +971,10 @@ Contact Expanded=true
 ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
-ItemDescEditTab TagCheckViewCurrentIndex=496
-ItemDescEditTab TagCheckViewExpansion=0,1940,500,501,2719,2720,2721,2722,115,6,87,28
+ItemDescEditTab TagCheckViewCurrentIndex=323
+ItemDescEditTab TagCheckViewExpansion=0,1940,500,501,2719,2720,2721,2722,4,115,6,87,28
 ItemDescEditTab TagCheckViewRestoreChecked=false
-ItemDescEditTab TagCheckViewSelection=
+ItemDescEditTab TagCheckViewSelection=323
 ItemDescEditTab TagCheckViewSortColumn=0
 ItemDescEditTab TagCheckViewSortOrder=0
 ItemDescEditTab TagCheckViewToggle Auto Tags=0
@@ -1851,9 +1851,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAATCAAAAyPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=3764
-SplitterState=AAAA/wAAAAEAAAADAAACOQAABW0AAAIWAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAVtAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABW0AAABcAQAABwAABW0AAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
+InitialAlbumID=3219
+SplitterState=AAAA/wAAAAEAAAADAAABGgAABJIAAAIWAf////8AAAAAAQE=
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAaMAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABowAAABcAQAABwAABowAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
@@ -1943,10 +1943,10 @@ CaseSensitive=0
 HelpBoxNotifSeen=true
 
 [People Sidebar]
-CurrentIndex=5
-Expansion=4,30,5,31,432,1710,161,91
+CurrentIndex=323
+Expansion=4,291,323
 RestoreChecked=false
-Selection=5
+Selection=323
 SortColumn=0
 SortOrder=0
 
@@ -1954,10 +1954,10 @@ SortOrder=0
 CaseSensitive=0
 
 [Search Sidebar]
-CurrentIndex=
+CurrentIndex=1
 Expansion=1
 RestoreChecked=false
-Selection=
+Selection=1
 SortColumn=0
 SortOrder=0
 
