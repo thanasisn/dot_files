@@ -122,6 +122,7 @@ BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjgAAAIgB/////wEAAAACAA==
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
+RestorePositionForNextInstance=false
 
 [Calendar Dialog]
 2560x1440 screen: Height=750
@@ -924,7 +925,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwIjIyM=
+Database Encrypted Password=AwIODg4=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1255,7 +1256,7 @@ CaseSensitive=0
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=2560
+2560x1440 screen: Width=1840
 2560x1440 screen: XPosition=0
 2560x1440 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
@@ -1274,13 +1275,14 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=breeze-dark
+RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAACgAAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABzAAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1316,7 +1318,7 @@ Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.3743438609,22.9771976386
+Center=geo:40.6335193442,22.9569698752
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1335,7 +1337,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3327
+Zoom=marble:3500
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1454,6 +1456,7 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
+RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1678,6 +1681,7 @@ HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABlwAAAFcAAAGXAf////8AAAAAAQE=
 Navigate By Pair=false
+RestorePositionForNextInstance=false
 Show Thumbbar=true
 State=AAAA/wAAAAD9AAAAAAAABP4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -2019,13 +2023,15 @@ TagsSource=false
 [Time Adjust Dialog]
 1920x1080 screen: Height=750
 1920x1080 screen: Width=900
+2560x1440 screen: Height=500
+2560x1440 screen: Width=900
 
 [Time Adjust Settings]
 Adjustment Days=0
 Adjustment Time=2000,1,1,0,0,0
 Adjustment Type=0
-Custom Date=2000,1,1,0,0,0
-Custom Time=2000,1,1,0,0,0
+Custom Date=2024,12,20,0,0,0
+Custom Time=2000,1,1,12,0,0
 File Timestamp Type=0
 Meta Timestamp Type=0
 Update EXIF Digitization Time=true
@@ -2037,7 +2043,7 @@ Update IPTC Time=true
 Update Only If Available Time=true
 Update XMP Creation Time=true
 Update XMP Video Time=true
-Use Timestamp Type=0
+Use Timestamp Type=4
 
 [TimeLine Sidebar]
 CurrentIndex=
