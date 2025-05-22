@@ -89,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3219
-Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,4096,4092,4089,3954,3852,3853,3861,4094,3864,3865,3952,3867,3868,4091,3338,3970,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3770,3771,3772,3774,3776,3777,3778,3779,3282,3270,3234,3235,3238,4095,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
+CurrentIndex=3861
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,1647,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3696,3861,4094,3864,3865,3952,3867,3868,4091,3338,3970,4103,3744,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,3770,3771,3772,3774,3776,3777,3778,3779,3282,3270,3234,3235,3238,4095,3343,3241,3242,3245,3246,3247,3248,3791,3251,3252,-2
 RestoreChecked=false
-Selection=3219
+Selection=3861
 SortColumn=0
 SortOrder=0
 
@@ -108,6 +108,20 @@ AlbumTreeViewSortColumn=0
 AlbumTreeViewSortOrder=0
 CaseSensitive=0
 
+[All Metadata Edit Settings]
+All EXIF Edit Page=0
+All IPTC Edit Page=0
+All Sync EXIF Artists=true
+All Sync EXIF Comment=true
+All Sync EXIF Copyright=true
+All Sync EXIF Date=true
+All Sync IPTC Caption=true
+All Sync IPTC Date=true
+All Sync JFIF Comment=true
+All Sync XMP Caption=true
+All Sync XMP Date=true
+All XMP Edit Page=0
+
 [Baloo Settings]
 Sync Baloo to Digikam=false
 Sync Digikam to Baloo=false
@@ -122,7 +136,6 @@ BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjgAAAIgB/////wEAAAACAA==
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
-RestorePositionForNextInstance=false
 
 [Calendar Dialog]
 2560x1440 screen: Height=750
@@ -161,7 +174,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=291,2433,11,1558,1795,430,268,239,271,147
+Recently Used Tags=514,507,11,50,515,546,98,87,2860,1534
 
 [DMetadata Settings]
 readingAllTags=false
@@ -925,7 +938,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwIODg4=
+Database Encrypted Password=AwJqamo=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -955,7 +968,7 @@ Minimized=false
 RestoreSize=-1
 
 [Digikam Right Sidebar]
-ActiveTab=4
+ActiveTab=1
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
@@ -972,10 +985,10 @@ Contact Expanded=true
 ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
-ItemDescEditTab TagCheckViewCurrentIndex=323
-ItemDescEditTab TagCheckViewExpansion=0,1940,500,501,2719,2720,2721,2722,4,115,6,87,28
+ItemDescEditTab TagCheckViewCurrentIndex=130
+ItemDescEditTab TagCheckViewExpansion=0,1940,500,501,2719,2720,2721,2722,8,6,87,28
 ItemDescEditTab TagCheckViewRestoreChecked=false
-ItemDescEditTab TagCheckViewSelection=323
+ItemDescEditTab TagCheckViewSelection=130
 ItemDescEditTab TagCheckViewSortColumn=0
 ItemDescEditTab TagCheckViewSortOrder=0
 ItemDescEditTab TagCheckViewToggle Auto Tags=0
@@ -997,7 +1010,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.746022479,22.772370582
+Center=geo:40.630895631,22.942381878
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1028,7 +1041,7 @@ Current XMP Item=
 EXIF Level=0
 EXIFTOOL Level=0
 IPTC Level=0
-ImagePropertiesMetaData Tab=0
+ImagePropertiesMetaData Tab=3
 MAKERNOTE Level=0
 XMP Level=0
 
@@ -1147,7 +1160,7 @@ UseWholeTagsEntry=false
 
 [FileCopy Export Dialog]
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=1278
+2560x1440 screen: Width=917
 
 [FileCopyExport]
 albumPath=true
@@ -1256,8 +1269,8 @@ CaseSensitive=0
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
 2560x1440 screen: Height=1398
-2560x1440 screen: Width=2560
-2560x1440 screen: XPosition=0
+2560x1440 screen: Width=1278
+2560x1440 screen: XPosition=1282
 2560x1440 screen: YPosition=20
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
@@ -1275,14 +1288,13 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=breeze-dark
-RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAACgAAAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABP4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1318,7 +1330,7 @@ Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.3743438609,22.9771976386
+Center=geo:40.6336335091,22.9569065695
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1337,7 +1349,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3327
+Zoom=marble:3500
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1456,7 +1468,6 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
-RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1681,7 +1692,6 @@ HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABlwAAAFcAAAGXAf////8AAAAAAQE=
 Navigate By Pair=false
-RestorePositionForNextInstance=false
 Show Thumbbar=true
 State=AAAA/wAAAAD9AAAAAAAABP4AAAUMAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -1855,9 +1865,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAATCAAAAyPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=3219
-SplitterState=AAAA/wAAAAEAAAADAAABGgAABJIAAAIWAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAaMAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABowAAABcAQAABwAABowAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
+InitialAlbumID=3861
+SplitterState=AAAA/wAAAAEAAAADAAABQwAAAgIAAAF1Af////8AAAAAAQE=
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAICAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAgIAAABcAQAABwAAAgIAAAUMAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
@@ -1910,6 +1920,11 @@ duplicatesRestriction=0
 maxSimilarity=100
 minSimilarity=90
 
+[Metadata Edit Dialog]
+2560x1440 screen: Height=787
+2560x1440 screen: Width=804
+Tab Index=0
+
 [Metadata Settings]
 Album Date Source=1
 Clear Metadata If Rescan=false
@@ -1947,10 +1962,10 @@ CaseSensitive=0
 HelpBoxNotifSeen=true
 
 [People Sidebar]
-CurrentIndex=323
-Expansion=4,291,323
+CurrentIndex=5
+Expansion=130,2856,4,5,291
 RestoreChecked=false
-Selection=323
+Selection=5
 SortColumn=0
 SortOrder=0
 
@@ -1983,7 +1998,7 @@ UseWholeAlbumsEntry=false
 1920x1080 screen: Width=1327
 2560x1440 screen: Height=911
 2560x1440 screen: Width=1300
-Setup Page=12
+Setup Page=4
 Template Tab=0
 
 [Sketch Search View]
@@ -2023,13 +2038,15 @@ TagsSource=false
 [Time Adjust Dialog]
 1920x1080 screen: Height=750
 1920x1080 screen: Width=900
+2560x1440 screen: Height=500
+2560x1440 screen: Width=900
 
 [Time Adjust Settings]
 Adjustment Days=0
 Adjustment Time=2000,1,1,0,0,0
 Adjustment Type=0
-Custom Date=2000,1,1,0,0,0
-Custom Time=2000,1,1,0,0,0
+Custom Date=2025,1,1,0,0,0
+Custom Time=2000,1,1,3,17,0
 File Timestamp Type=0
 Meta Timestamp Type=0
 Update EXIF Digitization Time=true
@@ -2041,7 +2058,7 @@ Update IPTC Time=true
 Update Only If Available Time=true
 Update XMP Creation Time=true
 Update XMP Video Time=true
-Use Timestamp Type=0
+Use Timestamp Type=4
 
 [TimeLine Sidebar]
 CurrentIndex=
