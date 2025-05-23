@@ -46,7 +46,7 @@ alias mpv='           devour.sh mpv'
 alias zathura='       devour.sh zathura'
 alias feh='           devour.sh feh'
 alias goldencheetah=' setsid $HOME/PROGRAMS/GoldenCheetah_v3.7_x64Qt6.AppImage'
-alias vnc_connect.sh='devour.sh vnc_connect.sh'
+# alias vnc_connect.sh='devour.sh vnc_connect.sh'
 
 
 ## call some commands with args
