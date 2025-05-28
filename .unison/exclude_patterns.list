@@ -120,5 +120,3 @@ ignore = Regex .*\.lck
 ignore = Regex .*\.spin.R
 ignore = Regex .*\.swp
 ignore = Regex .*tmp-pdfcrop-.*\.tex
-ignore = Regex .thunderbird/\.*\/calendar-data
-ignore = Regex .thunderbird/\.*\/Mail/smart mailboxes
