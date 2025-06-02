@@ -125,7 +125,8 @@ mod4 + {i,ι}; {j,ξ}
 
 # obsidian
 mod4 + {i,ι}; {o,ο}
-    $HOME/.nix-profile/bin/obsidian
+    /home/athan/.nix-profile/bin/konsole -e /home/athan/.nix-profile/bin/ranger /home/athan/NOTES
+    # $HOME/.nix-profile/bin/obsidian
     # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
 
 # Kate
