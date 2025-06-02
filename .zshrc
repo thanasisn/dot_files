@@ -141,27 +141,14 @@ plugins=()
 source $ZSH/oh-my-zsh.sh
 
 
-
 ## use bash auto completion
 autoload bashcompinit
-# bashcompinit
 
 ## bind last command to F12
 bindkey -s $terminfo[kf12] '\e0\e_ '
 
 
 ## ALIASES
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
 
 
 # Unmount all encfs
@@ -202,9 +189,6 @@ if [ -f $HOME/.shell_functions ]; then
     . $HOME/.shell_functions
 fi
 
-## load aliases
-. ~/.shell_aliases
-
 ## load environment variables
 if [ -f $HOME/.shell_variables ]; then
     . $HOME/.shell_variables
@@ -223,9 +207,6 @@ fi
 stty stop ""
 
 
-## fzf
-source "$HOME/.config/fzf/completion.zsh"
-source "$HOME/.config/fzf/key-bindings.zsh"
 
 
 ##  Path locations
@@ -238,11 +219,11 @@ PATH=$PATH:$HOME/.local/bin
 [ -d /snap/bin        ] && PATH=$PATH:/snap/bin
 export PATH=$PATH
 
-PATH="/home/athan/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/athan/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/athan/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/athan/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/athan/perl5";       export PERL_MM_OPT;
+# PATH="/home/athan/perl5/bin${PATH:+:${PATH}}"; export PATH;
+# PERL5LIB="/home/athan/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+# PERL_LOCAL_LIB_ROOT="/home/athan/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+# PERL_MB_OPT="--install_base \"/home/athan/perl5\""; export PERL_MB_OPT;
+# PERL_MM_OPT="INSTALL_BASE=/home/athan/perl5";       export PERL_MM_OPT;
 
 
 ## visited directory stack
@@ -253,12 +234,6 @@ setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
 # autoload -U compinit && compinit   # load + start completion
 zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
 
-# ## configure autojump for zsh
-# . ~/.nix-profile/share/autojump/autojump.zsh
-
-## configure zoxide
-# eval "$(~/.nix-profile/bin/zoxide init zsh)"
-type zoxide >/dev/null 2>&1 && eval "$($(which zoxide) init zsh)"
 
 
 ## ignore host file in autocomplete?
@@ -268,13 +243,21 @@ type zoxide >/dev/null 2>&1 && eval "$($(which zoxide) init zsh)"
 # )'
 zstyle ':completion:*' hosts off
 
-
+##  home-manager programs alias bellow this part
 if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then 
   . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
+## fzf
+source "$HOME/.config/fzf/completion.zsh"
+source "$HOME/.config/fzf/key-bindings.zsh"
 
-## enable atuin
-# eval "$(atuin init zsh)"
+## configure zoxide
+# eval "$(~/.nix-profile/bin/zoxide init zsh)"
+type zoxide >/dev/null 2>&1 && eval "$($(which zoxide) init zsh)"
+
+## load aliases
+. ~/.shell_aliases
+
 
 ## load pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -290,6 +273,9 @@ eval "$(pyenv virtualenv-init -)"
 
 ## load autocompletions
 autoload -Uz compinit && compinit -i
+
+
+
 
 ## set settings
 "$HOME/CODE/session/session_settings.sh" > /dev/null
