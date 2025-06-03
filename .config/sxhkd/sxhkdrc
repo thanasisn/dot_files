@@ -123,11 +123,6 @@ mod4 + {i,ι}; {j,ξ}
 #     lxterminal -t Floating -e $SHELL -c "/home/athan/CODE/system_tools/new_journal.sh;$SHELL"
 #     # urxvt -name Floating -e $SHELL -c "new_journal.sh"
 
-# obsidian
-mod4 + {i,ι}; {o,ο}
-    /home/athan/.nix-profile/bin/konsole -e /home/athan/.nix-profile/bin/ranger /home/athan/NOTES
-    # $HOME/.nix-profile/bin/obsidian
-    # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
 
 # Kate
 mod4 + {i,ι}; {k,κ}
@@ -145,6 +140,12 @@ mod4 + {c,ψ}
 # Qalculator gui calculator
 mod4 + shift + {c,ψ}
     "$HOME/.nix-profile/bin/qalculate-gtk"
+
+# Take notes
+mod4 + {n,ν}
+    /home/athan/.nix-profile/bin/konsole -e $SHELL -c "/home/athan/.nix-profile/bin/yazi /home/athan/NOTES;$SHELL"
+    # $HOME/.nix-profile/bin/obsidian
+    # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
 
 # Quick note
 mod4 + {s,σ}; {n,ν}
