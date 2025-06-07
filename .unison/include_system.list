@@ -4,6 +4,7 @@ path = .Rprofile
 path = .Xresources
 path = .bashrc
 path = .condarc
+path = .credentials.yaml
 path = .bcrc
 path = .cdsapirc
 path = .gitconfig
