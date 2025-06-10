@@ -39,17 +39,17 @@ case "$(hostname)" in
 
   mumra)
     ZSH_THEME="candy"
-    printf '\033]11;#080110\007'
+    printf '\033]11;#0d021a\007'
     ;;
 
   sagan)
     ZSH_THEME="bureau"
-    printf '\033]11;#001012\007'
+    printf '\033]11;#001619\007'
     ;;
 
   tyler)
     ZSH_THEME="fox"
-    printf '\033]11;#000f00\007'
+    printf '\033]11;#1b1b01\007'
     ;;
 
   *)
@@ -157,15 +157,14 @@ alias ccc=' fusermount -uz  /home/athan/ZHOST/noble; fusermount -uz  /home/athan
 
 ## Conditional aliases
 
-## TYLER
-if [ "$(hostname)" = "tyler" ]; then
+# if [ "$(hostname)" = "tyler" ]; then
     alias sskk='sudo encfs --public /home/folder/.KKK /mnt/con'
     alias kkss='sudo fusermount -uz /mnt/con'
 
     alias other='encfs --idle=180 /home/folder/CAMERATTA/OTHER   /home/athan/Pictures/other3'
     alias ana='  encfs --idle=180 /home/athan/.ENC/.ana          /home/athan/Pictures/other2'
     alias nsfw=' encfs --idle=380 /home/folder/CAMERATTA/.NSFW   /home/athan/Pictures/ns'
-fi
+# fi
 
 alias nnn=' encfs --idle=180 /home/folder/.TEMO              /home/athan/ZHOST/noble; cd /home/athan/ZHOST/noble'
 
@@ -181,8 +180,6 @@ fi
 if [ -n "$DISPLAY" ]; then
     xset b off
 fi
-
-
 
 ## load shell functions first
 if [ -f $HOME/.shell_functions ]; then
@@ -207,8 +204,6 @@ fi
 stty stop ""
 
 
-
-
 ##  Path locations
 PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/share/fslint/fslint
 PATH=$PATH:$HOME/.local/bin
@@ -222,14 +217,7 @@ PATH=$PATH:$HOME/.local/bin
 [ -d $HOME/CODE/session             ] && PATH=$PATH$(find $HOME/CODE/session             -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
 [ -d $HOME/CODE/system_tools        ] && PATH=$PATH$(find $HOME/CODE/system_tools        -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
 [ -d $HOME/CODE/system_backup_tools ] && PATH=$PATH$(find $HOME/CODE/system_backup_tools -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-# [ -d /snap/bin              ] && PATH=$PATH:/snap/bin
 export PATH=$PATH
-
-# PATH="/home/athan/perl5/bin${PATH:+:${PATH}}"; export PATH;
-# PERL5LIB="/home/athan/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-# PERL_LOCAL_LIB_ROOT="/home/athan/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-# PERL_MB_OPT="--install_base \"/home/athan/perl5\""; export PERL_MB_OPT;
-# PERL_MM_OPT="INSTALL_BASE=/home/athan/perl5";       export PERL_MM_OPT;
 
 
 ## visited directory stack
@@ -239,7 +227,6 @@ setopt PUSHD_MINUS                 # exchange the meanings of '+' and '-'
 setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
 # autoload -U compinit && compinit   # load + start completion
 zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
-
 
 
 ## ignore host file in autocomplete?
@@ -253,17 +240,15 @@ zstyle ':completion:*' hosts off
 if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then 
   . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
-## fzf
+## enable fzf
 source "$HOME/.config/fzf/completion.zsh"
 source "$HOME/.config/fzf/key-bindings.zsh"
 
-## configure zoxide
-# eval "$(~/.nix-profile/bin/zoxide init zsh)"
+## enable zoxide
 type zoxide >/dev/null 2>&1 && eval "$($(which zoxide) init zsh)"
 
 ## load aliases
 . ~/.shell_aliases
-
 
 ## load pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -281,19 +266,11 @@ eval "$(pyenv virtualenv-init -)"
 autoload -Uz compinit && compinit -i
 
 
-
-
 ## set settings
 "$HOME/CODE/session/session_settings.sh" > /dev/null
 
-# Created by `pipx` on 2024-02-13 18:39:21
-export PATH="$PATH:/home/athan/.local/bin"
-
 ## autoload project environment
 eval "$(direnv hook zsh)"
-
-## function to enable OREO env
-. "$HOME/OREO/development/start_oreo.sh"
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
@@ -304,11 +281,8 @@ function y() {
 	/usr/bin/rm -f -- "$tmp"
 }
 
-
-
 ## profiling
 # zprof
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
