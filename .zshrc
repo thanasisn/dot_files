@@ -10,7 +10,6 @@ export ZSH="$HOME/.oh-my-zsh"
 
 HISTFILE=~/.hist_$(hostname)
 
-
 ## better theme for kde with qt5ct
 export QT_QPA_PLATFORMTHEME=qt5ct
 
@@ -25,11 +24,10 @@ export MANPAGER='bat -pl man'
 # map r push :rename<space>
 export FZF_DEFAULT_OPTS=" --preview 'bat --color=always --style=plain,header --line-range=:50 {}' "
 
-
 ## disable clear screen with ctrl+l conflict with vim
 bindkey -r "^L"
 
-
+## define looks
 case "$(hostname)" in
 
   crane)
@@ -58,17 +56,11 @@ case "$(hostname)" in
     ;;
 esac
 
-
-
-
 HISTSIZE=9999
 SAVEHIST=9999
 setopt autocd extendedglob
 bindkey -v
 zstyle :compinstall filename '/home/athan/.zshrc'
-
-# autoload -Uz compinit
-# compinit
 
 setopt histignorealldups sharehistory
 
@@ -137,6 +129,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
 plugins=()
+plugins=(auto-notify $plugins)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -148,77 +141,55 @@ autoload bashcompinit
 bindkey -s $terminfo[kf12] '\e0\e_ '
 
 
-## ALIASES
-
-
+## ALIASES ##
 # Unmount all encfs
 alias ccc=' fusermount -uz  /home/athan/ZHOST/noble; fusermount -uz  /home/athan/Pictures/other; fusermount -uz /home/athan/Pictures/other2; fusermount -uz /home/athan/Pictures/other3; fusermount -uz /home/athan/Pictures/ns'
-
 
 ## Conditional aliases
 
 # if [ "$(hostname)" = "tyler" ]; then
-    alias sskk='sudo encfs --public /home/folder/.KKK /mnt/con'
-    alias kkss='sudo fusermount -uz /mnt/con'
+alias sskk='sudo encfs --public /home/folder/.KKK /mnt/con'
+alias kkss='sudo fusermount -uz /mnt/con'
 
-    alias other='encfs --idle=180 /home/folder/CAMERATTA/OTHER   /home/athan/Pictures/other3'
-    alias ana='  encfs --idle=180 /home/athan/.ENC/.ana          /home/athan/Pictures/other2'
-    alias nsfw=' encfs --idle=380 /home/folder/CAMERATTA/.NSFW   /home/athan/Pictures/ns'
+alias other='encfs --idle=180 /home/folder/CAMERATTA/OTHER   /home/athan/Pictures/other3'
+alias ana='  encfs --idle=180 /home/athan/.ENC/.ana          /home/athan/Pictures/other2'
+alias nsfw=' encfs --idle=380 /home/folder/CAMERATTA/.NSFW   /home/athan/Pictures/ns'
 # fi
 
 alias nnn=' encfs --idle=180 /home/folder/.TEMO              /home/athan/ZHOST/noble; cd /home/athan/ZHOST/noble'
 
-
 # exit lf on current directory
 LFCD="$HOME/.config/lf/lfcd.sh"
 if [ -f "$LFCD" ]; then
-    source "$LFCD"
+  source "$LFCD"
 fi
-
 
 ## disable bell
 if [ -n "$DISPLAY" ]; then
-    xset b off
+  xset b off
 fi
 
 ## load shell functions first
 if [ -f $HOME/.shell_functions ]; then
-    . $HOME/.shell_functions
+  . $HOME/.shell_functions
 fi
 
 ## load environment variables
 if [ -f $HOME/.shell_variables ]; then
-    . $HOME/.shell_variables
+  . $HOME/.shell_variables
 fi
 
-## load keys
+## load telegram keys
 if [ -f ~/.ssh/telegram/unikey_$(hostname) ]; then
-    . ~/.ssh/telegram/unikey_$(hostname)
-  else
-    . ~/.ssh/telegram/unikey_hosts
+  . ~/.ssh/telegram/unikey_$(hostname)
+else
+  . ~/.ssh/telegram/unikey_hosts
 fi
 
 
 ## disable software flow control XOFF
 ## this usually freeze vim after ctrl+s you can continue with ctrl+q
 stty stop ""
-
-
-##  Path locations
-PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/share/fslint/fslint
-PATH=$PATH:$HOME/.local/bin
-[ -d $HOME/BASH/                    ] && PATH=$PATH$(find $HOME/BASH/                    -maxdepth 2 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/PROGRAMS/                ] && PATH=$PATH$(find $HOME/PROGRAMS/                -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/img_tools           ] && PATH=$PATH$(find $HOME/CODE/img_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/conky               ] && PATH=$PATH$(find $HOME/CODE/conky               -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/nixos/scripts       ] && PATH=$PATH$(find $HOME/CODE/nixos/scripts       -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/notes_tools         ] && PATH=$PATH$(find $HOME/CODE/notes_tools         -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/pdf_tools           ] && PATH=$PATH$(find $HOME/CODE/pdf_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/session             ] && PATH=$PATH$(find $HOME/CODE/session             -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/system_tools        ] && PATH=$PATH$(find $HOME/CODE/system_tools        -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/system_backup_tools ] && PATH=$PATH$(find $HOME/CODE/system_backup_tools -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-export PATH=$PATH
-
 
 ## visited directory stack
 ## this config may be unnecessary
@@ -228,17 +199,12 @@ setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
 # autoload -U compinit && compinit   # load + start completion
 zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
 
-
 ## ignore host file in autocomplete?
-# zstyle -e ':completion:*:hosts' hosts 'reply=(
-#   ${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) 2>/dev/null)"}%%[#| ]*}//,/ }
-#   ${=${${${${(@M)${(f)"$(cat ~/.ssh/config 2>/dev/null)"}:#Host *}#Host }:#*\**}:#*\?*}}
-# )'
 zstyle ':completion:*' hosts off
 
-##  home-manager programs alias bellow this part
-if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then 
-  . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+# ##  home-manager programs alias bellow this part
+# if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then 
+#   . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 ## enable fzf
 source "$HOME/.config/fzf/completion.zsh"
@@ -251,8 +217,8 @@ type zoxide >/dev/null 2>&1 && eval "$($(which zoxide) init zsh)"
 . ~/.shell_aliases
 
 ## load pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
+PYENV_ROOT="$HOME/.pyenv"
+PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
    eval "$(pyenv init --path)"
 fi
@@ -264,10 +230,6 @@ eval "$(pyenv virtualenv-init -)"
 
 ## load autocompletions
 autoload -Uz compinit && compinit -i
-
-
-## set settings
-"$HOME/CODE/session/session_settings.sh" > /dev/null
 
 ## autoload project environment
 eval "$(direnv hook zsh)"

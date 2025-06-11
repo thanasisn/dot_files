@@ -22,10 +22,6 @@ alias rr='     ranger'
 alias τρανσ='  trans'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 
-## Replace some existing commands
-# if [ -x "$(command -v zoxide)" ]; then
-#     alias   cd='z'
-# fi
 
 type zoxide >/dev/null 2>&1 && alias   cd='z'
 type pinfo  >/dev/null 2>&1 && alias info='pinfo'
