@@ -202,9 +202,9 @@ zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;
 ## ignore host file in autocomplete?
 zstyle ':completion:*' hosts off
 
-# ##  home-manager programs alias bellow this part
-# if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then 
-#   . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+##  home-manager programs alias bellow this part
+if [ -e /home/athan/.nix-profile/etc/profile.d/nix.sh ]; then 
+  . /home/athan/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
 ## enable fzf
 source "$HOME/.config/fzf/completion.zsh"
