@@ -28,20 +28,6 @@ if [ -d "$HOME/.local/bin" ] ; then
   PATH="$HOME/.local/bin:$PATH"
 fi
 
-##  Path locations
-PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/share/fslint/fslint
-PATH=$PATH:$HOME/.local/bin
-[ -d $HOME/BASH/                    ] && PATH=$PATH$(find $HOME/BASH/                    -maxdepth 2 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/PROGRAMS/                ] && PATH=$PATH$(find $HOME/PROGRAMS/                -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/img_tools           ] && PATH=$PATH$(find $HOME/CODE/img_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/conky               ] && PATH=$PATH$(find $HOME/CODE/conky               -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/nixos/scripts       ] && PATH=$PATH$(find $HOME/CODE/nixos/scripts       -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/notes_tools         ] && PATH=$PATH$(find $HOME/CODE/notes_tools         -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/pdf_tools           ] && PATH=$PATH$(find $HOME/CODE/pdf_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/session             ] && PATH=$PATH$(find $HOME/CODE/session             -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/system_tools        ] && PATH=$PATH$(find $HOME/CODE/system_tools        -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/system_backup_tools ] && PATH=$PATH$(find $HOME/CODE/system_backup_tools -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-export PATH=$PATH
 
 
 ## add desktop application path for nix
