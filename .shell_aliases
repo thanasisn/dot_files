@@ -21,7 +21,7 @@ alias head='   head -n 20'
 alias rr='     ranger'
 alias τρανσ='  trans'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
-
+alias ip='     ip --color=auto'
 
 type zoxide >/dev/null 2>&1 && alias   cd='z'
 type pinfo  >/dev/null 2>&1 && alias info='pinfo'
