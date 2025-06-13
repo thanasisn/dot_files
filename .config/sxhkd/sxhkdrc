@@ -79,15 +79,15 @@ mod4 + shift + {f,φ}
 
 # Desktop tools
 
-# Zotero
+# jabref
 mod4 + {m,μ}
-    GTK_THEME=Adwaita:dark "$HOME/.nix-profile/bin/zotero"
-#     GTK_THEME=Adwaita:light ./PROGRAMS/Zotero_linux-x86_64/zotero
+    GTK_THEME=Adwaita:dark "$HOME/PROGRAMS/jabref"
 
 
-# Zathura History
+# Zotero
 mod4 + shift + {m,μ}
-    /home/athan/BASH/zathura_history.sh choose | dmenu -l 10 | xargs  --no-run-if-empty -d '\n' zathura
+    GTK_THEME=Adwaita:dark "$HOME/.nix-profile/bin/zotero"
+    # /home/athan/BASH/zathura_history.sh choose | dmenu -l 10 | xargs  --no-run-if-empty -d '\n' zathura
 
 
 # List of all desktops windows
