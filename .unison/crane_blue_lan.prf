@@ -1,9 +1,0 @@
-#
-# Sync main with blue throught static LAN address
-#
-root = /home/athan
-root = ssh://athan@192.168.1.102//home/athan
-
-
-include crane_blue_common.cnf
-

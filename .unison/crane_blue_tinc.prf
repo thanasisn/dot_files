@@ -1,7 +1,0 @@
-#
-# Sync main with blue throught vpn
-#
-root = /home/athan
-root = ssh://athan@10.12.12.2//home/athan
-
-include crane_blue_common.cnf
