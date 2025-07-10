@@ -50,6 +50,11 @@ case "$(hostname)" in
     printf '\033]11;#1b1b01\007'
     ;;
 
+  virt)
+    ZSH_THEME="tjkirch"
+    printf '\033]11;#27081e\007'
+    ;;
+
   *)
     ## default theme
     ZSH_THEME="tjkirch"
