@@ -12,7 +12,7 @@ Album Collections=,Category,Friends,Holidays,Miscellaneous,Nature,Party,Todo,Tra
 Album Monitoring=false
 Album Sort Role=0
 All Groups Open=false
-Default Icon Size=150
+Default Icon Size=206
 Default Tree Face Size=32
 Default Tree Icon Size=22
 Icon Show Aspect Ratio=false
@@ -89,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=4400
-Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,3864,3865,3952,3867,3868,4091,4113,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4043,4057,4058,4061,4065,4066,4105,4103,3744,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,4106,3770,3771,3774,3776,3778,3779,3282,3270,3234,3235,3238,4095,4400,3343,3242,3245,3246,3247,3248,3791,3251,3252,-2
+CurrentIndex=3764
+Expansion=0,1,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,3864,3865,3952,3867,3868,4091,4113,4400,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4043,4057,4058,4061,4065,4066,4105,4103,3744,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,4106,3770,3771,3774,3776,3778,3779,3282,3270,3234,3235,3238,4095,3343,3242,3245,3246,3247,3248,3791,3251,3252,-2
 RestoreChecked=false
-Selection=4400
+Selection=3764
 SortColumn=0
 SortOrder=0
 
@@ -136,7 +136,6 @@ BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
 BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjgAAAIgB/////wEAAAACAA==
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
-RestorePositionForNextInstance=false
 
 [Calendar Dialog]
 2560x1440 screen: Height=750
@@ -175,7 +174,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=2863,1892,125,2862,117,87,1710,2279,51,29
+Recently Used Tags=254,145,29,51,1023,1892,138,335,134,130
 
 [DMetadata Settings]
 readingAllTags=false
@@ -939,7 +938,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwIeHh4=
+Database Encrypted Password=AwJaWlo=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -969,7 +968,7 @@ Minimized=false
 RestoreSize=-1
 
 [Digikam Right Sidebar]
-ActiveTab=1
+ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
@@ -983,13 +982,13 @@ VideoProperties Expanded=true
 
 [Digikam Right Sidebar][Captions Tags Properties Tab]
 Contact Expanded=true
-ItemDescEdit Tab=2
+ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
-ItemDescEditTab TagCheckViewCurrentIndex=125
-ItemDescEditTab TagCheckViewExpansion=0,137,125,1940,500,501,2719,2720,2721,2722,8,6,87,26,28
+ItemDescEditTab TagCheckViewCurrentIndex=29
+ItemDescEditTab TagCheckViewExpansion=0,1940,137,500,501,2719,2720,2721,2722,6,26,28,134
 ItemDescEditTab TagCheckViewRestoreChecked=false
-ItemDescEditTab TagCheckViewSelection=125
+ItemDescEditTab TagCheckViewSelection=29
 ItemDescEditTab TagCheckViewSortColumn=0
 ItemDescEditTab TagCheckViewSortOrder=0
 ItemDescEditTab TagCheckViewToggle Auto Tags=0
@@ -1011,7 +1010,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.392545832,23.010818058
+Center=geo:40.270746645,22.277634624
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1031,10 +1030,10 @@ Show numbers on items=true
 Sticky Mode State=false
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:1855
+Zoom=marble:3400
 
 [Digikam Right Sidebar][Metadata Properties Tab]
-Current EXIF Item=Exif.GPSInfo.GPSDateStamp
+Current EXIF Item=
 Current ExifTool Item=
 Current IPTC Item=
 Current MAKERNOTE Item=
@@ -1289,7 +1288,6 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=breeze-dark
-RestorePositionForNextInstance=false
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
@@ -1470,7 +1468,6 @@ PGFLossLess=true
 PNGCompression=9
 PreviewMode=128
 RawImportToolIid=org.kde.digikam.plugin.rawimport.Native
-RestorePositionForNextInstance=false
 RestoreToolSettings=true
 Show Thumbbar=false
 ShowImageSettingsDialog=true
@@ -1695,7 +1692,6 @@ HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABlwAAAFwAAAGXAf////8AAAAAAQE=
 Navigate By Pair=true
-RestorePositionForNextInstance=false
 Show Thumbbar=true
 State=AAAA/wAAAAD9AAAAAAAAA08AAAJRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -1869,9 +1865,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAAA2vwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=4400
+InitialAlbumID=3764
 SplitterState=AAAA/wAAAAEAAAADAAABPwAAAoQAAAGcAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAHYAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAdgAAABcAQAABwAAAdgAAAPnAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAbhAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABuEAAABcAQAABwAABuEAAAUeAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
@@ -1966,10 +1962,10 @@ CaseSensitive=0
 HelpBoxNotifSeen=true
 
 [People Sidebar]
-CurrentIndex=5
+CurrentIndex=130
 Expansion=130,2856,4,5,291
 RestoreChecked=false
-Selection=5
+Selection=130
 SortColumn=0
 SortOrder=0
 
