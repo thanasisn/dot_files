@@ -1,6 +1,6 @@
 
 ## profiling
-# zmodload zsh/zprof
+zmodload zsh/zprof
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -269,8 +269,6 @@ function y() {
 	/usr/bin/rm -f -- "$tmp"
 }
 
-## profiling
-# zprof
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -287,3 +285,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+## profiling
+zprof
