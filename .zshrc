@@ -1,6 +1,6 @@
 
 ## profiling
-zmodload zsh/zprof
+# zmodload zsh/zprof
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -239,6 +239,7 @@ path=(
   /usr/local/bin
   /usr/bin
   /bin
+  /usr/share/fslint/fslint
   $HOME/.local/bin
   $HOME/BASH
   $HOME/CODE/{conky,img_tools,nixos/scripts,notes_tools,pdf_tools,session,system_backup_tools,system_tools,training_analysis}
@@ -265,15 +266,17 @@ fi
 autoload -Uz compinit
 () {
   setopt local_options no_aliases
-  local zcd=${ZSH_CACHE_DIR:-/dev/shm/cache}/zcompdump
+  local zcd=/dev/shm/zcompdump
   local zcdc="$zcd.zwc"
-  
-  # Only run compinit if cache is old or missing
-  if [[ ! -f "$zcdc" || ! -s "$zcdc.zwc" ]]; then
-    compinit -i -d "$zcd"
+
+  # Only run compinit if dump is older than 20 hours
+  if [[ -f "$zcd"(#qN.mh+20) ]]; then
+    compinit -d "$zcd"
     { zcompile "$zcd" } &!
+  elif [[ -f "$zcd" ]]; then
+    compinit -C -d "$zcd"
   else
-    compinit -C -i -d "$zcd"
+    compinit -i -d "$zcd"
   fi
 }
 
@@ -292,20 +295,31 @@ function y() {
 
 
 # >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/folder/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/folder/miniconda/etc/profile.d/conda.sh" ]; then
-        . "/home/folder/miniconda/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/folder/miniconda/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+## # !! Contents within this block are managed by 'conda init' !!
+## __conda_setup="$('/home/folder/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+## if [ $? -eq 0 ]; then
+##     eval "$__conda_setup"
+## else
+##     if [ -f "/home/folder/miniconda/etc/profile.d/conda.sh" ]; then
+##         . "/home/folder/miniconda/etc/profile.d/conda.sh"
+##     else
+##         export PATH="/home/folder/miniconda/bin:$PATH"
+##     fi
+## fi
+## unset __conda_setup
 # <<< conda initialize <<<
+
+# Lazy-load conda (only when 'conda' is first called)
+conda() {
+  unfunction conda
+  # >>> Conda initialize >>>
+  __conda_setup="$('/home/folder/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+  eval "$__conda_setup"
+  unset __conda_setup
+  # <<< Conda initialize <<<
+  conda "$@"
+}
 
 
 ## profiling
-zprof
+# zprof
