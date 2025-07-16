@@ -76,8 +76,6 @@ setopt HIST_REDUCE_BLANKS
 # command is removed from the list (even if it is not the previous event).
 setopt HIST_IGNORE_ALL_DUPS
 
-setopt SHARE_HISTORY
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -132,8 +130,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# plugins=(git)
-plugins=()
+plugins=(git)
 plugins=(auto-notify $plugins)
 
 source $ZSH/oh-my-zsh.sh
@@ -201,7 +198,7 @@ stty stop ""
 setopt AUTO_PUSHD                  # pushes the old directory onto the stack
 setopt PUSHD_MINUS                 # exchange the meanings of '+' and '-'
 setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
-# autoload -U compinit && compinit   # load + start completion
+
 zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
 
 ## ignore host file in autocomplete?
@@ -216,46 +213,70 @@ source "$HOME/.config/fzf/completion.zsh"
 source "$HOME/.config/fzf/key-bindings.zsh"
 
 ## enable zoxide
-type zoxide >/dev/null 2>&1 && eval "$($(which zoxide) init zsh)"
+(( $+commands[zoxide] )) && eval "$(zoxide init zsh)"
 
 ## load aliases
 . ~/.shell_aliases
 
 
 ##  Path locations
-PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/share/fslint/fslint
-PATH=$PATH:$HOME/.local/bin
-[ -d $HOME/BASH/                    ] && PATH=$PATH$(find $HOME/BASH/                    -maxdepth 2 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/conky               ] && PATH=$PATH$(find $HOME/CODE/conky               -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/img_tools           ] && PATH=$PATH$(find $HOME/CODE/img_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/nixos/scripts       ] && PATH=$PATH$(find $HOME/CODE/nixos/scripts       -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/notes_tools         ] && PATH=$PATH$(find $HOME/CODE/notes_tools         -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/pdf_tools           ] && PATH=$PATH$(find $HOME/CODE/pdf_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/session             ] && PATH=$PATH$(find $HOME/CODE/session             -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/system_backup_tools ] && PATH=$PATH$(find $HOME/CODE/system_backup_tools -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/system_tools        ] && PATH=$PATH$(find $HOME/CODE/system_tools        -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/CODE/training_analysis   ] && PATH=$PATH$(find $HOME/CODE/training_analysis   -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-[ -d $HOME/PROGRAMS/                ] && PATH=$PATH$(find $HOME/PROGRAMS/                -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
-export PATH=$PATH
+# PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/share/fslint/fslint
+# PATH=$PATH:$HOME/.local/bin
+# [ -d $HOME/BASH/                    ] && PATH=$PATH$(find $HOME/BASH/                    -maxdepth 2 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/conky               ] && PATH=$PATH$(find $HOME/CODE/conky               -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/img_tools           ] && PATH=$PATH$(find $HOME/CODE/img_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/nixos/scripts       ] && PATH=$PATH$(find $HOME/CODE/nixos/scripts       -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/notes_tools         ] && PATH=$PATH$(find $HOME/CODE/notes_tools         -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/pdf_tools           ] && PATH=$PATH$(find $HOME/CODE/pdf_tools           -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/session             ] && PATH=$PATH$(find $HOME/CODE/session             -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/system_backup_tools ] && PATH=$PATH$(find $HOME/CODE/system_backup_tools -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/system_tools        ] && PATH=$PATH$(find $HOME/CODE/system_tools        -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/CODE/training_analysis   ] && PATH=$PATH$(find $HOME/CODE/training_analysis   -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# [ -d $HOME/PROGRAMS/                ] && PATH=$PATH$(find $HOME/PROGRAMS/                -maxdepth 1 -type d -not -path '*/\.*' -printf ":%p")
+# export PATH=$PATH
+# Faster PATH additions (skip 'find' calls)
+path=(
+  /usr/local/bin
+  /usr/bin
+  /bin
+  $HOME/.local/bin
+  $HOME/BASH
+  $HOME/CODE/{conky,img_tools,nixos/scripts,notes_tools,pdf_tools,session,system_backup_tools,system_tools,training_analysis}
+  $HOME/PROGRAMS
+  ${(s/:/)PATH}
+)
+typeset -U path  # Remove duplicates
+export PATH
+
+
 
 ## load pyenv
-# PYENV_ROOT="$HOME/.pyenv"
-# PATH="$PYENV_ROOT/bin:$PATH"
-# if command -v pyenv 1>/dev/null 2>&1; then
-#    eval "$(pyenv init --path)"
-# fi
-# eval "$(pyenv virtualenv-init -)"
-
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init - zsh)"
+if command -v pyenv >/dev/null 2>&1; then
+  eval "$(pyenv init - zsh)"
+fi
 
-## completions for nb
-# fpath=(~/.zsh/completion $fpath)
-# autoload -Uz compinit && compinit -i
 
 ## load autocompletions
-autoload -Uz compinit && compinit -i
+# autoload -Uz compinit && compinit -i
+
+# Faster compinit (lazy-load + cache)
+autoload -Uz compinit
+() {
+  setopt local_options no_aliases
+  local zcd=${ZSH_CACHE_DIR:-/dev/shm/cache}/zcompdump
+  local zcdc="$zcd.zwc"
+  
+  # Only run compinit if cache is old or missing
+  if [[ ! -f "$zcdc" || ! -s "$zcdc.zwc" ]]; then
+    compinit -i -d "$zcd"
+    { zcompile "$zcd" } &!
+  else
+    compinit -C -i -d "$zcd"
+  fi
+}
+
 
 ## autoload project environment
 eval "$(direnv hook zsh)"
