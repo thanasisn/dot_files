@@ -236,14 +236,16 @@ source "$HOME/.config/fzf/key-bindings.zsh"
 # export PATH=$PATH
 # Faster PATH additions (skip 'find' calls)
 path=(
-  /usr/local/bin
-  /usr/bin
-  /bin
-  /usr/share/fslint/fslint
   $HOME/.local/bin
   $HOME/BASH
+  $HOME/BASH/CRON
+  $HOME/BASH/TOOLS
   $HOME/CODE/{conky,img_tools,nixos/scripts,notes_tools,pdf_tools,session,system_backup_tools,system_tools,training_analysis}
   $HOME/PROGRAMS
+  /bin
+  /usr/bin
+  /usr/local/bin
+  /usr/share/fslint/fslint
   ${(s/:/)PATH}
 )
 typeset -U path  # Remove duplicates
