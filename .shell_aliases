@@ -36,13 +36,13 @@ alias lf='~/.config/lf/lf-ueberzug/lf-ueberzug'
 type trash >/dev/null 2>&1 && alias rm='trash'
 
 ## hide terminal when gui
-alias gthumb='        devour.sh gthumb'
-alias mpv='           devour.sh mpv'
-# alias meld='          devour.sh meld'
-alias zathura='       devour.sh zathura'
-alias feh='           devour.sh feh'
+alias gthumb='        devour gthumb'
+alias mpv='           devour mpv'
+# alias meld='          devour meld'
+alias zathura='       devour zathura'
+alias feh='           devour feh'
 alias goldencheetah=' setsid $HOME/PROGRAMS/GoldenCheetah_v3.7_x64Qt6.AppImage'
-# alias vnc_connect.sh='devour.sh vnc_connect.sh'
+# alias vnc_connect.sh='devour vnc_connect.sh'
 
 
 ## call some commands with args
