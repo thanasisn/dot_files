@@ -89,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=-2
-Expansion=0,1,3344,3440,3857,3194,3195,1007,1008,1009,1010,1011,1012,1013,1014,1647,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,3864,3865,3952,3867,3868,4091,4405,4109,4113,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,4103,3744,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,4106,3770,3771,3774,3776,3778,3779,3282,3270,3234,3235,4417,4095,3343,3242,3245,3246,3247,3248,3791,3251,4408,4409,4410,4411,4412,4413,4419,4414,4416,3252,-2
+CurrentIndex=1011
+Expansion=0,1,3344,3440,3857,3194,3195,999,1007,1008,1009,1010,1011,1012,1013,1014,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,3864,3865,3952,3867,3868,4091,4405,4109,4113,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,4103,3744,3871,2777,2780,3760,3761,3762,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,4106,3770,3771,3774,3776,3778,3779,3282,3270,3234,3235,4417,4095,3343,3242,3245,3246,3247,3248,3791,3251,4419,4414,4416,3252,-2
 RestoreChecked=false
-Selection=-2
+Selection=1011
 SortColumn=0
 SortOrder=0
 
@@ -938,7 +938,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJVVVU=
+Database Encrypted Password=AwLMzMw=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1176,7 +1176,7 @@ targetUrl=file:///home/athan/ZHOST/natasha_share/to_move
 [Find Duplicates View]
 AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=
-AlbumComboBox-Expansion=1,3227
+AlbumComboBox-Expansion=
 AlbumComboBox-RestoreChecked=true
 AlbumComboBox-Selection=
 AlbumComboBox-SortColumn=0
@@ -1268,10 +1268,10 @@ CaseSensitive=0
 1920x1080 screen: Width=636
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
-2560x1440 screen: Height=1416
-2560x1440 screen: Width=2560
-2560x1440 screen: XPosition=0
-2560x1440 screen: YPosition=0
+2560x1440 screen: Height=699
+2560x1440 screen: Width=1015
+2560x1440 screen: XPosition=1539
+2560x1440 screen: YPosition=711
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
 Apply Sidebar Changes Directly=true
@@ -1294,7 +1294,7 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAACgAAAAUeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA/cAAAJRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1308,8 +1308,8 @@ ToolButtonStyle=IconOnly
 [Geolocation Edit Settings]
 1920x1080 screen: Height=875
 1920x1080 screen: Width=1717
-2560x1440 screen: Height=1375
-2560x1440 screen: Width=1655
+2560x1440 screen: Height=1081
+2560x1440 screen: Width=1913
 Bookmarks visible=false
 Current Tab=1
 Map Layout=0
@@ -1319,19 +1319,19 @@ SplitterState H1=AAAA/wAAAAEAAAACAAADNgAAAdEB/////wEAAAABAA==
 SplitterState V1=AAAA/wAAAAEAAAACAAACBwAAARMB/////wEAAAACAA==
 
 [Geolocation Edit Settings][Correlator Widget]
-GPX File Open Last Directory=/home/athan/Downloads
+GPX File Open Last Directory=/home/athan/TRAIN/GoldenCheetah/Athan/imports
 Interpolate=true
 Max Gap Time=00:00:30
 Max Inter Dist Time=01:15:00
 Offset Sign=0
 Offset Time=00:00:00
 ShowTracksOnMap=true
-Time Zone=19
+Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
-Backend=marble
-Center=geo:40.7816824559,21.4123992369
-GoogleMaps Map Type=ROADMAP
+Backend=googlemaps
+Center=geo:40.4900291437,-3.63716862305
+GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
 GoogleMaps Show Scale Control=true
@@ -1349,7 +1349,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3500
+Zoom=googlemaps:20
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1387,7 +1387,7 @@ Keep old results=false
 Search backend=osm
 
 [Geolocation Edit Settings][Tree View]
-Header State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\x00\x0e\x00\x00\x00\x03\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x0b\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x070\x00\x00\x00\r\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xbb\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xae\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x033\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
+Header State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\r\x00\x0e\x00\x00\x00\x03\x00\x00\x00\x0b\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x070\x00\x00\x00\r\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00<\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xbb\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\xae\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x033\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
 Image List Thumbnail Size=60
 
 [Grouping Behaviour]
@@ -1865,9 +1865,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAAA2vwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=-2
+InitialAlbumID=1011
 SplitterState=AAAA/wAAAAEAAAADAAABuAAABIgAAAF1Af////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAxMAAABcAQAABwAABo8AAAUeAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAxMAAABcAQAABwAAAUwAAAJRAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
