@@ -240,6 +240,7 @@ path=(
   $HOME/BASH
   $HOME/BASH/CRON
   $HOME/BASH/TOOLS
+  $HOME/BASH/mail_auto/scrap_noa
   $HOME/CODE/{conky,img_tools,nixos/scripts,notes_tools,pdf_tools,session,system_backup_tools,system_tools,training_analysis}
   $HOME/PROGRAMS
   /bin
