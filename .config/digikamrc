@@ -127,15 +127,18 @@ Sync Baloo to Digikam=false
 Sync Digikam to Baloo=false
 
 [Batch Queue Manager Settings]
+1366x768 screen: XPosition=0
+1366x768 screen: YPosition=0
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=0
 2560x1440 screen: XPosition=0
 2560x1440 screen: YPosition=0
 BqmBottomSplitter=AAAA/wAAAAEAAAACAAAAnQAAAJ0B/////wEAAAABAA==
-BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACUAf////8BAAAAAQA=
-BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAjgAAAIgB/////wEAAAACAA==
+BqmTopSplitter=AAAA/wAAAAEAAAADAAAAnQAAAHgAAACmAf////8BAAAAAQA=
+BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAkQAAAIsB/////wEAAAACAA==
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
+LVDS-1=LVDS-1
 
 [Calendar Dialog]
 2560x1440 screen: Height=750
@@ -938,7 +941,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwLKyso=
+Database Encrypted Password=AwKFhYU=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1264,6 +1267,10 @@ Zoom=marble:1941
 CaseSensitive=0
 
 [General Settings]
+1366x768 screen: Height=744
+1366x768 screen: Width=1366
+1366x768 screen: XPosition=0
+1366x768 screen: YPosition=0
 1920x1080 screen: Height=1038
 1920x1080 screen: Width=636
 1920x1080 screen: XPosition=642
@@ -1288,13 +1295,14 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=breeze-dark
+LVDS-1=LVDS-1
 Scan At Start=true
 Scroll Current Item To Center=false
 Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAACgAAAAUeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1425,6 +1433,8 @@ Rejected Threshold=10
 Speed=1
 
 [ImageViewer Settings]
+1366x768 screen: XPosition=0
+1366x768 screen: YPosition=0
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=0
 2560x1440 screen: XPosition=0
@@ -1456,6 +1466,7 @@ HEIFCompression=75
 HEIFLossLess=true
 JPEGCompression=100
 JPEGSubSampling=0
+LVDS-1=LVDS-1
 Median Filter Passes=0
 Noise Reduction Threshold=0
 Noise Reduction Type=0
@@ -1676,6 +1687,8 @@ PickSelection=
 RatingSelection=
 
 [LightTable Settings]
+1366x768 screen: XPosition=0
+1366x768 screen: YPosition=0
 1920x1080 screen: XPosition=0
 1920x1080 screen: YPosition=0
 2560x1440 screen: Height=699
@@ -1691,6 +1704,7 @@ FullScreen Hide ToolBars=false
 HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABlwAAAFwAAAGXAf////8AAAAAAQE=
+LVDS-1=LVDS-1
 Navigate By Pair=true
 Show Thumbbar=true
 State=AAAA/wAAAAD9AAAAAAAAA08AAAJRAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
@@ -1866,8 +1880,8 @@ ToolBarsMovable=Disabled
 
 [MainWindow]
 InitialAlbumID=1
-SplitterState=AAAA/wAAAAEAAAADAAABuAAABIgAAAF1Af////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAQNAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABA0AAABcAQAABwAABo8AAAUeAAAABAAAAAQAAAAIAAAACPwAAAAA
+SplitterState=AAAA/wAAAAEAAAADAAABuAAABIgAAAGJAf////8AAAAAAQE=
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAQNAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABA0AAABcAQAABwAAAc8AAAKAAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
