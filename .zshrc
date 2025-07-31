@@ -149,6 +149,10 @@ alias ccc=' fusermount -uz  /home/athan/ZHOST/noble; fusermount -uz  /home/athan
 
 ## Conditional aliases
 
+if [ "$(hostname)" = "mumra" ]; then
+  alias virsh='virsh -c qemu:///system'
+fi
+
 # if [ "$(hostname)" = "tyler" ]; then
 alias sskk='sudo encfs --public /home/folder/.KKK /mnt/con'
 alias kkss='sudo fusermount -uz /mnt/con'
