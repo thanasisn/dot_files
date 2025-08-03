@@ -942,7 +942,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwIkJCQ=
+Database Encrypted Password=AwLT09M=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1163,7 +1163,7 @@ UseWholeAlbumsEntry=true
 UseWholeTagsEntry=false
 
 [FileCopy Export Dialog]
-2560x1440 screen: Height=699
+2560x1440 screen: Height=1404
 2560x1440 screen: Width=1271
 
 [FileCopyExport]
@@ -1276,10 +1276,10 @@ CaseSensitive=0
 1920x1080 screen: Width=636
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
-2560x1440 screen: Height=1416
-2560x1440 screen: Width=2560
-2560x1440 screen: XPosition=0
-2560x1440 screen: YPosition=0
+2560x1440 screen: Height=1404
+2560x1440 screen: Width=1271
+2560x1440 screen: XPosition=6
+2560x1440 screen: YPosition=6
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
 Apply Sidebar Changes Directly=true
@@ -1304,7 +1304,7 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAACgAAAAUeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABPcAAAUSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1318,8 +1318,8 @@ ToolButtonStyle=IconOnly
 [Geolocation Edit Settings]
 1920x1080 screen: Height=875
 1920x1080 screen: Width=1717
-2560x1440 screen: Height=1040
-2560x1440 screen: Width=1557
+2560x1440 screen: Height=1323
+2560x1440 screen: Width=1283
 Bookmarks visible=false
 Current Tab=1
 Map Layout=0
@@ -1329,7 +1329,7 @@ SplitterState H1=AAAA/wAAAAEAAAACAAADNgAAAdEB/////wEAAAABAA==
 SplitterState V1=AAAA/wAAAAEAAAACAAACBwAAARMB/////wEAAAACAA==
 
 [Geolocation Edit Settings][Correlator Widget]
-GPX File Open Last Directory=/home/athan/GISdata/GPX/2025
+GPX File Open Last Directory=/home/athan/Downloads/dd
 Interpolate=true
 Max Gap Time=00:00:30
 Max Inter Dist Time=01:15:00
@@ -1340,7 +1340,7 @@ Time Zone=19
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:37.7680358136,26.6337652673
+Center=geo:37.7820188163,26.6479160124
 GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1359,7 +1359,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:2911
+Zoom=marble:2634
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
