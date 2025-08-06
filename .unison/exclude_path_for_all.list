@@ -25,6 +25,9 @@ ignore = Path {.config/Recoll.org/tneedidxretrydate}
 ignore = Path {.config/Skype}
 ignore = Path {.config/astropy}
 ignore = Path {.config/borg/security}
+ignore = Path {.config/rstudio/DawnCache}
+ignore = Path {.config/rstudio/DawnGraphiteCache}
+ignore = Path {.config/rstudio/DawnWebGPUCache}
 ignore = Path {.config/systemd/user/timers.target.wants}
 ignore = Path {.mozilla}
 ignore = Path {.mplayer2}
@@ -54,7 +57,6 @@ ignore = Path {ZHOST}
 ignore = Path {gdalwmscache}
 ignore = Path {nohup.out}
 ignore = Path {unison.log}
-
 
 backupnot = Name *.duckdb
 backupnot = Path *.duckdb
