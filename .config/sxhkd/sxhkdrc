@@ -36,7 +36,6 @@ mod4 + shift + {a,α}
 	$HOME/CODE/session/lock_screen.sh
 
 
-
 # Midnight commander
 mod4 + shift + {t,τ}
     urxvt -e $SHELL -c "mc;$SHELL"
@@ -45,7 +44,7 @@ mod4 + shift + {t,τ}
     # x-terminal-emulator -e $SHELL -c "mc;$SHELL"
     # x-terminal-emulator -e /home/athan/BASH/TOOLS/ranger_exec.sh
 
-# lf
+# yazi
 mod4 + {t,τ}
     /home/athan/.nix-profile/bin/konsole -e /home/athan/.nix-profile/bin/yazi
     # lxterminal -e $SHELL -c "/home/athan/.config/lf/lf-ueberzug/lf-ueberzug"
