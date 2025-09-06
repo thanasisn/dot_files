@@ -12,7 +12,7 @@ Album Collections=,Category,Friends,Holidays,Miscellaneous,Nature,Party,Todo,Tra
 Album Monitoring=false
 Album Sort Role=0
 All Groups Open=false
-Default Icon Size=125
+Default Icon Size=157
 Default Tree Face Size=32
 Default Tree Icon Size=22
 Icon Show Aspect Ratio=false
@@ -89,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=4041
-Expansion=0,1,2,8,165,225,226,227,228,229,3440,3857,3194,3195,4897,4900,4901,4923,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,4421,3864,3865,3952,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,3338,2151,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4041,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,4103,3744,3871,2777,2780,3760,3761,3762,3178,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3763,3764,4106,3770,3771,3774,3776,3778,3779,3237,3282,3234,3235,3236,3238,4417,4423,4095,3343,3242,3245,3246,3247,3248,3791,5092,5107,3251,5117,5119,3335,4426,4427,3252,-2
+CurrentIndex=3764
+Expansion=0,1,165,225,226,227,228,229,3440,3857,3194,3195,4897,4900,4901,4923,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3696,3861,4094,4421,3864,3865,3952,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,5126,5125,5128,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4041,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,4103,3744,3871,2777,2780,3760,3761,3762,4110,3178,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,4106,3770,3771,3774,3776,3778,3779,3237,3282,3234,3235,3236,3238,4417,4423,4095,3343,3242,3245,3246,3247,3248,3791,5092,5107,3251,5117,5119,3335,4426,4427,3252,-2
 RestoreChecked=false
-Selection=4041
+Selection=3764
 SortColumn=0
 SortOrder=0
 
@@ -178,7 +178,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=2379,11,514,515,508,1710,305,291,1892,119
+Recently Used Tags=2279,87,98,1548,467,1561,1891,442,10,2379
 
 [DMetadata Settings]
 readingAllTags=false
@@ -942,7 +942,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwIFBQU=
+Database Encrypted Password=AwJubm4=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -972,7 +972,7 @@ Minimized=false
 RestoreSize=-1
 
 [Digikam Right Sidebar]
-ActiveTab=2
+ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
@@ -990,7 +990,7 @@ ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
 ItemDescEditTab TagCheckViewCurrentIndex=26
-ItemDescEditTab TagCheckViewExpansion=0,137,2325,500,501,2719,2720,2721,2722,8,6,26,28,134
+ItemDescEditTab TagCheckViewExpansion=0,467,500,501,2719,2720,2721,2722,8,6,28,134
 ItemDescEditTab TagCheckViewRestoreChecked=false
 ItemDescEditTab TagCheckViewSelection=26
 ItemDescEditTab TagCheckViewSortColumn=0
@@ -1014,7 +1014,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.777402005,21.39806601
+Center=geo:40.637782449,22.966574832
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1166,7 +1166,7 @@ UseWholeTagsEntry=false
 1366x768 screen: Height=732
 1366x768 screen: Width=674
 2560x1440 screen: Height=1404
-2560x1440 screen: Width=909
+2560x1440 screen: Width=1271
 
 [FileCopyExport]
 albumPath=true
@@ -1885,9 +1885,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAAA2vwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=4041
+InitialAlbumID=3764
 SplitterState=AAAA/wAAAAEAAAADAAABSwAAAjwAAAGJAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAboAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABugAAABcAQAABwAABugAAAPzAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAboAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABugAAABcAQAABwAABugAAAUeAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
@@ -1982,10 +1982,10 @@ CaseSensitive=0
 HelpBoxNotifSeen=true
 
 [People Sidebar]
-CurrentIndex=56
-Expansion=4
+CurrentIndex=5
+Expansion=4,5
 RestoreChecked=false
-Selection=56
+Selection=5
 SortColumn=0
 SortOrder=0
 
