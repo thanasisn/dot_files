@@ -89,10 +89,10 @@ TreeView Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=3186
-Expansion=0,2,8,17,165,225,226,227,228,229,3440,3857,3194,3195,1099,4897,4900,4901,4923,1465,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,4421,3864,3865,3952,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,4103,3744,3871,2777,2780,3760,3761,3762,3178,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,3769,4106,3770,3771,3774,3776,3778,3779,3237,3282,3234,3235,3236,3238,4417,4423,4095,3343,3242,3245,3246,3247,3248,3791,5092,5107,3251,5117,5119,3335,4426,4427,3252,-2
+CurrentIndex=3764
+Expansion=0,1,8,165,225,226,227,228,229,3440,3857,3194,3195,4897,4900,4901,4923,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,4421,3864,3865,3952,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,5126,5125,5124,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,4103,3744,3871,2777,2780,3760,3761,3762,3177,3178,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,4106,3770,3771,3772,3773,3774,4107,3775,3776,3777,3778,3779,3237,3282,3234,3235,3236,3238,4417,4423,4095,3343,3242,3245,3246,3247,3248,3791,5092,5107,3251,5117,5119,3335,4426,4427,3252,-2
 RestoreChecked=false
-Selection=3186
+Selection=3764
 SortColumn=0
 SortOrder=0
 
@@ -178,7 +178,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=11,514,515,508,1710,305,291,1892,119,26
+Recently Used Tags=2889,442,303,1891,2379,10,11,514,515,508
 
 [DMetadata Settings]
 readingAllTags=false
@@ -942,7 +942,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwLt7e0=
+Database Encrypted Password=AwLIyMg=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -972,7 +972,7 @@ Minimized=false
 RestoreSize=-1
 
 [Digikam Right Sidebar]
-ActiveTab=2
+ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
@@ -990,7 +990,7 @@ ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
 ItemDescEditTab TagCheckViewCurrentIndex=26
-ItemDescEditTab TagCheckViewExpansion=0,137,2325,500,501,2719,2720,2721,2722,8,6,26,28,134
+ItemDescEditTab TagCheckViewExpansion=0,137,2325,500,501,2719,2720,2721,2722,8,6,442,28,134
 ItemDescEditTab TagCheckViewRestoreChecked=false
 ItemDescEditTab TagCheckViewSelection=26
 ItemDescEditTab TagCheckViewSortColumn=0
@@ -1014,7 +1014,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.777402005,21.39806601
+Center=geo:40.781044098,24.71633001
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1034,7 +1034,7 @@ Show numbers on items=true
 Sticky Mode State=false
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3400
+Zoom=marble:2457
 
 [Digikam Right Sidebar][Metadata Properties Tab]
 Current EXIF Item=
@@ -1278,10 +1278,10 @@ CaseSensitive=0
 1920x1080 screen: Width=636
 1920x1080 screen: XPosition=642
 1920x1080 screen: YPosition=20
-2560x1440 screen: Height=1416
-2560x1440 screen: Width=2560
-2560x1440 screen: XPosition=0
-2560x1440 screen: YPosition=0
+2560x1440 screen: Height=1404
+2560x1440 screen: Width=1492
+2560x1440 screen: XPosition=1062
+2560x1440 screen: YPosition=6
 Application Font=Sans Serif,9,-1,5,50,0,0,0,0,0
 Application Style=qt5ct-style
 Apply Sidebar Changes Directly=true
@@ -1306,7 +1306,7 @@ Show Only Face Tags For Assigning Name=true
 Show Permanent Delete Dialog=true
 Show Splash=false
 Show Trash Delete Dialog=false
-State=AAAA/wAAAAD9AAAAAAAACgAAAAUeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABdQAAAUSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 String Comparison Type=0
 ToolBarsMovable=Disabled
 Use Large Thumbs=false
@@ -1698,8 +1698,8 @@ RatingSelection=
 1920x1080 screen: YPosition=0
 2560x1440 screen: Height=699
 2560x1440 screen: Width=847
-2560x1440 screen: XPosition=1046
-2560x1440 screen: YPosition=711
+2560x1440 screen: XPosition=0
+2560x1440 screen: YPosition=0
 Auto Load Right Panel=true
 Auto Sync Preview=true
 Clear On Close=false
@@ -1885,9 +1885,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAAA2vwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=3186
+InitialAlbumID=3764
 SplitterState=AAAA/wAAAAEAAAADAAABSwAAAjwAAAGJAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAI8AAAAjvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAjwAAABcAQAABwAAAjwAAAKAAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAOUAAABKvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAA5QAAABcAQAABwAAA5QAAAUSAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
