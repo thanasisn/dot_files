@@ -241,6 +241,7 @@ source "$HOME/.config/fzf/key-bindings.zsh"
 # Faster PATH additions (skip 'find' calls)
 path=(
   $HOME/.local/bin
+  $HOME/.nix-profile/bin
   $HOME/BASH
   $HOME/BASH/CRON
   $HOME/BASH/TOOLS
