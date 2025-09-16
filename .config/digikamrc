@@ -91,10 +91,10 @@ TreeView Font=Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=5139
-Expansion=0,1,165,225,226,227,228,229,3440,3857,3194,3195,4897,4900,4901,4923,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,4421,3864,3865,3952,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,5129,5130,5131,5132,5133,5126,5125,5124,5123,5128,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4041,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,3318,3736,3739,3740,3741,3742,4103,3744,3871,2777,2780,3760,3761,3762,4110,3178,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,4106,3770,3771,3774,3776,3778,3779,3237,3282,3234,3235,3236,4417,4423,4095,3343,3242,3245,3246,3247,3248,3791,5107,3251,5117,5119,3335,4426,4427,3252,5137,5139,5138,-2
+CurrentIndex=3764
+Expansion=0,1,165,225,226,227,228,229,3440,3857,3194,3195,4897,4900,4901,4923,3849,4418,4099,4100,4098,4096,4092,4089,3954,3852,3853,3858,4101,3860,3861,4094,4421,3864,3865,3952,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,5129,5130,5131,5132,5133,5126,5125,5124,5123,5128,5139,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4038,4041,4043,4057,4058,4061,4065,4066,4078,4079,4080,4081,4082,4083,4084,4415,4105,3318,3736,3739,3740,3741,3742,4103,3744,3871,2777,2780,3760,3761,3762,4110,3178,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,3763,3764,4106,3770,3771,3774,3776,3778,3779,3237,3282,3234,3235,3236,4417,4423,4095,3343,3242,3245,3246,3247,3248,3791,5107,3251,5117,5119,3335,4426,4427,3252,-2
 RestoreChecked=false
-Selection=5139
+Selection=3764
 SortColumn=0
 SortOrder=0
 
@@ -143,7 +143,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=2393,6,28
+TagComboBox-Selection=125,28
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
@@ -204,7 +204,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=1023,134,2894,2893,2892,270,145,570,29,50
+Recently Used Tags=2891,74,11,2893,2892,1023,134,2894,270,145
 
 [DMetadata Settings]
 readingAllTags=false
@@ -968,7 +968,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwKAgIA=
+Database Encrypted Password=AwIvLy8=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1016,7 +1016,7 @@ ItemDescEdit Tab=1
 ItemDescEditTab CaptionsLang=x-default
 ItemDescEditTab SearchBarCaseSensitive=0
 ItemDescEditTab TagCheckViewCurrentIndex=145
-ItemDescEditTab TagCheckViewExpansion=0,467,500,501,2719,2720,2721,2722,8,28,134
+ItemDescEditTab TagCheckViewExpansion=0,467,500,501,2719,2720,2721,2722,8,6,28,134
 ItemDescEditTab TagCheckViewRestoreChecked=false
 ItemDescEditTab TagCheckViewSelection=145
 ItemDescEditTab TagCheckViewSortColumn=0
@@ -1040,7 +1040,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:39.808702926,22.721698314
+Center=geo:0,0
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1060,7 +1060,7 @@ Show numbers on items=true
 Sticky Mode State=false
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:2451
+Zoom=marble:900
 
 [Digikam Right Sidebar][Metadata Properties Tab]
 Current EXIF Item=
@@ -1189,7 +1189,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=2393,6,28
+TagComboBox-Selection=125,28
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 Use Full CPU=false
@@ -1229,10 +1229,10 @@ Last search album tag relation=0
 Last search results restriction=0
 Lower bound for minimum similarity=40
 TagComboBox-Checked=
-TagComboBox-CurrentIndex=2393
+TagComboBox-CurrentIndex=125
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=2393
+TagComboBox-Selection=125
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=false
@@ -1499,7 +1499,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=2393,6,28
+TagComboBox-Selection=125,28
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
@@ -1954,7 +1954,7 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAAA2vwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=5139
+InitialAlbumID=3764
 SplitterState=AAAA/wAAAAEAAAADAAABSwAAA1sAAAGIAf////8AAAAAAQE=
 ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAbvAAABEvwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABu8AAABXAP///wAABu8AAAU0AAAABAAAAAQAAAAIAAAACPwAAAAA
 
