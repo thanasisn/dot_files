@@ -110,6 +110,10 @@ mod4 + {u,θ}; {p,π}
     $HOME/.password-store/.extentions/passmenu.sh --type -l 5
 
 
+# Print screen
+Print
+  mkdir -p "$HOME/MISC/Screenshots/"; scrot --multidisp -q 100 $HOME/MISC/Screenshots/%F-%T.png 
+
 
 # Regular Applications
 
