@@ -968,7 +968,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwIoKCg=
+Database Encrypted Password=AwLh4eE=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1177,14 +1177,14 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=7
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
 Face Recognition Model=0
 Face Scan Main Task=Detect
 Face Scan Task=0
-Face Use Full CPU=true
+Face Use Full CPU=false
 TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
