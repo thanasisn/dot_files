@@ -112,11 +112,11 @@ mod4 + {u,θ}; {p,π}
 
 # Screenshot the whole desktop
 Print
-  mkdir -p "$HOME/MISC/Screenshots/"; scrot --multidisp -q 100 "$HOME/MISC/Screenshots/%F_%T.png"
+  mkdir -p "$HOME/MISC/Screenshots/" && scrot --multidisp -q 100 "$HOME/MISC/Screenshots/%F_%T.png" &&  notify-send -t 3000 "Screenshot desktop" 
 
 # Screenshot a window
 mod4 + Print
-  mkdir -p "$HOME/MISC/Screenshots/"; scrot --select -q 100 "$HOME/MISC/Screenshots/%F-%T.png"
+  mkdir -p "$HOME/MISC/Screenshots/" && scrot --select -q 100 "$HOME/MISC/Screenshots/%F-%T.png" &&  notify-send -t 3000 "Screenshot window"
 
 
 # Regular Applications
