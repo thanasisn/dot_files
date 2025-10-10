@@ -37,12 +37,10 @@ set ignorecase                      " case insensitive matching
 set smartcase                       " case sensitive matching if a capital letters used
 set cursorline                      " highlight current line
 filetype plugin indent on           " auto-indenting depending on file type
-set t_Co=256                        " set terminal colors
+set t_Co=256                        " set terminal colours
 set conceallevel=0                  " I like more verbatim display
 
-
-filetype plugin on
-syntax on
+set shell=/bin/bash  " always use bash instead of sh
 
 "" reload files
 set autoread
@@ -71,7 +69,7 @@ augroup numbertoggle
   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 
-"" Dissable arrows
+"" Disable arrows
 noremap <Up>    <Nop>
 noremap <Down>  <Nop>
 noremap <Left>  <Nop>
@@ -87,104 +85,102 @@ set guifont=Monospace\ Regular\ 8
 "" filetype  off                  "  required
 "" highlight CursorLine cterm=NONE ctermbg=Blue ctermfg=white
 
-
 """ PLUGINS INSTALL
-
 "" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-  "" let Vundle manage Vundle
-  Plugin 'VundleVim/Vundle.vim'
-  "" just a colorshceme
-  Plugin 'morhetz/gruvbox'
-  "" Show registers '"' or '@' in normal mode and <CTRL-R> in insert mode
-  Plugin 'junegunn/vim-peekaboo'
-  "" Showing key bindings, configure it
-  Plugin 'liuchengxu/vim-which-key'
+" set rtp+=~/.vim/bundle/Vundle.vim
 
-  Plugin 'rhysd/vim-grammarous'
-  Plugin 'dpelle/vim-LanguageTool'
-  Plugin 'PatrBal/vim-textidote'
+call plug#begin()
+  "" let Vundle manage Vundle
+  Plug 'VundleVim/Vundle.vim'
+  "" just a colorshceme
+  Plug 'morhetz/gruvbox'
+  "" Show registers '"' or '@' in normal mode and <CTRL-R> in insert mode
+  Plug 'junegunn/vim-peekaboo'
+  "" Showing key bindings, configure it
+  Plug 'liuchengxu/vim-which-key'
+
+  Plug 'rhysd/vim-grammarous'
+  Plug 'dpelle/vim-LanguageTool'
+  Plug 'PatrBal/vim-textidote'
 
   "" Automatically causes vim to reload files which have been written on disk but not modified in the buffer since the last write from vim
-  Plugin 'djoshea/vim-autoread'
+  Plug 'djoshea/vim-autoread'
   "" diff two separate blocks of text with :Linediff
-  Plugin 'AndrewRadev/linediff.vim'
+  Plug 'AndrewRadev/linediff.vim'
   "" view and arrange csv files
-  Plugin 'chrisbra/csv.vim'
+  Plug 'chrisbra/csv.vim'
   "" file browser
-  Plugin 'scrooloose/nerdtree'
+  Plug 'scrooloose/nerdtree'
   "" structure and tags
-  Plugin 'preservim/tagbar'
+  Plug 'preservim/tagbar'
   "" multiple cursors
-  Plugin 'mg979/vim-visual-multi'
+  Plug 'mg979/vim-visual-multi'
   "; "" diff dirs
-  "; Plugin 'will133/vim-dirdiff'
+  "; Plug 'will133/vim-dirdiff'
   "" diff dirs better??
-  Plugin 'ZSaberLv0/ZFVimDirDiff'
-  Plugin 'ZSaberLv0/ZFVimJob' " required
-  Plugin 'ZSaberLv0/ZFVimIgnore' " optional, but recommended for auto ignore setup
-  Plugin 'ZSaberLv0/ZFVimBackup' " optional, but recommended for auto backup
+  Plug 'ZSaberLv0/ZFVimDirDiff'
+  Plug 'ZSaberLv0/ZFVimJob' " required
+  Plug 'ZSaberLv0/ZFVimIgnore' " optional, but recommended for auto ignore setup
+  Plug 'ZSaberLv0/ZFVimBackup' " optional, but recommended for auto backup
   "" Pretty
-  Plugin 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline'
   "" Toggle comments
-  Plugin 'tpope/vim-commentary'
+  Plug 'tpope/vim-commentary'
   "" Show colors on variables
-  Plugin 'chrisbra/Colorizer'
+  Plug 'chrisbra/Colorizer'
   "" Sent text for REPL evaluation
-  Plugin 'jpalardy/vim-slime'
+  Plug 'jpalardy/vim-slime'
   "" Julia support
-  " Plugin 'JuliaEditorSupport/julia-vim'
+  " Plug 'JuliaEditorSupport/julia-vim'
   "" R IDE
-  Plugin 'jalvesaq/Nvim-R'
+  Plug 'jalvesaq/Nvim-R'
   "" code completion source for code embedded in other documents
-  " Plugin 'jmbuhr/otter.nvim'
+  " Plug 'jmbuhr/otter.nvim'
   "" misc for md and r
-  Plugin 'vim-pandoc/vim-rmarkdown'
-  Plugin 'vim-pandoc/vim-pandoc-syntax'
+  Plug 'vim-pandoc/vim-rmarkdown'
+  Plug 'vim-pandoc/vim-pandoc-syntax'
   "" async lint engine
-  Plugin 'w0rp/ale'
-  Plugin 'neovim/nvim-lspconfig'
+  Plug 'w0rp/ale'
+  Plug 'neovim/nvim-lspconfig'
   " For R completion
-  Plugin 'ncm2/ncm2'
-  Plugin 'roxma/nvim-yarp'
-  Plugin 'gaalcaras/ncm-R'
+  Plug 'ncm2/ncm2'
+  Plug 'roxma/nvim-yarp'
+  Plug 'gaalcaras/ncm-R'
   " Invoke autocomplete with tab ?
-  Plugin 'ervandew/supertab'
+  Plug 'ervandew/supertab'
   " More autocomplete options?
-  " Plugin 'girishji/vimcomplete'
+  " Plug 'girishji/vimcomplete'
   " Color for current line
-  Plugin 'miyakogi/conoline.vim'
+  Plug 'miyakogi/conoline.vim'
 
   " a color scheme
-  Plugin 'romainl/Apprentice'
+  Plug 'romainl/Apprentice'
 
-  Plugin 'ycm-core/YouCompleteMe'
+  Plug 'ycm-core/YouCompleteMe'
 
-  Plugin 'vimwiki/vimwiki'
+  Plug 'vimwiki/vimwiki'
 
   "" Ranger in vim
-  Plugin 'francoiscabrol/ranger.vim'
+  Plug 'francoiscabrol/ranger.vim'
 
   " " markdown folding
-  " Plugin 'shushcat/vim-minimd'
+  " Plug 'shushcat/vim-minimd'
   " " Undo tree to test
-  Plugin 'mbbill/undotree'
+  Plug 'mbbill/undotree'
 
   "
-  Plugin 'vim-voom/VOoM'
+  Plug 'vim-voom/VOoM'
 
   "
-  Plugin 'junegunn/fzf.vim'
-  Plugin 'junegunn/fzf'
+  Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf'
 
   """ fixes
   if !has('nvim')
-      Plugin 'roxma/vim-hug-neovim-rpc'
+      Plug 'roxma/vim-hug-neovim-rpc'
   endif
 
-call vundle#end()            " required
-filetype plugin indent on    " required
+call plug#end()
 
 
 
@@ -312,14 +308,14 @@ if &diff
 endif
 
 " Fill R comments with "-" up to 80
-autocmd FileType r,R,sh,py,tex nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
+autocmd FileType r,R,sh,py,tex,yaml,yml nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
 
 
 " "" close vim if the only window left open is a NERDTree 
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 "" autowrap for writing
-"" We always wan't spelling in some files
+"" We always want spelling in some files
 augroup markdownSpell
     autocmd!
     autocmd BufRead,BufNewFile *.md,*.Rmd,*.qmd setlocal spell spelllang=en_us,el textwidth=85 formatoptions+=t colorcolumn=86
