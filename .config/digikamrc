@@ -968,7 +968,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwKzs7M=
+Database Encrypted Password=AwKCgoI=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1177,7 +1177,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=10
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
@@ -1558,7 +1558,7 @@ ShowImageSettingsDialog=true
 SixteenBitsImage=false
 SplitterState=AAAA/wAAAAEAAAACAAAAwAAAAZcB/////wAAAAABAQ==
 TIFFCompression=false
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAfsAAAAeAGUAZABpAHQAbwByAF8AdABoAHUAbQBiAGIAYQByAQAAAAD/////AAAAVwD///8AAAAAAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAA==
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAAAAAEAAAAEwfwCAAAAAfsAAAAeAGUAZABpAHQAbwByAF8AdABoAHUAbQBiAGIAYQByAAAAAAAAAATBAAAAVwD///8AAAM2AAAFIAAAAAQAAAAEAAAACAAAAAj8AAAAAA==
 Unclip Color=0
 UnderExposureColor=255,255,255
 UnderExposureIndicator=false
