@@ -968,7 +968,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJnZ2c=
+Database Encrypted Password=AwIyMjI=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1177,7 +1177,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=10
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
@@ -1216,7 +1216,7 @@ targetUrl=file:///home/athan/ZHOST/natasha_share/to_move
 [Find Duplicates View]
 AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=3227
-AlbumComboBox-Expansion=
+AlbumComboBox-Expansion=1,3227
 AlbumComboBox-RestoreChecked=true
 AlbumComboBox-Selection=3227
 AlbumComboBox-SortColumn=0
@@ -1232,10 +1232,10 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=4
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=4
+TagComboBox-Selection=125,4
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
-UseWholeAlbumsEntry=false
+UseWholeAlbumsEntry=true
 UseWholeTagsEntry=false
 
 [Fuzzy Search Sidebar]
@@ -1352,8 +1352,8 @@ ToolButtonStyle=IconOnly
 [Geolocation Edit Settings]
 1920x1080 screen: Height=875
 1920x1080 screen: Width=1717
-2560x1440 screen: Height=1263
-2560x1440 screen: Width=1847
+2560x1440 screen: Height=1249
+2560x1440 screen: Width=1577
 Bookmarks visible=false
 Current Tab=1
 Map Layout=0
@@ -1375,7 +1375,7 @@ Time Zone=19
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:41.0283811592,22.4593895464
+Center=geo:41.3267013244,24.6624543918
 GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1394,7 +1394,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:2773
+Zoom=marble:3050
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1434,7 +1434,7 @@ Keep old results=false
 Search backend=osm
 
 [Geolocation Edit Settings][Tree View]
-Header State=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABR8AAAANAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAANAAAAPAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAlwAAAAEAAAAAAAAD6AAAAABkAAAAAA==
+Header State=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABOwAAAANAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAANAAAAPAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 Image List Thumbnail Size=60
 
 [Grouping Behaviour]
@@ -2076,7 +2076,7 @@ CaseSensitive=0
 [Select Reference]
 AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=3227
-AlbumComboBox-Expansion=
+AlbumComboBox-Expansion=1,3227
 AlbumComboBox-RestoreChecked=true
 AlbumComboBox-Selection=3227
 AlbumComboBox-SortColumn=0
@@ -2143,11 +2143,11 @@ TagsSource=false
 2560x1440 screen: Width=1663
 
 [Time Adjust Settings]
-Adjustment Days=364
-Adjustment Time=2000,1,1,0,3,58
+Adjustment Days=0
+Adjustment Time=2000,1,1,0,0,0
 Adjustment Type=2
-Custom Date=2025,1,1,0,0,0
-Custom Time=2000,1,1,3,17,0
+Custom Date=2024,10,19,0,0,0
+Custom Time=2000,1,1,20,3,0
 File Timestamp Type=0
 Meta Timestamp Type=0
 Update EXIF Digitization Time=true
@@ -2160,7 +2160,7 @@ Update Only If Available Time=true
 Update Timestamps With ExifTool=false
 Update XMP Creation Time=true
 Update XMP Video Time=true
-Use Timestamp Type=0
+Use Timestamp Type=4
 
 [TimeLine Sidebar]
 CurrentIndex=
