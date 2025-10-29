@@ -23,17 +23,15 @@ alias τρανσ='  trans'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 alias ip='     ip --color=auto'
 
+## set aliases if program exists
 type zoxide >/dev/null 2>&1 && alias   cd='z'
 type pinfo  >/dev/null 2>&1 && alias info='pinfo'
+type eza    >/dev/null 2>&1 && alias   ls='eza --group-directories-first --icons=always --git'
+type trash  >/dev/null 2>&1 && alias   rm='trash'
 
-
-# ## set aliases if program exists
 # alias_if  lf  lf-ueberzug  >/dev/null
-# alias_if  rm  trash        >/dev/null
-
 
 alias lf='~/.config/lf/lf-ueberzug/lf-ueberzug'
-type trash >/dev/null 2>&1 && alias rm='trash'
 
 ## hide terminal when gui
 alias gthumb='        devour gthumb'
