@@ -27,7 +27,10 @@ alias ip='     ip --color=auto'
 type zoxide >/dev/null 2>&1 && alias   cd='z'
 type pinfo  >/dev/null 2>&1 && alias info='pinfo'
 type eza    >/dev/null 2>&1 && alias   ls='eza --group-directories-first --icons=always --git'
+type eza    >/dev/null 2>&1 && alias   lt='eza --group-directories-first --icons=always --git -l -snew '
 type trash  >/dev/null 2>&1 && alias   rm='trash'
+
+
 
 # alias_if  lf  lf-ueberzug  >/dev/null
 
