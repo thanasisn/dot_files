@@ -22,6 +22,7 @@ alias rr='     ranger'
 alias τρανσ='  trans'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/'
 alias ip='     ip --color=auto'
+alias recollq='2>/dev/null recollq'
 
 ## set aliases if program exists
 type zoxide >/dev/null 2>&1 && alias   cd='z'
