@@ -46,7 +46,7 @@ mod4 + shift + {t,τ}
 
 # yazi
 mod4 + {t,τ}
-    /home/athan/.nix-profile/bin/konsole -e /home/athan/.nix-profile/bin/yazi
+    /home/athan/.nix-profile/bin/konsole -e '/home/athan/.nix-profile/bin/yazi; $SHELL'
     # lxterminal -e $SHELL -c "/home/athan/.config/lf/lf-ueberzug/lf-ueberzug"
     ## preview not work from here
     # lxterminal -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
