@@ -968,7 +968,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwK1tbU=
+Database Encrypted Password=AwKnp6c=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1177,7 +1177,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=10
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
@@ -1366,7 +1366,7 @@ SplitterState V1=AAAA/wAAAAEAAAACAAACBwAAARMB/////wEAAAACAA==
 GPX File Open Last Directory=/home/athan/Downloads
 Interpolate=true
 Max Gap Time=00:00:30
-Max Inter Dist Time=00:15:00
+Max Inter Dist Time=00:01:00
 Offset Sign=0
 Offset Time=00:00:00
 SelectedImages=false
@@ -1375,7 +1375,7 @@ Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:41.0394643048,21.9687891561
+Center=geo:41.0335636495,21.9849832994
 GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1394,7 +1394,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3050
+Zoom=marble:3327
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
