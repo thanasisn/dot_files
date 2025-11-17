@@ -968,7 +968,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwIbGxs=
+Database Encrypted Password=AwJ6eno=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1177,7 +1177,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=10
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
@@ -1216,9 +1216,9 @@ targetUrl=file:///home/athan/ZHOST/natasha_share/to_move
 [Find Duplicates View]
 AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=1
-AlbumComboBox-Expansion=
+AlbumComboBox-Expansion=1,3227
 AlbumComboBox-RestoreChecked=true
-AlbumComboBox-Selection=1
+AlbumComboBox-Selection=1,3227
 AlbumComboBox-SortColumn=0
 AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
@@ -1232,10 +1232,10 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=137
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=137
+TagComboBox-Selection=137,8
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
-UseWholeAlbumsEntry=false
+UseWholeAlbumsEntry=true
 UseWholeTagsEntry=false
 
 [Fuzzy Search Sidebar]
@@ -1375,7 +1375,7 @@ Time Zone=18
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:41.0335636495,21.9849832994
+Center=geo:40.8683773746,24.0874022708
 GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1394,7 +1394,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3327
+Zoom=marble:2911
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -2076,9 +2076,9 @@ CaseSensitive=0
 [Select Reference]
 AlbumComboBox-Checked=
 AlbumComboBox-CurrentIndex=1
-AlbumComboBox-Expansion=
+AlbumComboBox-Expansion=1,3227
 AlbumComboBox-RestoreChecked=true
-AlbumComboBox-Selection=1
+AlbumComboBox-Selection=1,3227
 AlbumComboBox-SortColumn=0
 AlbumComboBox-SortOrder=0
 UseWholeAlbumsEntry=false
