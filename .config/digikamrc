@@ -204,7 +204,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=1892,51,1592,570,186,144,134,270,29,145
+Recently Used Tags=2901,1710,1720,87,2893,2902,11,2831,298,414
 
 [DMetadata Settings]
 readingAllTags=false
@@ -968,7 +968,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJgYGA=
+Database Encrypted Password=AwIUFBQ=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1200,7 +1200,7 @@ UseWholeTagsEntry=false
 1366x768 screen: Height=732
 1366x768 screen: Width=674
 2560x1440 screen: Height=1404
-2560x1440 screen: Width=1271
+2560x1440 screen: Width=1074
 
 [FileCopyExport]
 albumPath=true
@@ -1234,7 +1234,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=498
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=498,6
+TagComboBox-Selection=6
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
