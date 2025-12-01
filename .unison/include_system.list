@@ -1,5 +1,6 @@
 ##  Include by path reference of basic system configuration files
 path = .Renviron
+path = .oh-my-zsh
 path = .Rprofile
 path = .Xresources
 path = .bashrc
