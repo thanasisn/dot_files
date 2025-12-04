@@ -10,7 +10,7 @@ sleep 1
 # "$HOME/CODE/session/session_startup.sh" &
 
 ## set session settings
-"$HOME/CODE/session/session_settings.sh" &
+setsid "$HOME/CODE/session/session_settings.sh" &
 
 
 ###  bspwm config  #####################################################
