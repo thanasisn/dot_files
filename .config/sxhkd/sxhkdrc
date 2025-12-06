@@ -6,7 +6,8 @@
 
 # Show sxhkdrc keybinds
 mod4 + F1
-    "$HOME/.config/sxhkd/sxhkdrc_keybinds.sh" "$HOME/.config/sxhkd/sxhkdrc"
+    "$HOME/.config/sxhkd/keybinds.sh"
+    # "$HOME/.config/sxhkd/sxhkdrc_keybinds.sh" "$HOME/.config/sxhkd/sxhkdrc"
 
 # Reload sxhkd configuration
 mod4 + Escape
