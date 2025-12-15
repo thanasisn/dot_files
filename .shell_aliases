@@ -79,3 +79,13 @@ alias josm_hgt2adsl='java -Djosm.pref=$HOME/.config/JOSM_hgt2dsl_gr -jar $HOME/P
 
 # alias recoll='QT_STYLE_OVERRIDE=fusion recoll'
 
+## why noa? why
+function ssh() {
+  if [[ "$1" == "gpu-2" ]]; then
+    command sshpass -p 'DqwXId7RxqfypDPQ' ssh -o StrictHostKeyChecking=no anatsis@10.201.47.102
+  elif [[ "$1" == "gpu" ]]; then
+      command sshpass -p 'DqwXId7RxqfypDPQ' ssh -o StrictHostKeyChecking=no anatsis@10.201.47.101
+  else
+    command ssh "$@"
+  fi
+}
