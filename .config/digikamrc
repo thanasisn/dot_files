@@ -969,12 +969,12 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJ5eXk=
+Database Encrypted Password=AwJ4eHg=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
-Database Name Face=/home/folder/CAMERATTA/
-Database Name Similarity=/home/folder/CAMERATTA/
-Database Name Thumbnails=/home/folder/CAMERATTA/
+Database Name Face=/home/folder/CAMERATTA
+Database Name Similarity=/home/folder/CAMERATTA
+Database Name Thumbnails=/home/folder/CAMERATTA
 Database Port=-1
 Database Type=QSQLITE
 Database Username=
