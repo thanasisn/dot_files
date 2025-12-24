@@ -154,7 +154,7 @@ if [ "$(hostname)" = "mumra" ]; then
 fi
 
 # if [ "$(hostname)" = "tyler" ]; then
-alias sskk='sudo encfs --public /home/folder/.KKK /mnt/con'
+alias sskk='encfs --public /home/folder/.KKK /mnt/con'
 alias kkss='sudo fusermount -uz /mnt/con'
 
 alias other='encfs --idle=180 /home/folder/CAMERATTA/OTHER   /home/athan/Pictures/other3'
