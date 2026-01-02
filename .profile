@@ -50,3 +50,6 @@ fi
 ## set settings last
 "$HOME/CODE/session/session_settings.sh"  > /dev/null 2>&1
 
+
+# Created by `pipx` on 2026-01-02 19:00:26
+export PATH="$PATH:/home/athan/.local/bin"

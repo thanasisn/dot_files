@@ -180,3 +180,6 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 . .nwcgeo
+
+# Created by `pipx` on 2026-01-02 19:00:26
+export PATH="$PATH:/home/athan/.local/bin"
