@@ -197,7 +197,7 @@ EnableCM=true
 GamutCheckMaskColor=126,255,255
 LastMismatchBehavior=2049
 LastMissingProfileBehavior=2050
-LastSpecifiedAssignProfile=
+LastSpecifiedAssignProfile[$e]=/usr/share/digikam/profiles/
 LastSpecifiedInputProfile=
 LastUncalibratedBehavior=2080
 ManagedPreviews=true
@@ -946,7 +946,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwKzs7M=
+Database Encrypted Password=AwJvb28=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1158,7 +1158,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=10
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
