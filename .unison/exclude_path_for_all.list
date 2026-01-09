@@ -29,6 +29,7 @@ ignore = Path {.config/rstudio/DawnCache}
 ignore = Path {.config/rstudio/DawnGraphiteCache}
 ignore = Path {.config/rstudio/DawnWebGPUCache}
 ignore = Path {.config/systemd/user/timers.target.wants}
+ignore = Path {.config/yazi/plugins}
 ignore = Path {.mozilla}
 ignore = Path {.mplayer2}
 ignore = Path {.notify-osd}
