@@ -22,17 +22,23 @@ export R_LIBS_USER=$R_LIBS_USER
 
 
 ### Check names with `locale -a`
+
 ## override locale numeric
 export LC_NUMERIC="C"
+
 ## for a iso date format in some programs
 # export LC_TIME="en_DK.UTF-8"
 export LC_TIME="en_DK.utf8"
-## overide locale numeric
+
+## override locale numeric
 # export LC_NUMERIC="C.UTF-8" 
 export LC_NUMERIC="C.utf8" 
+
 ## ranger needs that
 export LC_ALL="C.utf8"
 
+## dont know why need this
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # mkdir -p "$ZEITGEIST_DATABASE_PATH"
 
@@ -41,7 +47,7 @@ export LC_ALL="C.utf8"
 # export QT_XCB_GL_INTEGRATION=none
 
 ## GoldenCheetah needs to find R
-#export R_HOME="/opt/R/4.2.3/bin/R"
+export R_HOME="$(which R)"
 
 ## PROGRAMS CONFIGURATION
 

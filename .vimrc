@@ -94,8 +94,12 @@ call plug#begin()
   Plug 'VundleVim/Vundle.vim'
   "" just a colorshceme
   Plug 'morhetz/gruvbox'
+ 
+  Plug 'itspriddle/vim-shellcheck'
+
   "" Show registers '"' or '@' in normal mode and <CTRL-R> in insert mode
   Plug 'junegunn/vim-peekaboo'
+  
   "" Showing key bindings, configure it
   Plug 'liuchengxu/vim-which-key'
 
