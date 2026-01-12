@@ -312,7 +312,7 @@ if &diff
 endif
 
 " Fill R comments with "-" up to 80
-autocmd FileType r,R,sh,python,tex,yaml,yml nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
+autocmd FileType r,R,sh,python,tex,yaml,yml,nix nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
 
 
 " "" close vim if the only window left open is a NERDTree 
