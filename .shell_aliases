@@ -62,6 +62,9 @@ alias xargsln='     tr '\n' '\0' | xargs -0 '
 alias stow='        stow -v '
 
 #alias rmlint="rmlint -c sh:cmd='trash-put "$1"'"
+
+alias rmlint="rmlint --output=json:/dev/null --output=sh:rmlint.sh -o summary:stdout -o pretty:stdout"
+
 alias aptupdate='sudo apt update; sudo apt -y upgrade; sudo apt -y autoclean; sudo apt -y autoremove; sudo apt clean'
 
 
