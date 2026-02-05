@@ -66,6 +66,44 @@ ignore = Path {nohup.out}
 ignore = Path {unison.log}
 
 
+## dont mess up systemds 
+# find ~/.config/systemd/user -type l  -maxdepth 1 
+
+ignore = Path {.config/systemd/user/gather_data.service}
+ignore = Path {.config/systemd/user/unison_BBand_LAP_project.timer}
+ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.service}
+ignore = Path {.config/systemd/user/conky_10m_run.service}
+ignore = Path {.config/systemd/user/sxhkd.service}
+ignore = Path {.config/systemd/user/tray.target}
+ignore = Path {.config/systemd/user/conky_90m_run.timer}
+ignore = Path {.config/systemd/user/conky_05m_run.timer}
+ignore = Path {.config/systemd/user/auto_make.service}
+ignore = Path {.config/systemd/user/build_my_reports.service}
+ignore = Path {.config/systemd/user/shell_history.timer}
+ignore = Path {.config/systemd/user/conky_30m_run.service}
+ignore = Path {.config/systemd/user/vendora_traffic.service}
+ignore = Path {.config/systemd/user/unison_BBand_LAP_project.service}
+ignore = Path {.config/systemd/user/monitor_bband.service}
+ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.timer}
+ignore = Path {.config/systemd/user/conky_90m_run.service}
+ignore = Path {.config/systemd/user/auto_make.timer}
+ignore = Path {.config/systemd/user/run_CMIC_OCA.service}
+ignore = Path {.config/systemd/user/battery_status.service}
+ignore = Path {.config/systemd/user/vendora_traffic.timer}
+ignore = Path {.config/systemd/user/unison_crane_mumra_ts.timer}
+ignore = Path {.config/systemd/user/glances.service}
+ignore = Path {.config/systemd/user/monitor_bband.timer}
+ignore = Path {.config/systemd/user/gather_data.timer}
+ignore = Path {.config/systemd/user/conky_30m_run.timer}
+ignore = Path {.config/systemd/user/battery_status.timer}
+ignore = Path {.config/systemd/user/build_my_reports.timer}
+ignore = Path {.config/systemd/user/conky_10m_run.timer}
+ignore = Path {.config/systemd/user/conky_05m_run.service}
+ignore = Path {.config/systemd/user/unison_crane_mumra_ts.service}
+ignore = Path {.config/systemd/user/shell_history.service}
+
+
+
 backupnot = Name *.duckdb
 backupnot = Path *.duckdb
 backupnot = Path **/*.duckdb
