@@ -27,6 +27,9 @@ export FZF_DEFAULT_OPTS=" --preview 'bat --color=always --style=plain,header --l
 ## disable clear screen with ctrl+l conflict with vim
 bindkey -r "^L"
 
+## disable paste warnings
+unset zle_bracketed_paste
+
 ## define looks
 case "$(hostname)" in
 
