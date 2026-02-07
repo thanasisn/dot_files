@@ -18,11 +18,11 @@ URxvt.geometry: 110x30
 
 ! Fonts
 ! =====
-!URxvt.font:     xft:Liberation Mono:size=6,xft:Monospace:size=9
+URxvt.font:    xft:DejaVu Sans Mono:size=8,xft:Monospace:size=8,xft:Fira Code:size=8:w
 URxvt.allow_bold: true
 URxvt.letterSpace: 0
-URxvt.font: xft:JetBrainsMono Nerd Font:size=9,\
-            xft:Symbols Nerd Font:size=9
+! URxvt.font: xft:JetBrainsMono Nerd Font:size=9,\
+!             xft:Symbols Nerd Font:size=9
 
 ! urxvt.boldFont:       xft:Liberation Mono:pixelsize=12:style=bold
 ! urxvt.italicFont:     xft:Liberation Mono:pixelsize=12:style=italic
