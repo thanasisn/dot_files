@@ -64,52 +64,57 @@ ignore = Path {ZHOST}
 ignore = Path {gdalwmscache}
 ignore = Path {nohup.out}
 ignore = Path {unison.log}
+ignore = Path {.vim/plugged/YouCompleteMe}
 
 
 ## dont mess up systemds  do this until all are in nix
 
 # find ~/.config/systemd/user -type d -maxdepth 1 
-ignore = Path {config/systemd/user/graphical-session.target.wants}
-ignore = Path {config/systemd/user/sockets.target.wants}
-ignore = Path {config/systemd/user/default.target.wants}
-ignore = Path {config/systemd/user/timers.target.wants}
-ignore = Path {config/systemd/user/gather_data.service}}
+ignore = Path {.config/systemd/user/graphical-session.target.wants}
+ignore = Path {.config/systemd/user/sockets.target.wants}
+ignore = Path {.config/systemd/user/default.target.wants}
+ignore = Path {.config/systemd/user/timers.target.wants}
+ignore = Path {.config/systemd/user/gather_data.service}
 
 # find ~/.config/systemd/user -type l -maxdepth 1 
-ignore = Path {config/systemd/user/unison_BBand_LAP_project.timer}}
-ignore = Path {config/systemd/user/unison_tyler_mumra_ts.service}}
-ignore = Path {config/systemd/user/conky_10m_run.service}}
-ignore = Path {config/systemd/user/sxhkd.service}}
-ignore = Path {config/systemd/user/tray.target}}
-ignore = Path {config/systemd/user/conky_90m_run.timer}}
-ignore = Path {config/systemd/user/conky_05m_run.timer}}
-ignore = Path {config/systemd/user/auto_make.service}}
-ignore = Path {config/systemd/user/build_my_reports.service}}
-ignore = Path {config/systemd/user/shell_history.timer}}
-ignore = Path {config/systemd/user/conky_30m_run.service}}
-ignore = Path {config/systemd/user/vendora_traffic.service}}
-ignore = Path {config/systemd/user/unison_BBand_LAP_project.service}}
-ignore = Path {config/systemd/user/monitor_bband.service}}
-ignore = Path {config/systemd/user/photoprism-index.service}}
-ignore = Path {config/systemd/user/unison_tyler_mumra_ts.timer}}
-ignore = Path {config/systemd/user/conky_90m_run.service}}
-ignore = Path {config/systemd/user/auto_make.timer}}
-ignore = Path {config/systemd/user/run_CMIC_OCA.service}}
-ignore = Path {config/systemd/user/battery_status.service}}
-ignore = Path {config/systemd/user/vendora_traffic.timer}}
-ignore = Path {config/systemd/user/photoprism-index.timer.timer}}
-ignore = Path {config/systemd/user/unison_crane_mumra_ts.timer}}
-ignore = Path {config/systemd/user/glances.service}}
-ignore = Path {config/systemd/user/monitor_bband.timer}}
-ignore = Path {config/systemd/user/gather_data.timer}}
-ignore = Path {config/systemd/user/conky_30m_run.timer}}
-ignore = Path {config/systemd/user/battery_status.timer}}
-ignore = Path {config/systemd/user/build_my_reports.timer}}
-ignore = Path {config/systemd/user/conky_10m_run.timer}}
-ignore = Path {config/systemd/user/conky_05m_run.service}}
-ignore = Path {config/systemd/user/unison_crane_mumra_ts.service}}
-ignore = Path {config/systemd/user/shell_history.service}}
-ignore = Path {config/systemd/user/photoprism-server.service}}
+ignore = Path {.config/systemd/user/gather_data.service}
+ignore = Path {.config/systemd/user/unison_BBand_LAP_project.timer}
+ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.service}
+ignore = Path {.config/systemd/user/scratchpad_today.service}
+ignore = Path {.config/systemd/user/conky_10m_run.service}
+ignore = Path {.config/systemd/user/sxhkd.service}
+ignore = Path {.config/systemd/user/tray.target}
+ignore = Path {.config/systemd/user/conky_90m_run.timer}
+ignore = Path {.config/systemd/user/conky_05m_run.timer}
+ignore = Path {.config/systemd/user/heartbeat_tg.service}
+ignore = Path {.config/systemd/user/auto_make.service}
+ignore = Path {.config/systemd/user/build_my_reports.service}
+ignore = Path {.config/systemd/user/shell_history.timer}
+ignore = Path {.config/systemd/user/conky_30m_run.service}
+ignore = Path {.config/systemd/user/vendora_traffic.service}
+ignore = Path {.config/systemd/user/unison_BBand_LAP_project.service}
+ignore = Path {.config/systemd/user/monitor_bband.service}
+ignore = Path {.config/systemd/user/photoprism-index.service}
+ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.timer}
+ignore = Path {.config/systemd/user/conky_90m_run.service}
+ignore = Path {.config/systemd/user/auto_make.timer}
+ignore = Path {.config/systemd/user/battery_status.service}
+ignore = Path {.config/systemd/user/photoprism-index.timer}
+ignore = Path {.config/systemd/user/vendora_traffic.timer}
+ignore = Path {.config/systemd/user/unison_crane_mumra_ts.timer}
+ignore = Path {.config/systemd/user/glances.service}
+ignore = Path {.config/systemd/user/monitor_bband.timer}
+ignore = Path {.config/systemd/user/gather_data.timer}
+ignore = Path {.config/systemd/user/conky_30m_run.timer}
+ignore = Path {.config/systemd/user/battery_status.timer}
+ignore = Path {.config/systemd/user/build_my_reports.timer}
+ignore = Path {.config/systemd/user/conky_10m_run.timer}
+ignore = Path {.config/systemd/user/conky_05m_run.service}
+ignore = Path {.config/systemd/user/unison_crane_mumra_ts.service}
+ignore = Path {.config/systemd/user/shell_history.service}
+ignore = Path {.config/systemd/user/heartbeat_tg.timer}
+ignore = Path {.config/systemd/user/photoprism-server.service}
+
 
 
 
