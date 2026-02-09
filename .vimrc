@@ -143,6 +143,7 @@ call plug#begin()
   "" misc for md and r
   Plug 'vim-pandoc/vim-rmarkdown'
   Plug 'vim-pandoc/vim-pandoc-syntax'
+  Plug 'dhruvasagar/vim-table-mode'
   "" async lint engine
   Plug 'w0rp/ale'
   Plug 'neovim/nvim-lspconfig'
