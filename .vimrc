@@ -237,6 +237,8 @@ exec 'nnoremap <Leader>ss :mks! ' . g:session_dir . '/*.vim<C-D><BS><BS><BS><BS>
 exec 'nnoremap <Leader>so :so ' . g:session_dir . '/*.vim<C-D><BS><BS><BS><BS><BS>'
 
 
+let g:table_mode_filetype = ['markdown', 'quarto']
+autocmd BufRead,BufNewFile *.qmd set filetype=quarto
 
 
 """ FUNCTIONS
