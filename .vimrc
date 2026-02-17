@@ -323,8 +323,8 @@ autocmd FileType r,R,sh,python,tex,yaml,yml,nix nnoremap <buffer> <F12> :call RF
 "" We always want spelling in some files
 augroup markdownSpell
     autocmd!
-    autocmd BufRead,BufNewFile *.md,*.Rmd,*.qmd setlocal spell spelllang=en_us,el textwidth=85 formatoptions+=t colorcolumn=86
-    autocmd FileType      latex,tex,md,markdown setlocal spell spelllang=en_us,el
+    autocmd BufRead,BufNewFile   *.md,*.Rmd,*.qmd setlocal spell spelllang=en_us,el textwidth=85 formatoptions+=t colorcolumn=86
+    autocmd FileType latex,tex,md,markdown,quarto setlocal spell spelllang=en_us,el
 augroup END
 
 
