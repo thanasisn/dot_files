@@ -159,9 +159,7 @@ if ! shopt -oq posix; then
 fi
 
 ## enable python env
-eval "$(pyenv virtualenv-init -)"
-
-
+eval "$(pyenv virtualenv-init - bash)"
 
 
 # >>> conda initialize >>>
@@ -179,7 +177,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-. .nwcgeo
+. ~/.nwcgeo
 
 # Created by `pipx` on 2026-01-02 19:00:26
 export PATH="$PATH:/home/athan/.local/bin"
