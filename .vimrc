@@ -317,6 +317,9 @@ endif
 " Fill R comments with "-" up to 80
 autocmd FileType r,R,sh,python,tex,yaml,yml,nix nnoremap <buffer> <F12> :call RFillLine( '-' )<CR>
 
+" Enable shellcheck
+autocmd FileType sh setlocal makeprg=shellcheck
+
 
 " "" close vim if the only window left open is a NERDTree 
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -362,6 +365,31 @@ let g:ale_r_lintr_linters = "linters_with_defaults(line_length_linter(999))"
 "let g:ale_r_lintr_options = "linters_with_defaults(line_length_linter(120))"
 let b:ale_linters = ['pylint']
 let g:ale_python_pylint_options = '--rcfile '.expand('~/.pylintrc')
+
+" Or with specific window height
+nnoremap <leader>sc :ShellCheck<CR>:copen 8<CR>
+
+
+" Run ShellCheck when saving shell scripts and open quickfix if there are errors
+augroup shellcheck_auto
+    autocmd!
+    autocmd BufWritePost *.sh,*.bash call s:run_shellcheck()
+augroup END
+
+function! s:run_shellcheck()
+    " Run ShellCheck and populate quickfix
+    :ShellCheck
+    
+    " Check if quickfix has any entries and open window
+    if len(getqflist()) > 0
+        copen
+    else
+        " Optional: close quickfix if no errors
+        cclose
+    endif
+endfunction
+
+
 
 "" NerdTree
 " show lines count
