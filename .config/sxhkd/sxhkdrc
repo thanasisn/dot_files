@@ -102,7 +102,7 @@ mod4 + {u,θ}; {h,η}
 mod4 + {u,θ}; {b,β}
     $HOME/CODE/system_tools/browser_bookmarks.sh > /dev/shm/brobm.log 2>&1 
 
-# Rofi google lancher
+# Rofi google luncher
 mod4 + {u,θ}; {g,γ}
     rofi -show search -modi search:/home/athan/PROGRAMS/rofi-web-search-master/rofi-web-search.py -i -p "Search: "
 
@@ -149,15 +149,27 @@ mod4 + {c,ψ}
 mod4 + shift + {c,ψ}
     "$HOME/.nix-profile/bin/qalculate-gtk"
 
-# Take notes
-mod4 + {n,ν}
-    /home/athan/.nix-profile/bin/konsole -e $SHELL -c "/home/athan/.nix-profile/bin/yazi /home/athan/NOTES;$SHELL"
+# Open notes 
+mod4 + {n,ν}; {o,ο}
+    /home/athan/.nix-profile/bin/konsole -e $SHELL -c "/home/athan/.nix-profile/bin/yazi /home/athan/NOTES ;$SHELL"
     # $HOME/.nix-profile/bin/obsidian
     # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
 
-# Quick note
-mod4 + {s,σ}; {n,ν}
-    urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/CODE/system_tools/quick_note.sh; $SHELL"
+# Create a notes
+mod4 + {n,ν}; {i,ι}
+    urxvt -geometry 80x30 -name Floating -e $SHELL -c "$HOME/CODE/notes_tools/quick_note.sh; $SHELL"
+
+# Create a work journal entry
+mod4 + {n,ν}; {w,ς}
+    urxvt -geometry 80x30 -name Floating -e $SHELL -c "$HOME/CODE/notes_tools/new_work_journal.sh; $SHELL"
+
+# Create a personal journal entry
+mod4 + {n,ν}; {j,ξ}
+    urxvt -geometry 80x30 -name Floating -e $SHELL -c "$HOME/CODE/notes_tools/new_my_journal.sh; $SHELL"
+
+# Open today notes 
+mod4 + {n,ν}; {n,ν}
+    $HOME/CODE/notes_tools/open_quick_note.sh  $HOME/NOTES/00_INPUT/today.md; $SHELL
 
 
 
