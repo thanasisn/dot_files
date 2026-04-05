@@ -453,6 +453,8 @@ nnoremap <F6> :UndotreeToggle<CR>
 " " F9: Build C++
 " autocmd FileType cpp map <F9> :w <CR> :!g++ -std=c++11 -Wall -o "%<" "%" && \time -f "Time: %E  CPU: %P  MEM: %MKb  STA: %I\n" "./%<"<CR>
 
+" go to next spell error
+noremap zg zg]s
 
 " copy to buffer between tmux?
 vmap <C-c> :w! ~/.vimbuffer<CR>
