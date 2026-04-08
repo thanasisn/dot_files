@@ -294,7 +294,7 @@ autoload -Uz compinit
 
 
 ## autoload project environment
-eval "$(direnv hook zsh)"
+# eval "$(direnv hook zsh)"
 
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
