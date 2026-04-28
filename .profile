@@ -8,11 +8,6 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
-## use GTK thme for qt5 applications
-## needs qt5-style-plugins
-# test this
-# export QT_QPA_PLATFORMTHEME=gtk2
-
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
   # include .bashrc if it exists
@@ -50,6 +45,6 @@ fi
 ## set settings last
 "$HOME/CODE/session/session_settings.sh"  > /dev/null 2>&1
 
+# Added by Toolbox App
+export PATH="$PATH:/home/athan/.local/share/JetBrains/Toolbox/scripts"
 
-# Created by `pipx` on 2026-01-02 19:00:26
-export PATH="$PATH:/home/athan/.local/bin"
