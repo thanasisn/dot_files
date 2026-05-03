@@ -155,8 +155,8 @@ simple_swap=false
 escape=hA\\e[M#hA
 
 [Panelize]
-Modified git files=git ls-files --modified
-Find unison tmp=find . -type f -iname ".unison.*.unison.tmp" -print 2>/dev/null
 Find rejects after patching=find . -name \\*.rej -print
 Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
+Find unison tmp=find . -type f -iname ".unison.*.unison.tmp" -print 2>/dev/null
+Modified git files=git ls-files --modified
 Find *.orig after patching=find . -name \\*.orig -print
