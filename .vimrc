@@ -176,6 +176,8 @@ call plug#begin()
   "
   Plug 'vim-voom/VOoM'
 
+  Plug '907th/vim-auto-save'
+
   "
   Plug 'junegunn/fzf.vim'
   Plug 'junegunn/fzf'
