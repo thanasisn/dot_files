@@ -200,8 +200,8 @@ mod4 + {s,σ}; {b,β}
 
 # main browser
 mod4 + {p,π}
-    GTK_THEME=Adwaita:dark /home/athan/.nix-profile/bin/brave
-    # brave-browser	
+    brave-browser	
+    # GTK_THEME=Adwaita:dark /home/athan/.nix-profile/bin/brave
     # firefox-esr
     # firefox
 
