@@ -35,7 +35,7 @@ Icon Show Title=false
 IconView Font=Noto Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Image Group Mode=2
 Image Group Sort Order=0
-Image Sort Order=0
+Image Sort Order=3
 Image Sorting=0
 Item Left Click Action=0
 Preview Convert To Eight Bit=true
@@ -144,7 +144,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=6,134
+TagComboBox-Selection=130,134
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
@@ -208,7 +208,7 @@ RenderingIntent=0
 WorkProfileFile[$e]=/usr/share/digikam/profiles/srgb-d65.icm
 
 [CoreDB Settings]
-Recently Used Tags=145,51,29,117,87,2901,1710,2942,125,115
+Recently Used Tags=29,11,2894,244,317,74,145,51,117,87
 
 [DMetadata Settings]
 readingAllTags=false
@@ -946,7 +946,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwJAQEA=
+Database Encrypted Password=AwLU1NQ=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -976,7 +976,7 @@ Minimized=false
 RestoreSize=-1
 
 [Digikam Right Sidebar]
-ActiveTab=3
+ActiveTab=4
 DigikamProperties Expanded=true
 FileProperties Expanded=true
 ItemProperties Expanded=true
@@ -1018,7 +1018,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:41.1260541968,22.1440217382
+Center=geo:41.111460729,22.176847278
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1038,7 +1038,7 @@ Show numbers on items=true
 Sticky Mode State=false
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3500
+Zoom=marble:2495
 
 [Digikam Right Sidebar][Metadata Properties Tab]
 Current EXIF Item=
@@ -1158,7 +1158,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=1000
+Face Detection Accuracy=10
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
@@ -1170,7 +1170,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=6,134
+TagComboBox-Selection=130,134
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 Use Full CPU=false
@@ -1212,10 +1212,10 @@ Last search album tag relation=0
 Last search results restriction=0
 Lower bound for minimum similarity=40
 TagComboBox-Checked=
-TagComboBox-CurrentIndex=6
+TagComboBox-CurrentIndex=130
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=6
+TagComboBox-Selection=130
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=false
@@ -1482,7 +1482,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=6,134
+TagComboBox-Selection=130,134
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
@@ -1945,7 +1945,7 @@ ToolBarsMovable=Disabled
 [MainWindow]
 InitialAlbumID=6123
 SplitterState=AAAA/wAAAAEAAAADAAABLwAAAfwAAAGBAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAQ5AAAAn/wBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABDkAAABXAP///wAAAxMAAAUTAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAR2AAAAn/wBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAABHYAAABXAP///wAABvQAAAUTAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
