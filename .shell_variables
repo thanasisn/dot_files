@@ -30,6 +30,9 @@ export LC_NUMERIC="C"
 # export LC_TIME="en_DK.UTF-8"
 export LC_TIME="en_DK.utf8"
 
+## this locale not in repos
+# export LC_TIME="en_SE.utf8"
+
 ## override locale numeric
 # export LC_NUMERIC="C.UTF-8" 
 export LC_NUMERIC="C.utf8" 
@@ -37,7 +40,7 @@ export LC_NUMERIC="C.utf8"
 ## ranger needs that
 export LC_ALL="C.utf8"
 
-## dont know why need this
+## don't know why need this
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 # mkdir -p "$ZEITGEIST_DATABASE_PATH"
