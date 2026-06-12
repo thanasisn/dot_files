@@ -65,7 +65,7 @@ ignore = Path {gdalwmscache}
 ignore = Path {nohup.out}
 ignore = Path {unison.log}
 ignore = Path {.vim/plugged/YouCompleteMe}
-
+ignore = Path {CODE/photoprism/database}
 
 ## dont mess up systemds  do this until all are in nix
 
