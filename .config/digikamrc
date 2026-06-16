@@ -946,7 +946,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwLU1NQ=
+Database Encrypted Password=AwIUFBQ=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1158,7 +1158,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=10
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
@@ -1358,7 +1358,7 @@ Time Zone=19
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:41.1098597898,22.1695632465
+Center=geo:40.6436432997,21.4945866002
 GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1377,7 +1377,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=21
 Thumbnail Size=42
-Zoom=marble:2634
+Zoom=marble:3500
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
