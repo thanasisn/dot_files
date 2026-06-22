@@ -89,7 +89,7 @@ shell_directory_timeout=900
 
 [Layout]
 output_lines=0
-left_panel_size=76
+left_panel_size=91
 top_panel_size=0
 message_visible=false
 keybar_visible=true
@@ -156,8 +156,8 @@ simple_swap=false
 escape=hA\\e[M#hA
 
 [Panelize]
-Modified git files=git ls-files --modified
 Find rejects after patching=find . -name \\*.rej -print
-Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
-Find *.orig after patching=find . -name \\*.orig -print
 Find unison tmp=find . -type f -iname ".unison.*.unison.tmp" -print 2>/dev/null
+Find *.orig after patching=find . -name \\*.orig -print
+Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
+Modified git files=git ls-files --modified
