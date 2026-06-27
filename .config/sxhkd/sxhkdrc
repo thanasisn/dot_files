@@ -55,26 +55,21 @@ mod4 + {t,τ}
     # x-terminal-emulator -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
     # x-terminal-emulator -e $SHELL -c "/home/athan/PROGRAMS/lf;$SHELL"
 
-# caja  1. File Manager
+# caja  file Manager
 mod4 + {y,υ}
     caja
 #    pcmanfm
 
-# xfe  2. File Manager
+# thunar  file Manager
 mod4 + shift + {y,υ}
-     nohup "/home/athan/.nix-profile/bin/xfe"
-#    pcmanfm
+    thunar
+#     nohup "/home/athan/.nix-profile/bin/xfe"
 #      setsid "$HOME/.nix-profile/xfe"
-#    pcmanfm
-#    thunar
 
-# dolphin  3. File Manager
+# dolphin  file Manager
 mod4 + {f,φ}
     dolphin
 
-# thunar  4. File Manager
-mod4 + shift + {f,φ}
-    thunar
 
 
 # Desktop tools
@@ -149,7 +144,7 @@ mod4 + {c,ψ}
 mod4 + shift + {c,ψ}
     "$HOME/.nix-profile/bin/qalculate-gtk"
 
-# Open notes 
+# Open notes yazi
 mod4 + {n,ν}; {o,ο}
     /home/athan/.nix-profile/bin/konsole -e $SHELL -c "/home/athan/.nix-profile/bin/yazi /home/athan/NOTES ;$SHELL"
     # $HOME/.nix-profile/bin/obsidian
