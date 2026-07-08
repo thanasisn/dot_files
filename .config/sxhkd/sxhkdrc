@@ -117,10 +117,6 @@ mod4 + Print
 
 # Regular Applications
 
-# New journal entry
-mod4 + {i,ι}; {j,ξ}
-    lxterminal -t Floating --geometry=105x24 -e $SHELL -c "/home/athan/CODE/system_tools/new_journal.sh;$SHELL"
-
 # # Journal entry
 # mod4 + {i,ι}; {j,ξ}
 #     lxterminal -t Floating -e $SHELL -c "/home/athan/CODE/system_tools/new_journal.sh;$SHELL"
