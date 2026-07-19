@@ -92,10 +92,10 @@ TreeView Font=Sans Serif,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=-2
-Expansion=0,1,165,3857,3194,3195,4897,4900,4901,4923,3849,4418,4099,4100,4098,4096,4092,4089,3954,5173,3852,3853,3858,4101,3860,3861,4094,4421,3864,3865,3952,3867,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,5129,5130,5131,5132,5133,5126,5125,5124,5123,5128,5139,5145,5178,5177,5167,5164,5171,5165,5175,5176,6120,6113,6112,6118,6116,6114,6121,6132,6133,1656,1667,1668,1669,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4030,4034,4035,4036,4038,4041,4043,4051,4054,4057,4058,4061,4065,4066,4067,4078,4079,4080,4081,4082,4083,4084,4415,4085,3782,4105,4108,4114,5134,5166,6119,3318,3736,3739,3740,3741,3742,4103,3744,5163,5151,3871,2777,2780,3760,3761,3762,4110,3178,2822,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,6105,6107,6108,6109,3763,3764,4106,3770,6130,3772,3773,4107,3776,3778,3779,3237,3282,5141,3233,3234,3235,3236,3238,6137,4423,4095,6123,6128,3343,3242,3245,3246,3247,3248,3791,3251,3335,4426,4427,3252,-2
+CurrentIndex=6138
+Expansion=0,1,165,3857,3194,3195,4897,4900,4901,4923,3849,4418,4099,4100,4098,4096,4092,4089,3954,5173,3852,3853,3858,4101,3860,3861,4094,4421,3864,3865,3952,3867,3868,4091,4431,4405,4429,4109,4424,4113,5121,4406,5090,5100,5091,5101,5102,5109,5110,5111,5113,5114,5116,5129,5130,5131,5132,5133,5126,5125,5124,5123,5128,5139,5145,5178,5177,5167,5164,5171,5165,5175,5176,6120,6113,6112,6118,6116,6114,6121,6132,6133,1656,1667,1668,1669,3338,3969,3970,3973,3975,3986,3985,3987,3988,3989,3993,4000,4001,4005,4007,4008,4009,4010,4011,4012,4013,4014,4022,4030,4034,4035,4036,4038,4041,4043,4051,4054,4057,4058,4061,4065,4066,4067,4078,4079,4080,4081,4082,4083,4084,4415,4085,3782,4105,4108,4114,5134,5166,6119,3318,3736,3739,3740,3741,3742,4103,3744,5163,5151,3871,2777,2780,3760,3761,3762,4110,3178,2822,3188,3189,3193,3196,3197,3198,3210,3211,3212,3213,3219,3223,3224,3225,3226,-3,3227,6105,6107,6108,6109,3763,3764,4106,3770,6130,3772,3773,4107,3776,3778,3779,3237,3282,5141,3233,3234,3235,3236,3238,6137,6138,4423,4095,6123,6128,3343,3242,3245,3246,3247,3248,3791,3251,3335,4426,4427,3252,-2
 RestoreChecked=false
-Selection=-2
+Selection=6138
 SortColumn=0
 SortOrder=0
 
@@ -144,7 +144,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=134
+TagComboBox-Selection=130,134
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
@@ -946,7 +946,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwI9PT0=
+Database Encrypted Password=AwIICAg=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1018,7 +1018,7 @@ Web GPS Locator=0
 
 [Digikam Right Sidebar][GPS Properties Tab][Map Widget]
 Backend=marble
-Center=geo:40.087350009,20.90697777
+Center=geo:40.161034503,22.405794588
 GoogleMaps Map Type=ROADMAP
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1038,7 +1038,7 @@ Show numbers on items=true
 Sticky Mode State=false
 Thumbnail Grouping Radius=30
 Thumbnail Size=60
-Zoom=marble:3400
+Zoom=marble:3177
 
 [Digikam Right Sidebar][Metadata Properties Tab]
 Current EXIF Item=
@@ -1170,7 +1170,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=134
+TagComboBox-Selection=130,134
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 Use Full CPU=false
@@ -1212,10 +1212,10 @@ Last search album tag relation=0
 Last search results restriction=0
 Lower bound for minimum similarity=40
 TagComboBox-Checked=
-TagComboBox-CurrentIndex=134
+TagComboBox-CurrentIndex=130
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=134
+TagComboBox-Selection=130
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=false
@@ -1335,8 +1335,8 @@ ToolButtonStyle=IconOnly
 [Geolocation Edit Settings]
 1920x1080 screen: Height=875
 1920x1080 screen: Width=1717
-2560x1440 screen: Height=1249
-2560x1440 screen: Width=1577
+2560x1440 screen: Height=1212
+2560x1440 screen: Width=1056
 Bookmarks visible=false
 Current Tab=1
 Map Layout=0
@@ -1346,7 +1346,7 @@ SplitterState H1=AAAA/wAAAAEAAAACAAAEIQAAAdEB/////wEAAAABAA==
 SplitterState V1=AAAA/wAAAAEAAAACAAACBwAAARMB/////wEAAAACAA==
 
 [Geolocation Edit Settings][Correlator Widget]
-GPX File Open Last Directory=/home/athan/Downloads
+GPX File Open Last Directory=/home/athan/MISC/a34_export/gpxlog
 Interpolate=true
 Max Gap Time=00:00:30
 Max Inter Dist Time=00:01:00
@@ -1358,7 +1358,7 @@ Time Zone=19
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.7791015996,21.4017149997
+Center=geo:40.1621357758,22.4060474112
 GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1377,7 +1377,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=21
 Thumbnail Size=42
-Zoom=marble:3327
+Zoom=marble:2911
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1482,7 +1482,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=6
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=134
+TagComboBox-Selection=130,134
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 UseWholeAlbumsEntry=true
@@ -1943,9 +1943,9 @@ State=AAAA/wAAAAD9AAAAAQAAAAIAAAMTAAAA2vwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAG
 ToolBarsMovable=Disabled
 
 [MainWindow]
-InitialAlbumID=-2
+InitialAlbumID=6138
 SplitterState=AAAA/wAAAAEAAAADAAABLwAAAmAAAAEvAf////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAANCAAAAn/wBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAA0IAAABXAP///wAAA0IAAAUnAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAJgAAAAn/wBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAAmAAAABXAP///wAAAmAAAAUnAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [MaintenanceDlg Settings]
 2560x1440 screen: Height=889
@@ -2228,13 +2228,13 @@ TagsSource=false
 [Time Adjust Dialog]
 1920x1080 screen: Height=750
 1920x1080 screen: Width=900
-2560x1440 screen: Height=841
-2560x1440 screen: Width=1268
+2560x1440 screen: Height=929
+2560x1440 screen: Width=1061
 
 [Time Adjust Settings]
-Adjustment Days=0
-Adjustment Time=2000,1,1,0,0,2
-Adjustment Type=2
+Adjustment Days=729
+Adjustment Time=2000,1,1,23,54,49
+Adjustment Type=1
 Custom Date=2024,10,19,0,0,0
 Custom Time=2000,1,1,20,3,0
 File Timestamp Type=0
