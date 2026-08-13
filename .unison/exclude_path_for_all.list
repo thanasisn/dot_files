@@ -151,6 +151,8 @@ ignore = Path {.config/systemd/user/unison_crane_mumra_ts.service}
 ignore = Path {.config/systemd/user/unison_crane_mumra_ts.service}}
 ignore = Path {.config/systemd/user/unison_crane_mumra_ts.timer}
 ignore = Path {.config/systemd/user/unison_crane_mumra_ts.timer}}
+ignore = Path {.config/systemd/user/unison_sagan_mumra.service}
+ignore = Path {.config/systemd/user/unison_sagan_mumra.timer}
 ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.service}
 ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.service}}
 ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.timer}
@@ -158,10 +160,11 @@ ignore = Path {.config/systemd/user/unison_tyler_mumra_ts.timer}}
 ignore = Path {.config/systemd/user/vendora_traffic.service}
 ignore = Path {.config/systemd/user/vendora_traffic.service}}
 ignore = Path {.config/systemd/user/vendora_traffic.timer}
-ignore = Path {.config/systemd/user/vendora_traffic.timer}}
 
 
 
+backupnot = Name *.joblib
+backupnot = Path *.joblib
 backupnot = Name *.duckdb
 backupnot = Path *.duckdb
 backupnot = Path **/*.duckdb
