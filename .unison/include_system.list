@@ -4,6 +4,7 @@ path = .Rprofile
 path = .Xresources
 path = .bashrc
 path = .bcrc
+path = jabref.xml
 path = .cdsapirc
 path = .condarc
 path = .config/Code/User
