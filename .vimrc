@@ -190,11 +190,12 @@ call plug#begin()
 call plug#end()
 
 
+" copy to/from the system clipboard:
+vmap <leader>y !xsel -i -b && xsel -b <CR>
+nmap <leader>p :r !xsel -b <CR>
 
 
 
-" enable ncm2 for all buffers
-" autocmd BufEnter * call ncm2#enable_for_buffer()
 
 " IMPORTANT: :help Ncm2PopupOpen for more information
 set completeopt=noinsert,menuone,noselect
