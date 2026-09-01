@@ -200,12 +200,16 @@ mod4 + {p,π}
 mod4 + shift + {p,π}
     firefox-esr
 
+# # Rofi luncher
+# Super_L; Super_L
+#     rofi -combi-modi drun,window,ssh -theme solarized -font "hack 10" -show combi -icon-theme "Papirus" -show-icons
+#     # ([[ $HOST == "tyler" ]] && rofi -show combi) || \
+#     # ([[ $HOST == "sagan" ]] && rofi -show combi) || \
+#     # rofi -config /home/athan/.config/rofi/config -show combi 
+
 # Rofi luncher
 mod4 + {o,ο}
     rofi -combi-modi drun,window,ssh -theme solarized -font "hack 10" -show combi -icon-theme "Papirus" -show-icons
-    # ([[ $HOST == "tyler" ]] && rofi -show combi) || \
-    # ([[ $HOST == "sagan" ]] && rofi -show combi) || \
-    # rofi -config /home/athan/.config/rofi/config -show combi 
 
 
 # Text insert
