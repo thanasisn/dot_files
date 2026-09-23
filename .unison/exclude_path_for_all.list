@@ -67,7 +67,47 @@ ignore = Path {unison.log}
 ignore = Path {.vim/plugged/YouCompleteMe}
 ignore = Path {CODE/photoprism/database}
 
-## dont mess up systemds  do this until all are in nix
+# -------------------------------------------------------------------
+# 1. ΑΡΧΕΙΑ ΚΛΕΙΔΩΜΑΤΟΣ (Στην ρίζα του Brave-Browser)
+# -------------------------------------------------------------------
+ignore = Path {.config/BraveSoftware/Brave-Browser/SingletonLock}
+ignore = Path {.config/BraveSoftware/Brave-Browser/SingletonSocket}
+ignore = Path {.config/BraveSoftware/Brave-Browser/SingletonCookie}
+
+# -------------------------------------------------------------------
+# 2. ΡΗΤΕΣ ΔΙΑΔΡΟΜΕΣ CACHE & RUNTIME (Προφίλ: Default)
+# -------------------------------------------------------------------
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Cache}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Code Cache}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/GPUCache}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/ShaderCache}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Crashpad}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Local Storage}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Session Storage}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Service Worker}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Network Action Predictor}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Visited Links}
+
+# -------------------------------------------------------------------
+# 3. ΡΗΤΕΣ ΔΙΑΔΡΟΜΕΣ ΓΙΑ BRAVE-SPECIFIC ΔΕΔΟΜΕΝΑ (Shields & Tor)
+# -------------------------------------------------------------------
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/BraveShields}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/Tor Profile}
+ignore = Path (.config/BraveSoftware/Brave-Browser/Default/GriffinBuddies}
+
+# -------------------------------------------------------------------
+# 4. ΡΗΤΕΣ ΔΙΑΔΡΟΜΕΣ ΚΡΥΠΤΟΓΡΑΦΗΜΕΝΩΝ ΑΡΧΕΙΩΝ (OS Keyring Bound)
+# -------------------------------------------------------------------
+ignore = Path {.config/BraveSoftware/Brave-Browser/Default/Login Data}
+ignore = Path {.config/BraveSoftware/Brave-Browser/Default/Login Data-journal}
+ignore = Path {.config/BraveSoftware/Brave-Browser/Default/Web Data}
+ignore = Path {.config/BraveSoftware/Brave-Browser/Default/Web Data-journal}
+ignore = Path {.config/BraveSoftware/Brave-Browser/Default/Cookies}
+ignore = Path {.config/BraveSoftware/Brave-Browser/Default/Cookies-journal}
+
+
+
+## don't mess up systemds  do this until all are in nix
 
 # find ~/.config/systemd/user -type d -maxdepth 1
 ignore = Path {.config/systemd/user/default.target.wants}
