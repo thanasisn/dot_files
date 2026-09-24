@@ -67,6 +67,10 @@ ignore = Path {unison.log}
 ignore = Path {.vim/plugged/YouCompleteMe}
 ignore = Path {CODE/photoprism/database}
 
+
+## Ignore all from brave
+ignore = Path {.config/BraveSoftware/Brave-Browser}
+
 # -------------------------------------------------------------------
 # 1. ΑΡΧΕΙΑ ΚΛΕΙΔΩΜΑΤΟΣ (Στην ρίζα του Brave-Browser)
 # -------------------------------------------------------------------
