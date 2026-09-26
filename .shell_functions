@@ -9,7 +9,7 @@ function dirdiff()
 }
 
 ## gd - cd to selected directory
-fd() {
+gd() {
     local dir
     dir=$(find ${1:-.} -path '*/\.*' -prune \
           -o -type d -print 2> /dev/null | fzf +m) &&
@@ -21,12 +21,12 @@ rsc() {
     Rscript -e 'source(file("stdin"), echo=TRUE, spaced=TRUE)'< ${1}
 }
 
-## remove lines from second file that exist in the first file
-remove-lines() (
-  remove_lines="$1"
-  all_lines="$2"
-  grep -Fvxf "$remove_lines" "$all_lines"
-)
+# ## remove lines from second file that exist in the first file
+# remove-lines() (
+#   remove_lines="$1"
+#   all_lines="$2"
+#   grep -Fvxf "$remove_lines" "$all_lines"
+# )
 
 
 ## set alias if exist
