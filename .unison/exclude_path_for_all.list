@@ -52,6 +52,7 @@ ignore = Path {.thumbnails}
 ignore = Path {.thunderbird/84fds33.My_profile_2/Mail/Feeds/Trash.msf}
 ignore = Path {.thunderbird/84fds33.My_profile_2/Mail/Feeds/Trash}
 ignore = Path {.viking-maps}
+ignore = Path {.vim/plugged/YouCompleteMe}
 ignore = Path {.xscreensaver}
 ignore = Path {CODE/photoprism/database}
 ignore = Path {DATA/Other/Activities_records.duckdb.tmp}
@@ -64,8 +65,6 @@ ignore = Path {ZHOST}
 ignore = Path {gdalwmscache}
 ignore = Path {nohup.out}
 ignore = Path {unison.log}
-ignore = Path {.vim/plugged/YouCompleteMe}
-ignore = Path {CODE/photoprism/database}
 
 
 ## Ignore all from brave
