@@ -7,6 +7,7 @@ ignore = Path {.ICEauthority}
 ignore = Path {.PlayOnLinux}
 ignore = Path {.RLPlot}
 ignore = Path {.Rhistory}
+ignore = Path {.config/Claude/Code Cache}
 ignore = Path {.SourceGear DiffMerge}
 ignore = Path {.Trash-1000}
 ignore = Path {.ViberPC}
