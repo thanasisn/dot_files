@@ -946,7 +946,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwL+/v4=
+Database Encrypted Password=AwKJiYk=
 Database Hostname=
 Database Name=/home/folder/CAMERATTA/
 Database Name Face=/home/folder/CAMERATTA/
@@ -1158,7 +1158,7 @@ AlbumComboBox-SortOrder=0
 AlbumTypeEntry=0
 Already Scanned Handling=Skip
 Face Already Scanned Handling=0
-Face Detection Accuracy=10
+Face Detection Accuracy=1000
 Face Detection Model=0
 Face Detection Size=3
 Face Recognition Accuracy=7
@@ -1316,7 +1316,6 @@ HDMI-1=HDMI-1
 HDMI-A-0=HDMI-A-0
 Icon Theme=
 LVDS-1=LVDS-1
-MenuBar=Disabled
 Scan At Start=true
 Scroll Current Item To Center=false
 Select First Album Item=true
@@ -1336,8 +1335,8 @@ ToolButtonStyle=IconOnly
 [Geolocation Edit Settings]
 1920x1080 screen: Height=875
 1920x1080 screen: Width=1717
-2560x1440 screen: Height=1032
-2560x1440 screen: Width=1918
+2560x1440 screen: Height=1116
+2560x1440 screen: Width=1230
 Bookmarks visible=false
 Current Tab=1
 Map Layout=0
@@ -1359,7 +1358,7 @@ Time Zone=19
 
 [Geolocation Edit Settings][Map Widget]
 Backend=marble
-Center=geo:40.7813999812,21.4122000058
+Center=geo:41.331370977,24.7121647892
 GoogleMaps Map Type=SATELLITE
 GoogleMaps Show Map Type Control=true
 GoogleMaps Show Navigation Control=true
@@ -1378,7 +1377,7 @@ Show Thumbnails=true
 Show numbers on items=true
 Thumbnail Grouping Radius=21
 Thumbnail Size=42
-Zoom=marble:3327
+Zoom=marble:3188
 
 [Geolocation Edit Settings][Reverse Geocoding Widget]
 Hide options=false
@@ -1418,7 +1417,7 @@ Keep old results=false
 Search backend=osm
 
 [Geolocation Edit Settings][Tree View]
-Header State=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABXQAAAANAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAANAAAAPAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAA7AAAAAEAAAAAAAAD6AAAAABkAAAAAA==
+Header State=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAABOwAAAANAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAANAAAAPAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAD6AAAAABkAAAAAA==
 Image List Thumbnail Size=60
 
 [Grouping Behaviour]
