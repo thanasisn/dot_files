@@ -20,6 +20,7 @@ ignore = Path {.cache/onlinequoteseditor5}
 ignore = Path {.cache/yt-dlp}
 ignore = Path {.config/BraveSoftware}
 ignore = Path {.config/Claude/Cache_Data}
+ignore = Path {.config/Claude/Cache/Cache_Data}
 ignore = Path {.config/Claude/Cache}
 ignore = Path {.config/Claude/Code Cache}
 ignore = Path {.config/Recoll.org/needidxretrydate}
