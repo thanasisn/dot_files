@@ -85,21 +85,17 @@ set guifont=Monospace\ Regular\ 8
 "" filetype  off                  "  required
 "" highlight CursorLine cterm=NONE ctermbg=Blue ctermfg=white
 
-""" PLUGINS INSTALL
-"" set the runtime path to include Vundle and initialize
-" set rtp+=~/.vim/bundle/Vundle.vim
-
 call plug#begin()
   "" let Vundle manage Vundle
-  Plug 'VundleVim/Vundle.vim'
+  " Plug 'VundleVim/Vundle.vim'
   "" just a colorshceme
   Plug 'morhetz/gruvbox'
- 
+
   Plug 'itspriddle/vim-shellcheck'
 
   "" Show registers '"' or '@' in normal mode and <CTRL-R> in insert mode
   Plug 'junegunn/vim-peekaboo'
-  
+
   "" Showing key bindings, configure it
   Plug 'liuchengxu/vim-which-key'
 
