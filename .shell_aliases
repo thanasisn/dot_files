@@ -72,22 +72,18 @@ alias   mntgridro='sshfs natsisa@aristotle2.it.auth.gr:/mnt/ops/lap_ops /media/g
 alias     mntgrid='sshfs natsisa@aristotle2.it.auth.gr:/mnt/ops/lap_ops /media/gridhome -o IdentityFile=/home/athan/.ssh/lapmgA'
 alias mntgridhome='sshfs natsisa@aristotle2.it.auth.gr:/mnt/scratch_a/users/n/natsisa /media/grid_home -o IdentityFile=/home/athan/.ssh/lapmgA'
 
-alias   umntgrid='fusermount -u /media/gridhome'
-alias umntgridro='fusermount -u /media/grid_ro'
-
 ## JOSM profiles 
 alias josm_thanasis='java -Djosm.pref=$HOME/.config/JOSM -jar $HOME/PROGRAMS/josm-tested.jar'
 alias josm_hgt2adsl='java -Djosm.pref=$HOME/.config/JOSM_hgt2dsl_gr -jar $HOME/PROGRAMS/josm-tested.jar'
 
-# alias recoll='QT_STYLE_OVERRIDE=fusion recoll'
 
-## why noa? why
-function ssh() {
-  if [[ "$1" == "gpu-2" ]]; then
-    command sshpass -p 'DqwXId7RxqfypDPQ' ssh -o StrictHostKeyChecking=no anatsis@10.201.47.102
-  elif [[ "$1" == "gpu" ]]; then
-      command sshpass -p 'DqwXId7RxqfypDPQ' ssh -o StrictHostKeyChecking=no anatsis@10.201.47.101
-  else
-    command ssh "$@"
-  fi
-}
+# ## why noa? why
+# function ssh() {
+#   if [[ "$1" == "gpu-2" ]]; then
+#     command sshpass -p 'DqwXId7RxqfypDPQ' ssh -o StrictHostKeyChecking=no anatsis@10.201.47.102
+#   elif [[ "$1" == "gpu" ]]; then
+#       command sshpass -p 'DqwXId7RxqfypDPQ' ssh -o StrictHostKeyChecking=no anatsis@10.201.47.101
+#   else
+#     command ssh "$@"
+#   fi
+# }
