@@ -1,7 +1,7 @@
 #
 #   wm independent hotkeys
 #
-# the comment line before the entry is used for the keybinding table
+# The comment line before the entry is used for the keybinding table
 #
 
 # Show sxhkdrc keybinds
@@ -13,16 +13,89 @@ mod4 + F1
 mod4 + Escape
 	pkill -USR1 -x sxhkd; notify-send -t 3000 "sxhkd reloaded"
 
+
+
 # Shell Terminal
 mod4 + {z,ζ}
-    lxterminal
+    "$HOME/.config/sxhkd/term.sh"
+    # lxterminal
     # x-terminal-emulator
 
 # Floating Shell Terminal
 mod4 + shift + {z,ζ}
-    lxterminal -t Floating --geometry=110x26
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=110x26
+    # lxterminal -t Floating --geometry=110x26
     # urxvt -name Floating
     #x-terminal-emulator -name Floating
+
+# yazi
+mod4 + {t,τ}
+    "$HOME/.config/sxhkd/term.sh" "$SHELL" -c "yazi; $SHELL"
+    # /home/athan/.nix-profile/bin/konsole -e '$SHELL -c "/home/athan/.nix-profile/bin/yazi; $SHELL"'
+    # lxterminal -e $SHELL -c "/home/athan/.config/lf/lf-ueberzug/lf-ueberzug"
+    ## preview not work from here
+    # lxterminal -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
+    # urxvt -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
+    # x-terminal-emulator -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
+    # x-terminal-emulator -e $SHELL -c "/home/athan/PROGRAMS/lf;$SHELL"
+
+# yazi floating
+mod4 + shift + {t,τ}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=80x30 "$SHELL" -c "yazi; $SHELL"
+    # urxvt -e $SHELL -c "mc;$SHELL"
+    # lxterminal -t Floating -e $SHELL -c "ranger;$SHELL"
+    # lxterminal -e $SHELL -c "mc;$SHELL"
+    # x-terminal-emulator -e $SHELL -c "mc;$SHELL"
+    # x-terminal-emulator -e /home/athan/BASH/TOOLS/ranger_exec.sh
+
+# qalc terminal calculator
+mod4 + {c,ψ}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=50x15 "$SHELL" -c "qalc --set autocalc"
+    # lxterminal --geometry=60x20 -t Floating -e $SHELL -c "$HOME/.nix-profile/bin/qalc --set autocalc"
+    # urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
+
+# Open notes yazi
+mod4 + {n,ν}; {o,ο}
+    "$HOME/.config/sxhkd/term.sh" "$SHELL" -c "yazi /home/athan/NOTES; $SHELL"
+    # /home/athan/.nix-profile/bin/konsole -e $SHELL -c "/home/athan/.nix-profile/bin/yazi /home/athan/NOTES ;$SHELL"
+    # $HOME/.nix-profile/bin/obsidian
+    # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
+
+
+# Create a notes
+mod4 + {n,ν}; {i,ι}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=80x30 "$SHELL" -ic "source $HOME/CODE/notes_tools/quick_note.sh; $SHELL"
+    # urxvt -geometry 80x30 -name Floating -e "$SHELL" -ic "source $HOME/CODE/notes_tools/quick_note.sh; $SHELL"
+
+# Create a work journal entry
+mod4 + {n,ν}; {w,ς}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=80x30 "$SHELL" -ic "source $HOME/CODE/notes_tools/new_work_journal.sh; $SHELL"
+    # urxvt -geometry 80x30 -name Floating -e "$SHELL" -ic "source $HOME/CODE/notes_tools/new_work_journal.sh; $SHELL"
+
+# Create a personal journal entry
+mod4 + {n,ν}; {j,ξ}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=80x30 "$SHELL" -ic "source $HOME/CODE/notes_tools/new_my_journal.sh; $SHELL"
+    # urxvt -geometry 80x30 -name Floating -e "$SHELL" -ic "source $HOME/CODE/notes_tools/new_my_journal.sh; $SHELL"
+
+# Open today notes 
+mod4 + {n,ν}; {n,ν}
+    $HOME/CODE/notes_tools/open_quick_note.sh  $HOME/NOTES/00_INPUT/today.md; $SHELL
+
+# htop
+mod4 + {s,σ}; {h,η}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=150x40 htop
+    # lxterminal -t Floating --geometry=150x40 -e htop
+
+# glances
+mod4 + {s,σ}; {g,γ}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=150x40 glances
+    # lxterminal -t Floating --geometry=150x40 -e glances
+
+# btop
+mod4 + {s,σ}; {b,β}
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=150x40 btop
+    # lxterminal -t Floating --geometry=150x40 -e $SHELL -c "/home/athan/.nix-profile/bin/btop"
+
 
 # Dmenu
 mod4 + {d,δ}
@@ -35,25 +108,6 @@ mod4 + shift + {d,δ}
 # Lock X screen
 mod4 + shift + {a,α}
 	$HOME/CODE/session/lock_screen.sh
-
-
-# Midnight commander
-mod4 + shift + {t,τ}
-    urxvt -e $SHELL -c "mc;$SHELL"
-    # lxterminal -t Floating -e $SHELL -c "ranger;$SHELL"
-    # lxterminal -e $SHELL -c "mc;$SHELL"
-    # x-terminal-emulator -e $SHELL -c "mc;$SHELL"
-    # x-terminal-emulator -e /home/athan/BASH/TOOLS/ranger_exec.sh
-
-# yazi
-mod4 + {t,τ}
-    /home/athan/.nix-profile/bin/konsole -e '$SHELL -c "/home/athan/.nix-profile/bin/yazi; $SHELL"'
-    # lxterminal -e $SHELL -c "/home/athan/.config/lf/lf-ueberzug/lf-ueberzug"
-    ## preview not work from here
-    # lxterminal -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
-    # urxvt -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
-    # x-terminal-emulator -e $SHELL -c "/home/athan/.nix-profile/bin/lf;$SHELL"
-    # x-terminal-emulator -e $SHELL -c "/home/athan/PROGRAMS/lf;$SHELL"
 
 # caja  file Manager
 mod4 + {y,υ}
@@ -71,19 +125,16 @@ mod4 + {f,φ}
     dolphin
 
 
-
-# Desktop tools
+# Desktop programs
 
 # jabref
 mod4 + {m,μ}
     GTK_THEME=Adwaita:dark "$HOME/PROGRAMS/jabref"
 
-
 # Zotero
 mod4 + shift + {m,μ}
     GTK_THEME=Adwaita:dark "$HOME/.nix-profile/bin/zotero"
     # /home/athan/BASH/zathura_history.sh choose | dmenu -l 10 | xargs  --no-run-if-empty -d '\n' zathura
-
 
 # List of all desktops windows
 mod4 + {u,θ}; {w,ς}
@@ -131,38 +182,9 @@ mod4 + {i,ι}; {k,κ}
 mod4 + {i,ι}; {g,γ}
     geany
 
-# qalc terminal calculator
-mod4 + {c,ψ}
-    lxterminal --geometry=60x20 -t Floating -e $SHELL -c "$HOME/.nix-profile/bin/qalc --set autocalc"
-    # urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
-
 # Qalculator gui calculator
 mod4 + shift + {c,ψ}
     "$HOME/.nix-profile/bin/qalculate-gtk"
-
-# Open notes yazi
-mod4 + {n,ν}; {o,ο}
-    /home/athan/.nix-profile/bin/konsole -e $SHELL -c "/home/athan/.nix-profile/bin/yazi /home/athan/NOTES ;$SHELL"
-    # $HOME/.nix-profile/bin/obsidian
-    # /home/athan/PROGRAMS/Obsidian-1.5.3.AppImage
-
-# Create a notes
-mod4 + {n,ν}; {i,ι}
-    urxvt -geometry 80x30 -name Floating -e "$SHELL" -ic "source $HOME/CODE/notes_tools/quick_note.sh; $SHELL"
-
-# Create a work journal entry
-mod4 + {n,ν}; {w,ς}
-    urxvt -geometry 80x30 -name Floating -e "$SHELL" -ic "source $HOME/CODE/notes_tools/new_work_journal.sh; $SHELL"
-
-# Create a personal journal entry
-mod4 + {n,ν}; {j,ξ}
-    urxvt -geometry 80x30 -name Floating -e "$SHELL" -ic "source $HOME/CODE/notes_tools/new_my_journal.sh; $SHELL"
-
-# Open today notes 
-mod4 + {n,ν}; {n,ν}
-    $HOME/CODE/notes_tools/open_quick_note.sh  $HOME/NOTES/00_INPUT/today.md; $SHELL
-
-
 
 # R rstudio
 mod4 + {i,ι}; {r,ρ}
@@ -173,20 +195,8 @@ mod4 + {i,ι}; {r,ρ}
 # 	ibus emoji
 
 
-
 # System tools
 
-# htop
-mod4 + {s,σ}; {h,η}
-    lxterminal -t Floating --geometry=150x40 -e htop
-
-# glances
-mod4 + {s,σ}; {g,γ}
-    lxterminal -t Floating --geometry=150x40 -e glances
-
-# btop
-mod4 + {s,σ}; {b,β}
-    lxterminal -t Floating --geometry=150x40 -e $SHELL -c "/home/athan/.nix-profile/bin/btop"
 
 
 # main browser
@@ -231,9 +241,4 @@ mod4 + {x,χ}
 ## screen XF86MonBrightness
 #mod4 + shift + {,,.}
 #    xrandr --output eDP-1 --brightness +0.5
-
-#
-# bspwm hotkeys
-#
-
 
