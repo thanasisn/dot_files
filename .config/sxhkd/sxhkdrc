@@ -50,7 +50,7 @@ mod4 + shift + {t,τ}
 
 # qalc terminal calculator
 mod4 + {c,ψ}
-    "$HOME/.config/sxhkd/term.sh" --floating --geometry=50x15 "$SHELL" -c "qalc --set autocalc"
+    "$HOME/.config/sxhkd/term.sh" --floating --geometry=50x10 "$SHELL" -c "qalc --set autocalc"
     # lxterminal --geometry=60x20 -t Floating -e $SHELL -c "$HOME/.nix-profile/bin/qalc --set autocalc"
     # urxvt -geometry 60x20 -name Floating -e $SHELL -c "$HOME/PROGRAMS/qalculate-4.5.1/qalc"
 
